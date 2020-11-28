@@ -1,0 +1,1992 @@
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#18%2F06%2F2018%2021%3A00TunisiavsEngland>
+  a <http://www.semanticweb.org/kde/ontologies/sport-events#Match> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#30%2F06%2F2018%2021%3A00UruguayvsPortugal>
+  a <http://www.semanticweb.org/kde/ontologies/sport-events#Match> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#AC%20Milan> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#APOEL%20Nicosia> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#AZ%20Alkmaar> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Aaron%20Lennon> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Aaron%20Schoenfeld> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Abdou%20Harroui> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Abdoulaye%20Ba> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Abel%20Hernandez> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Adam%20Hammill> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Adam%20Jahn> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Adam%20Smith> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Aden%20Flint> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Adrian%20Aldrete> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Adriano%20Facchini> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Adrien%20Tameze> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#AerialAttacksWon> a <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Age> a <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Agustin%20Farias> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Agustin%20Modula> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Ahmed%20Hegazi> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Aiden%20O%27Brien> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Ajax> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Akhisarspor> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Alan%20Costa> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Alan%20Mineiro> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Alberto%20Bueno> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Alejandro%20Vela> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Aleksandr%20Kokorin> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Aleksandr%20Kryuchkov> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Aleksandr%20Subbotin> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Alex%20Rodr> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Ali%20Turan> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Alipio> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Alisson%20Farias> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Alparslan%20Erdem> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Alper%20Uludag> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Alvaro%20Negredo> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Amadou%20Diawara> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Amilton> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Anatoliy%20Tymoshchuk> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Andorra> a <http://www.semanticweb.org/kde/ontologies/sport-events#Country>,
+    <http://www.semanticweb.org/kde/ontologies/sport-events#Team> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Andre%20Hoffmann> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Andre%20Zambo%20Anguissa>
+  a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Andrea%20Nalini> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Andrea%20Pinamonti> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Andreas%20Weimann> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Andrei%20Naletov> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Andrei%20Pitian> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Andrej%20Prskalo> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Andres%20Rios> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Andrew%20Surman> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Andrey%20Semenov> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Andrievsky> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Andrija%20Balic> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Andy%20Delort> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Angel%20Zaldivar> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Angelo%20Fulgini> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Angers> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Antalyaspor> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Ante%20Kulusic> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Anthony%20Georgiou> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Antonini%20Culina> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Antonino%20Ragusa> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Antonio%20Jakolis> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Antonio%20Luna> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Antonio%20Nocerino> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Apodi> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Apollon%20Limassol> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Arber%20Zeneli> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Argentinos%20Juniors> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Armenia> a <http://www.semanticweb.org/kde/ontologies/sport-events#Country>,
+    <http://www.semanticweb.org/kde/ontologies/sport-events#Team> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Arminia%20Bielefeld> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Arnold%20Issoko> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Arsen%20Oganesyan> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Arsenal> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Arsenal%20Sarandi> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Arsenal%20Tula> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Ashkan%20Dejagah> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Assists> a <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Aston%20Villa> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Atdhe%20Nuhiu> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Atlanta%20United> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Atletico%20Madrid> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Atletico%20PR> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Atletico%20Tucuman> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Aubameyang> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Augsburg> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Australia> a <http://www.semanticweb.org/kde/ontologies/sport-events#Country>,
+    <http://www.semanticweb.org/kde/ontologies/sport-events#Team> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#AverageShotsPerGame> a <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Aves> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#AwayTeamScore> a <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Awer%20Mabil> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Aymen%20Barkok> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#BSC%20Young%20Boys> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Babanco> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Bailey%20Wright> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Bakary%20Nimaga> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Balazs%20Dzsudzsak> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Banfield> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Banguele> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Baptiste%20Guillaume> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Barcelona> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Barnsley> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Bartosz%20Bialkowski> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Baumgartlinger> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Bayer%20Leverkusen> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Bayern%20Munich> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Beijing%20Renhe> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Belenenses> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Belgium> a <http://www.semanticweb.org/kde/ontologies/sport-events#Country>,
+    <http://www.semanticweb.org/kde/ontologies/sport-events#Team> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Belgrano> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Ben%20Morris> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Ben%20Osborn> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Benevento> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Benfica> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Bernardo%20Espinosa> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Besart%20Berisha> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Besiktas> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Bibras%20Natcho> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Birmingham> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Boavista> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Boca%20Juniors> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Bochum> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Bono> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Bordeaux> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Borussia%20M.Gladbach> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Bournemouth> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Brad%20Davis> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Brad%20Potts> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Braga> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Brazil> a <http://www.semanticweb.org/kde/ontologies/sport-events#Country>,
+    <http://www.semanticweb.org/kde/ontologies/sport-events#Team> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Breel%20Embolo> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Bristol%20City> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Bruno%20Gonzalez> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Bruno%20Pereirinha> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Bruno%20Peres> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Burnley> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Bursaspor> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Burton> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#CSKA%20Moscow> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Caen> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Cagliari> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Callum%20O%27Hare> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Camilo%20Sanvezzo> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Canberk%20Dilaver> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Cao%20Yang> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Capixaba> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Cardiff> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Carl%20Valeri> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Carlos> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Ceara> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club>,
+    <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Celso%20Borges> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Celta%20Vigo> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Celtic> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Cenk%20Tosun> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Chacarita%20Juniors> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Changchun%20Yatai> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Chapecoense%20AF> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Cheick%20Toure> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Chelsea> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Chicago%20Fire> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Chievo> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#China%20PR> a <http://www.semanticweb.org/kde/ontologies/sport-events#Country>,
+    <http://www.semanticweb.org/kde/ontologies/sport-events#Team> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Chongqing%20Lifan> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Chris%20Brunt> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Chris%20Seitz> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Christian%20Almeida> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Christian%20Chimino> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Christoph%20Hemlein> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Christophe%20Jallet> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Ciprian%20Tatarusanu> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Clayton> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Cleber%20Reis> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Cleiton%20Xavier> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Clint%20Irwin> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Club> a <http://www.w3.org/2002/07/owl#Class> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Colon> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Connor%20Ronan> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Conor%20Hourihane> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Corey%20Brown> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Corinthians> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Costa%20Rica> a <http://www.semanticweb.org/kde/ontologies/sport-events#Country>,
+    <http://www.semanticweb.org/kde/ontologies/sport-events#Team> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Country> a <http://www.w3.org/2002/07/owl#Class> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Craig%20Gardner> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Cristian%20Baez> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Crotone> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Cruzeiro> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Crystal%20Palace> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Cura> a <http://www.semanticweb.org/kde/ontologies/sport-events#Country>,
+    <http://www.semanticweb.org/kde/ontologies/sport-events#Team> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Cyle%20Larin> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Cyril%20Thereau> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Cyrus%20Christie> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Czech%20Republic> a <http://www.semanticweb.org/kde/ontologies/sport-events#Country>,
+    <http://www.semanticweb.org/kde/ontologies/sport-events#Team> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Dabney%20dos%20Santos> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Daley%20Blind> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Dalibor%20Volas> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Dan-Axel%20Zagadou> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Dani%20Ceballos> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Daniel%20Buballa> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Daniel%20Holzer> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Daniel%20Johnson> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Daniel%20Pacheco> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Danilo> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Danilo%20Pires> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Dankler> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Danny%20Post> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Dante%20Lopez> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Darlington%20Nagbe> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Darren%20Fletcher> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Dave%20Romney> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#David%20Braz> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#David%20de%20Gea> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Davide%20Faraoni> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Dax%20McCarty> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#De%20Silvestri> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Dean%20Gerken> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Dean%20Whitehead> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Declan%20Rudd> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Dedryck%20Boyata> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Defender> a <http://www.semanticweb.org/kde/ontologies/sport-events#Role>,
+    <http://www.w3.org/2002/07/owl#Class> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Defensa%20y%20Justicia> a
+    <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Dejan%20Trajkovski> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Demar%20Phillips> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Denis%20Dorozhkin> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Deniz%20Vural> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Denmark> a <http://www.semanticweb.org/kde/ontologies/sport-events#Country>,
+    <http://www.semanticweb.org/kde/ontologies/sport-events#Team> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Dennis%20Praet> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Deportivo%20La%20Coruna> a
+    <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Derby> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Derley> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Deybi%20Flores> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Diego%20Angelo> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Diego%20Benaglio> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Diego%20Ferreira> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Diego%20Gama> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Diego%20Perotti> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Diego%20Zabala> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Dijon> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Dimitri%20Foulquier> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Dimitri%20Oberlin> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Ding%20Jie> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Diogo%20Mateus> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Djordje%20Jovanovic> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Dmitriy%20Shomko> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Doganay%20Kilic> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Dor%20Micha> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Douglas%20Bergqvist> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Douglas%20Santos> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Dries%20Mertens> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Dylan%20Vente> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Dynamo%20Dresden> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Ebenezer%20Ofori> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Edilson> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Edno> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Edson%20Resendez> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Edwin%20Cardona> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Edy%20Brambila> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Egor%20Filipenko> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Egypt> a <http://www.semanticweb.org/kde/ontologies/sport-events#Country>,
+    <http://www.semanticweb.org/kde/ontologies/sport-events#Team> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Eibar> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Eintracht%20Braunschweig>
+  a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Eintracht%20Frankfurt> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Eli%20Dasa> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Eljero%20Elia> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Elmo%20Lieftink> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Emanuel%20Gigliotti> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Emanuel%20Loeschbor> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Emil%20Hallfredsson> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Emil%20Krafth> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Emiliano%20Papa> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Emmanuel%20Frimpong> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#England> a <http://www.semanticweb.org/kde/ontologies/sport-events#Country>,
+    <http://www.semanticweb.org/kde/ontologies/sport-events#Team> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Eric%20Remedi> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Erick%20Aguirre> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Erick%20Torres> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Ermin%20Bicakcic> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Erzgebirge%20Aue> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Espanyol> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Esteban> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Estoril> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Estudiantes> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Etien%20Velikonja> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Everton%20Bilher> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Everton%20Ribeiro> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Excelsior> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Ezequiel%20Ponce> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#FC%20Astana> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#FC%20Basel%201893> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#FC%20Copenhagen> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#FC%20FCSB> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#FC%20Groningen> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#FC%20Porto> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#FC%20Rostov> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#FC%20Sheriff> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#FC%20Utrecht> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#FK%20Akhmat> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#FK%20Vardar%20Skopje> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Fabian%20Johnson> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Fabian%20Noguera> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Fabio%20Braga> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Facundo%20Roncaglia> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Facundo%20Sanchez> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Fan%20Yunlong> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Federico%20Chiesa> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Federico%20Lertora> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Fedor%20Chalov> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Feirense> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Felipe%20Vizeu> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Felix%20Araujo> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Felix%20Klaus> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Femi%20Balogun> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Fernando%20Boldrin> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Fernando%20Brandan> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Fernando%20Meneses> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Fernando%20Torres> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Feyenoord> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Filip%20Holosko> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Fiorentina> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Fisht%20Stadium%2C%20Sochi>
+  a <http://www.semanticweb.org/kde/ontologies/sport-events#Stadium> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Flamengo> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Florian%20Thauvin> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Florian%20Valot> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Florin%20Nita> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Florin%20Tanase> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Fluminense> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Fortuna%20Duesseldorf> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Forward> a <http://www.semanticweb.org/kde/ontologies/sport-events#Role>,
+    <http://www.w3.org/2002/07/owl#Class> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Fran%20Sol> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#France> a <http://www.semanticweb.org/kde/ontologies/sport-events#Country>,
+    <http://www.semanticweb.org/kde/ontologies/sport-events#Team> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Francesco%20Migliore> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Francisco%20Ortega> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Franco%20Moyano> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Francois%20Bellugou> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Frank%20Arhin> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Frantisek%20Rajtoral> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Fred%20Onyedinma> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Frederic%20Ananou> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Frickson%20Erazo> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Fuentes> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Furkan%20Soyalp> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Gabriel%20Enache> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Gabriel%20Velasco> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Gaku%20Shibasaki> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Galatasaray> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Gaston%20Fernandez> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Gaston%20Gimenez> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Gelson%20Martins> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Genclerbirligi> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#George%20Puscas> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Gerard%20Moreno> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Gerardo%20Torrado> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#German%20Cano> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#German%20Herrera> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Germany> a <http://www.semanticweb.org/kde/ontologies/sport-events#Country>,
+    <http://www.semanticweb.org/kde/ontologies/sport-events#Team> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Geronimo%20Poblete> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Gerzino%20Nyamsi> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Getafe> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Ghaylene%20Chaalali> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Gheorghe%20Anton> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Giaccherini> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Giakoumakis> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Gigel%20Bucur> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Girona> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Glen%20Moss> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Goalkeeper> a <http://www.semanticweb.org/kde/ontologies/sport-events#Role>,
+    <http://www.w3.org/2002/07/owl#Class> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Goals> a <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Godoy%20Cruz> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Gonzalo%20Escalante> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Gonzalo%20Rios> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Grant%20Lillard> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Gremio> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Greuther%20Fuerth> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Group> a <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Guam> a <http://www.semanticweb.org/kde/ontologies/sport-events#Country>,
+    <http://www.semanticweb.org/kde/ontologies/sport-events#Team> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Guangzhou%20Evergrande> a
+    <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Guilherme> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Guillermo%20Cotugno> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Guinea-Bissau> a <http://www.semanticweb.org/kde/ontologies/sport-events#Country>,
+    <http://www.semanticweb.org/kde/ontologies/sport-events#Team> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Guingamp> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Guizhou%20Hengfeng> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Guo%20Hao> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Guram%20Kashia> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Gustavo%20Ferrareis> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Guy%20Yao> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Hakan%20Calhanoglu> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Hamburger%20SV> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Hamdi%20Harbaoui> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Hamza%20Mendyl> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Hannover%2096> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Hapoel%20Beer%20Sheva> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Haris%20Handzic> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Harry%20Wilson> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Hassan%20Yebda> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Hector%20Herrera> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Hector%20Mancilla> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Helder%20Barbosa> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Henri%20Bedimo> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Henrique%20Almeida> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Hernan%20De%20La%20Fuente>
+  a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Hernan%20Santana> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Herve%20Bazile> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Hidde%20ter%20Avest> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Hoilett> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#HomeTeamScore> a <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Huddersfield> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Hulk> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Hull> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Humberto%20Hernandez> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Hungary> a <http://www.semanticweb.org/kde/ontologies/sport-events#Country>,
+    <http://www.semanticweb.org/kde/ontologies/sport-events#Team> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Huracan> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Hyuri> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Ian%20Smith> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Iasmin%20Latovlevici> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Iceland> a <http://www.semanticweb.org/kde/ontologies/sport-events#Country>,
+    <http://www.semanticweb.org/kde/ontologies/sport-events#Team> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Idrisa%20Gana%20Gueye> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Ike%20Opara> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Imanol%20Sarriegui> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Imoh%20Ezekiel> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Inacio> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Independiente> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Ingolstadt> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Ipswich> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Irfan%20Kahveci> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Isaac%20Brizuela> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Isaias> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Ismael> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Ismael%20Diomande> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Istanbul%20Basaksehir> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Ivan%20Balliu> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Ivi> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Ja-Cheol%20Koo> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Jack%20Harrison> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Jahn%20Regensburg> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Jaime%20Ayovi> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Jaime%20Sierra> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Jake%20Cooper> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Jake%20Gleeson> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Jake%20McGing> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Jakub%20Reznicek> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Jambul%20Jigauri> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Jamie%20Allen> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Jamie%20Hopcutt> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Jan%20Hochscheidt> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Jan%20Kopic> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Jan%20Kovarik> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Jan%20Tigorev> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Jan-Arie%20van%20der%20Heijden>
+  a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Jannik%20Vestergaard> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Japan> a <http://www.semanticweb.org/kde/ontologies/sport-events#Country>,
+    <http://www.semanticweb.org/kde/ontologies/sport-events#Team> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Jardel> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Jared%20Bird> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Javi%20Lopez> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Javier%20Cortes> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Javier%20Gandolfi> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Javier%20Manquillo> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Javier%20Morales> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Jean%20Cleber> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Jean%20Zimmer> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Jed%20Wallace> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Jeff%20Reine-Adelaide> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Jefferson%20Montero> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Jens%20Stryger%20Larsen> a
+    <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Jeremy%20Cordoval> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Jeremy%20de%20Nooijer> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Jermaine%20Jones> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Jesse%20Schuurman> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Jesus%20Datolo> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Jesus%20Sanchez> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Jires%20Kembo-Ekoko> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Joachim%20Andersen> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Joao%20Carlos> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Joao%20Carvalho> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Joe%20Worrall> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Joey%20Calistri> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Joey%20Katebian> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Joffre%20Guerron> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Johannes%20Hopf> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#John%20Fleck> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#John%20Ruddy> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Joia%20Nuno%20Da%20Costa>
+  a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Jon%20Toral> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Jonathan%20Ring> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Jonny%20Howson> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Jop%20van%20der%20Linden>
+  a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Jordan%20Hugill> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Jordan%20Lukaku> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Jordy%20Buijs> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Jorge%20Enriquez> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Jose%20David%20Ramirez> a
+    <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Jose%20Gaya> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Jose%20Sa> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Josh%20Cullen> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Josh%20Tymon> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Josip%20Elez> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Jrgen%20Skjelvik> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Juan%20Bernat> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Juan%20Sills> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Julian%20Green> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Julian%20Gressel> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Julian%20Schauerte> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Julio%20Chiarini> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Junior%20Caicara> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Junior%20Oliveira> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Justin%20Kluivert> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Juventus> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Kacaniklic> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Kamil%20Grosicki> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Kasimpasa> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Kayserispor> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Kazenga%20Lua%20Lua> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Ketkeophomphone> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Kevin%20Gameiro> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Kevin%20Kratz> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Kevin%20Stewart> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Kevin%20Wimmer> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Koffi%20Djidji> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Konyaspor> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Kwon%20Kyung-Won> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Kye%20Rowles> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Kyriakos%20Papadopoulos> a
+    <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#LA%20Galaxy> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Landry%20Bonnefoi> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Lanus> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Larsen%20Kwarasey> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Las%20Palmas> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Lazio> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Lee%20Peltier> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Lee%20Seungwoo> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Leicester> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Leiton%20Jimenez> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Leo%20Fernandes> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Leonardo%20Burian> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Leonardo%20Pisculichi> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Leroy%20Fer> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Levante> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Lewis%20Cook> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Li%20Xuepeng> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Liam%20Feeney> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Lille> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Lisandro%20Martinez> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Liu%20Jian> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Liverpool> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Loai%20Taha> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Lokomotiv%20Moscow> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Lorenzo%20Del%20Pinto> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Lorenzo%20Pellegrini> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Los%20Angeles%20FC> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Luan%20Peres> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Luca%20De%20La%20Torre> a
+    <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Lucas%20Alario> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Lucas%20Crispim> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Lucas%20Franca> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Lucas%20Hernandez> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Lucas%20Moura> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Ludogorets%20Razgrad> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Luis%20Alberto> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Luis%20Gabriel%20Rey> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Luis%20Leal> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Luiz%20Adriano> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Luka%20Djordjevic> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Lukas%20Hradecky> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Luke%20Steele> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Luke%20Thomas> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Lykogiannis> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Lyon> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Maccabi%20Tel%20Aviv> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Maicon> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Maksim%20Semakin> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Mamuka%20Kobakhidze> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#ManOfTheMatch> a <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Manchester%20City> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Manchester%20United> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Manuel%20Perez> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Mao%20Jianqing> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Marc%20Roberts> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Marcel%20Schuhen> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Marcel%20Sobottka> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Marcelo%20Estigarribia> a
+    <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Marcelo%20Torres> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Marco%20Andreolli> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Marco%20Baixinho> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Marco%20Bizot> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Marco%20Borriello> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Marco%20Bueno> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Marco%20Fabian> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Marco%20Pappa> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Marco%20Russ> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Marco%20Tumminello> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Marcos%20Curado> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Marcos%20Vinicius> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Marcus%20Coco> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Marcus%20McGuane> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Marcus%20Tavernier> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Marcus%20Thuram> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Maribor> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Mario%20Gavranovic> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Maritimo> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Marius%20Wolf> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Mark%20Ochieng> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Mark-Anthony%20Kaye> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Marko%20Dmitrovic> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Markus%20Berger> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Marley%20Watkins> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Marseille> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Martin%20Hinteregger> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Martin%20Zuniga> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Massimo%20Coda> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Match> a <http://www.w3.org/2002/07/owl#Class> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Mateusz%20Zachara> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Matheus%20Rossetto> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Matias%20Quiroga> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Mats%20Hummels> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Mats%20Mller%20Dhli> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Matthew%20Ridenton> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Mattia%20Zaccagni> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Matz%20Sels> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Mauricio%20Sperduti> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Mauro%20Matos> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Mauro%20Pitton> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Maxi%20Pereira> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Maxime%20Lestienne> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Maximiliano%20Gomez> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Maximiliano%20Pereira> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Mbokani%20Bezua> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Mehdi%20Abeid> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Mehdi%20Zeffane> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Mergim%20Mavraj> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Metz> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Mexico> a <http://www.semanticweb.org/kde/ontologies/sport-events#Country>,
+    <http://www.semanticweb.org/kde/ontologies/sport-events#Team> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Michael%20Arroyo> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Michel> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Middlesbrough> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Midfielder> a <http://www.semanticweb.org/kde/ontologies/sport-events#Role>,
+    <http://www.w3.org/2002/07/owl#Class> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Mike%20Grella> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Mike%20te%20Wierik> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Milan%20Havel> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Millwall> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Minnesota%20United> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Mitja%20Viler> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Modou%20Barrow> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Mohamed%20Abdel-Shafy> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Mohamed%20Elneny> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Mohammad%20Reza%20Khanzadeh>
+  a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Moreirense> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Moritz%20Leitner> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Morocco> a <http://www.semanticweb.org/kde/ontologies/sport-events#Country>,
+    <http://www.semanticweb.org/kde/ontologies/sport-events#Team> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Mouctar%20Diakhaby> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Moumi%20Nicolas%20Ngamaleu>
+  a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Musa%20Araz> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Mustafa%20Yumlu> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Mustapha%20Yatabare> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Myles%20Kenlock> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Nahuel%20Barrios> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Najib%20Gandi> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Nantes> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Napoli> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Naranjo> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Natanael%20Pimienta> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Nemanja%20Gudelj> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Nemanja%20Miletic> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Nene%20Bonilha> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Nestor%20Vidrio> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#New%20York%20City%20FC> a
+    <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#New%20York%20Red%20Bulls>
+  a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Newcastle%20United> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Newells%20Old%20Boys> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Nice> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Nico%20Pareja> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Nicolas%20Cozza> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Nicolas%20Linares> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Nicolas%20Pasquini> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Nigel%20de%20Jong> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Nikola%20Trujic> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Nildo%20Petrolina> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Noe%20Dussenne> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Norwich> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Nottingham%20Forest> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Nuernberg> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Oestersunds%20FK> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Ognjen%20Gnjatic> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Oguzhan%20Ozyakup> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Olcan%20Adin> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Oleg%20Vlasov> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Olivier%20Giroud> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Omar%20Arellano> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Omar%20Holness> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Oriol%20Romeu> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Oscar%20Fernandez> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Osmanlispor%20FK> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#PEC%20Zwolle> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#PSV%20Eindhoven> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Pablo%20Batalla> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Pablo%20Perez> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Paco%20Alcacer> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Pacos%20de%20Ferreira> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Pal%20Helland> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Palmeiras> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Panagiotis%20Kone> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Panama> a <http://www.semanticweb.org/kde/ontologies/sport-events#Country>,
+    <http://www.semanticweb.org/kde/ontologies/sport-events#Team> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Pape%20Cheikh> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Parana%20Clube> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Partizan%20Belgrade> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Patito%20Rodriguez> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Patrice%20Bernier> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Patronato%20de%20Parana> a
+    <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Pau%20Torres> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Paul%20Izzo> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Paul%20Pogba> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#PerformanceAttack> a <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#PerformanceDefense> a <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#PerformanceTotal> a <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Perparim%20Hetemaj> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Peru> a <http://www.semanticweb.org/kde/ontologies/sport-events#Country>,
+    <http://www.semanticweb.org/kde/ontologies/sport-events#Team> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Petar%20Brlek> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Petar%20Djurickovic> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Petar%20Petkovski> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Peter%20Ankersen> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Petr%20Cech> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Philipp%20Tschauner> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Philippe%20Sandler> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Pierrick%20Capelle> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#PlayedGames> a <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#PlayedMinutes> a <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Player> a <http://www.w3.org/2002/07/owl#Class> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Pol%20Fernandez> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Poland> a <http://www.semanticweb.org/kde/ontologies/sport-events#Country>,
+    <http://www.semanticweb.org/kde/ontologies/sport-events#Team> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Portugal> a <http://www.semanticweb.org/kde/ontologies/sport-events#Country>,
+    <http://www.semanticweb.org/kde/ontologies/sport-events#Team> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Preston> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Qarabag%20FK> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Quim> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Racine%20Coly> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Rafa%20Navarro> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Rafael%20Bastos> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Rafael%20Dumas> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Rafael%20Ramos> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Raffael> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Rafik%20Halliche> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Rahman%20Bugra%20Cagiran>
+  a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Rank> a <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Rasmus%20Falk%20Jensen> a
+    <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Rasmus%20Kristensen> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Rating> a <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Raul%20Jimenez> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Reading> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Real%20Betis> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Real%20Madrid> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Real%20Salt%20Lake> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#RedCards> a <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Remy%20Vercoutre> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Renato%20Chaves> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Renato%20Tapia> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Result> a <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Reza%20Ghoochannejhad> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Riccardo%20Saponara> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Richard%20Sanchez> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Rico%20Strieder> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Rijad%20Bajic> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Rijeka> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Rinat%20Timokhin> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Robbie%20Kruse> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Roberto%20Hilbert> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Roda> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Rodriguinho> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Rolando> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Rolando%20Aarons> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Rolando%20Mandragora> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Roma> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Roman%20Eremenko> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Roman%20Zobnin> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Ronaldo%20Pena> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Rosario%20Central> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Rosenborg> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#RoundNumber> a <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Roy%20O%27Donovan> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Ruben%20Blanco> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Ruben%20Ferreira> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Ruben%20Martinez> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Rubin%20Kazan> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Rudy%20Gestede> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Russia> a <http://www.semanticweb.org/kde/ontologies/sport-events#Country>,
+    <http://www.semanticweb.org/kde/ontologies/sport-events#Team> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Ryan%20Lowry> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Ryder%20Matos> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#SC%20Heerenveen> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Salzburg> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Sam%20Adekugbe> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Sam%20Clucas> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Sampdoria> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#San%20Lorenzo> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Sander%20Fischer> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Sandhausen> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Santos> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Santos%20FC> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Sarpreet%20Singh> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Sascha%20Horvath> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Sassa> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Sassuolo> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Schalke%2004> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Sderlund> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Sean%20Davis> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Seb%20Hines> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Seba> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Sebastian%20Hertner> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Sebastian%20Maier> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Sebastian%20Martelli> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Sebastian%20Polter> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Sebastian%20Rincon> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Sebastian%20Stolze> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Senegal> a <http://www.semanticweb.org/kde/ontologies/sport-events#Country>,
+    <http://www.semanticweb.org/kde/ontologies/sport-events#Team> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Serbia> a <http://www.semanticweb.org/kde/ontologies/sport-events#Country>,
+    <http://www.semanticweb.org/kde/ontologies/sport-events#Team> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Sergei%20Ignashevich> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Sergei%20Veremko> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Sergey%20Kotov> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Sergi%20Enrich> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Sergio%20Busquets> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Sergio%20Cordova> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Sergio%20Leon> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Servando%20Carrasco> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Severo%20Meza> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Shandong%20Luneng> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Shane%20O%27Neill> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Shanghai%20SIPG%20FC> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Shanghai%20Shenhua> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Shannon%20Cole> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Shaquile%20Woudstra> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Shaun%20Francis> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Sheffield%20United> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Sheffield%20Wednesday> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Shi%20Liang> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Shinji%20Okazaki> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Shkelzen%20Gashi> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Silvestre%20Varela> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Silvio%20Romero> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Simone%20Scuffet> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Slawomir%20Peszko> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Slobodan%20Medojevic> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Sokol%20Cikalleshi> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Sone%20Aluko> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Soufyan%20Ahannach> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Southampton> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Spain> a <http://www.semanticweb.org/kde/ontologies/sport-events#Country>,
+    <http://www.semanticweb.org/kde/ontologies/sport-events#Team> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Sparta%20Rotterdam> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Spartak%20Moscow> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Sporting%20CP> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Sporting%20Kansas%20City>
+  a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#St.%20Pauli> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Stephan%20Lichtsteiner> a
+    <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Stephane%20Sessegnon> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Stephen%20Ward> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Steve%20Morison> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Steve%20Von%20Bergen> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Stoke> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Strasbourg> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Sven%20Joss> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Sven%20van%20Beek> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Swansea> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Swaziland> a <http://www.semanticweb.org/kde/ontologies/sport-events#Country>,
+    <http://www.semanticweb.org/kde/ontologies/sport-events#Team> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Sweden> a <http://www.semanticweb.org/kde/ontologies/sport-events#Country>,
+    <http://www.semanticweb.org/kde/ontologies/sport-events#Team> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Switzerland> a <http://www.semanticweb.org/kde/ontologies/sport-events#Country>,
+    <http://www.semanticweb.org/kde/ontologies/sport-events#Team> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Tajikistan> a <http://www.semanticweb.org/kde/ontologies/sport-events#Country>,
+    <http://www.semanticweb.org/kde/ontologies/sport-events#Team> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Takumi%20Minamino> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Talleres> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Talocha> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Tana> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Team> a <http://www.w3.org/2002/07/owl#Class> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Temperley> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Tesfaldet%20Tekie> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Thanasis%20Androutsos> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Theophilus%20Solomon> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Thiago%20Santos> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Thijmen%20Goppel> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Thomas%20Bruns> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Thomas%20Eisfeld> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Thulani%20Serero> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Tianjin%20Quanjian> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Tianjin%20Teda> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Tiemoue%20Bakayoko> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Tigre> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Tim%20Leibold> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Timofei%20Kalachev> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Tjaronn%20Chery> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Tobias%20Levels> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Tom%20Ince> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Tommie%20van%20de%20Looi>
+  a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Tommy%20Redding> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Toronto%20FC> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Tosno> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Toulouse> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Trabzonspor> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Tranquillo%20Barnetta> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Trent%20Alexander-Arnold>
+  a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Trevor%20David> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Tristan%20Dingome> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Troyes> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Tsiy%20William%20Ndenge> a
+    <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Tunisia> a <http://www.semanticweb.org/kde/ontologies/sport-events#Country>,
+    <http://www.semanticweb.org/kde/ontologies/sport-events#Team> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Turkaslan> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Turkey> a <http://www.semanticweb.org/kde/ontologies/sport-events#Country>,
+    <http://www.semanticweb.org/kde/ontologies/sport-events#Team> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Twente> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Udinese> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Umit%20Kurt> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Union> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Union%20Berlin> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Ural> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Uruguay> a <http://www.semanticweb.org/kde/ontologies/sport-events#Country>,
+    <http://www.semanticweb.org/kde/ontologies/sport-events#Team> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#VVV-Venlo> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Vahid%20Selimovic> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Valdo> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Valencia> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Valentin%20Eysseric> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Valerio%20Verre> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Vasco%20Fernandes> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Vasco%20da%20Gama> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Velez%20Sarsfield> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Ventura%20Alvarado> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Vicente%20Guaita> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Viktor%20Faizulin> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Viktoria%20Plzen> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Vitali%20Djakov> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Vitesse> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Vitoria%20de%20Setubal> a
+    <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Vladimir%20Iljin> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Vladislav%20Ryzhkov> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Volgograd%20Stadium> a <http://www.semanticweb.org/kde/ontologies/sport-events#Stadium> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Walter%20Ayovi> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Walter%20Benitez> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Wellington%20Silva> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Wendel> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Wesley%20Said> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#West%20Bromwich%20Albion>
+  a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Weston%20McKennie> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Wilberto%20Cosme> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Willem%20II> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#William%20Menezes> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Wolverhampton%20Wanderers>
+  a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Xeka> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Yaya%20Sanogo> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#YellowCards> a <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Yeni%20Malatyaspor> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Yoann%20Gourcuff> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Yohan%20Cabaye> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Youssouf%20Sabaly> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Yusuf%20Erdogan> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Yusuf%20Yazici> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Yusupha%20Om%20Njie> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Zenit%20St.%20Petersburg>
+  a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Zhang%20Wenzhao> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Zhao%20Mingyu> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Ziguy%20Badibanga> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Zlatko%20Tripic> a <http://www.semanticweb.org/kde/ontologies/sport-events#Player> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#Zlin> a <http://www.semanticweb.org/kde/ontologies/sport-events#Club> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#hasAwayTeam> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#hasHomeTeam> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#hasNationality> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#hasRole> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#playsInClub> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#playsInTeam> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://www.semanticweb.org/kde/ontologies/sport-events#tookPlaceIn> a <http://www.w3.org/2002/07/owl#ObjectProperty> .

@@ -1,0 +1,77 @@
+{% extends "layout.html" %}
+{% block body %}
+  <h2>SPARQL Query results</h2>
+  <ul>
+
+    <h6>Answer competency question:</h6>
+    <form class="row g-2" method="GET" action="/competency-questions">
+        <div class="col-auto">
+            <select class="form-select" aria-label="Competency question selection" name="id">
+                <option value="1" {{ 'selected' if questionId == 1 else '' }}>In which team is the player who scored the most goals in the season?</option>
+                <option value="2" {{ 'selected' if questionId == 2 else '' }}>Which players belong to the highest points team?</option>
+                <option value="3" {{ 'selected' if questionId == 3 else '' }}>Who is the opponent of the highest points team in the first round?</option>
+                <option value="4" {{ 'selected' if questionId == 4 else '' }}>Who are the goalkeepers of the Semi-Finals teams?</option>
+                <option value="5" {{ 'selected' if questionId == 5 else '' }}>How many different clubs are the Spain team players in?</option>
+                <option value="6" {{ 'selected' if questionId == 6 else '' }}>Which team has the lowest total number of goals of their players in the season?</option>
+                <option value="7" {{ 'selected' if questionId == 7 else '' }}>Which team has the highest total number of assists in the season?</option>
+                <option value="8" {{ 'selected' if questionId == 8 else '' }}>Which players played on 23/06/2018 during the Football World Cup?</option>
+                <option value="9" {{ 'selected' if questionId == 9 else '' }}>Who are the players who played semi-final matches?</option>
+                <option value="10" {{ 'selected' if questionId == 10 else '' }}>Which players won a match between 16/06/2018 and 22/06/2018 during the Football World Cup 2018?</option>
+            </select>
+        </div>
+        <div class="col-auto">
+          <button type="submit" class="btn btn-primary mb-3">OK</button>
+        </div>
+    </form>
+
+
+    <canvas class="my-4 w-100" id="myChart" width="900" height="380"></canvas>
+
+    <h2>Section title</h2>
+    <div class="table-responsive">
+        <table class="table table-striped table-sm">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Subject</th>
+                <th>Predicate</th>
+                <th>Object</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for res in sparqlRes %}
+                <tr>
+                    <td>{{ res.s.value }}</td>
+                    <td>{{ res.s }}</td>
+                    <td>{{ res.p }}</td>
+                    <td>{{ res.o }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+        </table>
+    </div>
+  
+  </ul>
+
+<script>
+    var ctx = document.getElementById('myChart').getContext('2d');
+    var chart = new Chart(ctx, {
+        // The type of chart we want to create
+        type: 'line',
+
+        // The data for our dataset
+        data: {
+            labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+            datasets: [{
+                label: 'My First dataset',
+                backgroundColor: 'rgb(255, 99, 132)',
+                borderColor: 'rgb(255, 99, 132)',
+                data: [0, 10, 5, 2, 20, 30, 45]
+            }]
+        },
+
+        // Configuration options go here
+        options: {}
+    });
+</script>
+{% endblock %}
