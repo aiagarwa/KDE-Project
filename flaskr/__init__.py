@@ -1,7 +1,6 @@
 import os
 from flask import Flask, render_template, request, redirect
-from SPARQLWrapper import SPARQLWrapper, JSON, N3
-import rdflib
+from SPARQLWrapper import SPARQLWrapper, JSON
 
 def create_app(test_config=None):
     # create and configure the app
@@ -34,61 +33,142 @@ def create_app(test_config=None):
 
     @app.route('/competency-questions')
     def competency():
-        # sparql = SPARQLWrapper("http://dbpedia.org/sparql")
-        # # sparql.setQuery("""
-        # #     PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-        # #     SELECT ?label
-        # #     WHERE { <http://dbpedia.org/resource/Asturias> rdfs:label ?label }
-        # # """)
-        # sparql.setQuery("""
-        #      select * where { 
-        #          ?s ?p ?o .
-        #      }
-        # """)
-        # sparql.setReturnFormat(JSON)
-        # sparqlRes = sparql.query().convert()
-        # print(sparqlRes)
-        
         questionId = int(request.args['id'])
-        if (not questionId):
+        if (not questionId or questionId < 1 or questionId > 10):
             questionId = 1
-
-        # n = rdflib.Namespace("http://www.semanticweb.org/kde/ontologies/sport-events")
-        # print(n)
-
-        # g = rdflib.ConjunctiveGraph('SPARQLStore')
-        # g.open("http://dbpedia.org/sparql")
-        # sparqlRes = g.query(
-        #     """
-        #     PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-        #     SELECT ?label
-        #     WHERE { <http://dbpedia.org/resource/Asturias> rdfs:label ?label
-        #     """
-        # )
-
-
-        queryString = "SELECT * WHERE { ?s ?p ?o. }"
-        sparql = SPARQLWrapper("http://dbpedia.org/sparql")
-
-        sparql.setQuery(queryString)
-        ret = sparql.query()
-        print(ret)
-
-
-        from rdflib.namespace import FOAF, NamespaceManager
-        g = rdflib.Graph()
-        g.load('flaskr/static/KDE_SE_RDF.ttl', format="turtle")
-        n = rdflib.Namespace("http://www.semanticweb.org/kde/ontologies/sport-events#")
-        g.bind('se', n)
-        g.parse(data = '<urn:a> <urn:p> <urn:b>.', format='n3')
-        sparqlRes = g.query(
-            """
-            select * where { 
-                ?s ?p se:Player .
+        
+        if questionId == 1:
+            q = """
+            select ?c where {
+                ?s se:hasNationality ?c .
+                {
+                    select ?s where {
+                        ?s se:Goals ?o .
+                    }
+                    ORDER BY DESC(?o) LIMIT 1
+                }
             }
             """
-        )
+        elif questionId == 2:
+            q = """
+            select ?player ?playerLabel ?team ?teamLabel where {
+                ?player se:hasNationality ?team . {
+                    select ?team where {
+                        ?team se:Points ?o .
+                    }
+                    ORDER BY DESC(?o) LIMIT 1
+                }
+                ?player rdfs:label ?playerLabel .
+                ?team rdfs:label ?teamLabel .
+            }
+            """
+        elif questionId == 3:
+            q = """
+            select  ?won (COUNT(?won) as ?numberOfTime) where {
+                ?match se:RoundNumber ?round .
+                ?match se:hasAwayTeam ?awayTeam .
+                ?match se:hasHomeTeam ?homeTeam .
+                ?match se:HomeTeamScore ?homeScore .
+                ?match se:AwayTeamScore ?awayScore . 
+                BIND(
+                    IF(?homeScore > ?awayScore, ?homeTeam,
+                        IF(?homeScore < ?awayScore, ?awayTeam,"Draw")) AS ?won) .
+            
+                filter(?won != "Draw" && ( ?round = "1" || ?round = "2"  || ?round ="3")) .
+            }
+            group by ?won
+            order by desc(?numberOfTime) limit 3
+            """
+        elif questionId == 4:
+            q = """
+            select ?players where { 
+                ?matches rdf:type se:Match ;
+                    se:RoundNumber "Semi Finals" ;
+                    se:hasAwayTeam|se:hasHomeTeam ?teams .
+                
+                ?players rdf:type se:Player ;
+                        se:playsInTeam ?teams; 
+                        se:hasRole <http://www.semanticweb.org/kde/ontologies/sport-events/Goalkeeper> .
+            }
+            """
+        elif questionId == 5:
+            q = """
+            SELECT (COUNT(DISTINCT(?Club)) AS ?count) WHERE {
+                ?player se:hasNationality ?team.
+                ?team rdfs:label "Spain".
+                ?player se:playsInClub ?Club.
+            }
+            """
+        elif questionId == 6:
+            q = """
+            SELECT ?team WHERE {
+                    ?player se:hasNationality ?team.
+                    ?player se:Goals ?goal.
+                        FILTER(?goal != "-").
+                }
+            GROUP BY ?team
+            ORDER BY ASC((SUM(xsd:integer(?goal)))) LIMIT 1
+            """
+        elif questionId == 7:
+            q = """
+            select ?nationality where { 
+                ?player se:hasNationality ?nationality . {
+                select * where { 
+                    ?player se:Assists ?numb 
+                }
+                ORDER BY DESC(?numb) LIMIT 10
 
-        return render_template('dashboard/competency-questions.html', questionId=questionId, sparqlRes=sparqlRes)
+                }
+            }
+            """
+        elif questionId == 8:
+            q = ""
+            print("[TODO]")
+        elif questionId == 9:
+            q = """
+            select ?players where { 
+                ?matches rdf:type se:Match ;
+                    se:RoundNumber "Semi Finals" ;
+                    se:hasAwayTeam|se:hasHomeTeam ?teams .
+                
+                ?players rdf:type se:Player ;
+                        se:playsInTeam ?teams .
+            }
+            """
+        elif quetionId == 10:
+            q = """
+            SELECT ?player WHERE {
+                ?player se:playsInTeam ?team.{
+                    ?match se:AwayTeamScore ?away_team_score.
+                    ?match se:HomeTeamScore ?home_team_score.
+                    ?match se:hasAwayTeam ?away_team.
+                    ?match se:hasHomeTeam ?home_team.
+                    ?match se:ScheduledAt ?time.
+                    ?match se:RoundNumber "1".
+                    BIND(
+                        IF(?away_team_score > ?home_team_score, ?away_team, 
+                            IF(?away_team_score < ?home_team_score, ?home_team, "No one"))
+                        AS ?team
+                    ).
+                    FILTER(?time > "16/06/2018" && ?time < "22/06/2018").
+                } 
+            } 
+            """
+        
+        sparql = SPARQLWrapper("http://192.168.1.47:7200/repositories/test")
+        sparql.setQuery("""
+            PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+            PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+            PREFIX se: <http://www.semanticweb.org/kde/ontologies/sport-events#>
+            """ + q)
+        sparql.setReturnFormat(JSON)
+        sparqlRes = sparql.query().convert()
+        
+        sparqlVars = []
+        for var in sparqlRes['head']['vars']:
+            if "Label" not in var:
+                sparqlVars.append(var)
+
+        return render_template('dashboard/competency-questions.html', questionId=questionId, sparqlRes=sparqlRes, sparqlVars=sparqlVars)
 
     return app
