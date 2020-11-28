@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+
+{% block title %}Dashboard{% endblock %}
+{% block metaTitle %}KDE Sport Events{% endblock %}
+
+{% block body %}
+<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
+    <div class="col">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Competency Questions</h5>
+          <p class="card-text">Answer our defined competency questions through SPARQL queries defined for this purpose.</p>
+          <a href="/competency-questions" class="btn btn-primary">Go</a>
+        </div>
+      </div>
+    </div>
+</div>
+{% endblock %}

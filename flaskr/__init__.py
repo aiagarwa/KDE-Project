@@ -29,11 +29,16 @@ def create_app(test_config=None):
     # a simple page that says hello
     @app.route('/')
     def index():
-        return redirect('/competency-questions?id=1')
+        #return redirect('/competency-questions?id=1')
+        return render_template('dashboard/home.html')
 
     @app.route('/competency-questions')
     def competency():
-        questionId = int(request.args['id'])
+        questionId = None
+
+        if ("id" in request.args):
+            questionId = int(request.args['id'])
+
         if (not questionId or questionId < 1 or questionId > 10):
             questionId = 1
         
@@ -81,13 +86,14 @@ def create_app(test_config=None):
             """
         elif questionId == 4:
             q = """
-            select ?players where { 
+            select ?players ?playersLabel where {
                 ?matches rdf:type se:Match ;
                     se:RoundNumber "Semi Finals" ;
                     se:hasAwayTeam|se:hasHomeTeam ?teams .
-                
+            
                 ?players rdf:type se:Player ;
-                        se:playsInTeam ?teams; 
+                        se:playsInTeam ?teams;
+                        rdfs:label ?playersLabel;
                         se:hasRole <http://www.semanticweb.org/kde/ontologies/sport-events/Goalkeeper> .
             }
             """
@@ -156,11 +162,12 @@ def create_app(test_config=None):
             """
         
         sparql = SPARQLWrapper("http://192.168.1.47:7200/repositories/test")
-        sparql.setQuery("""
+        query = """
             PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
             PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
             PREFIX se: <http://www.semanticweb.org/kde/ontologies/sport-events#>
-            """ + q)
+            """ + q
+        sparql.setQuery(query)
         sparql.setReturnFormat(JSON)
         sparqlRes = sparql.query().convert()
         
@@ -169,6 +176,8 @@ def create_app(test_config=None):
             if "Label" not in var:
                 sparqlVars.append(var)
 
-        return render_template('dashboard/competency-questions.html', questionId=questionId, sparqlRes=sparqlRes, sparqlVars=sparqlVars)
+        return render_template('dashboard/competency-questions.html', 
+                                questionId=questionId, sparqlQuery=query,
+                                sparqlRes=sparqlRes, sparqlVars=sparqlVars)
 
     return app

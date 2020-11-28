@@ -1,6 +1,9 @@
 {% extends "layout.html" %}
+
+{% block title %}Competency Questions{% endblock %}
+{% block metaTitle %}Competency Questions - KDE Sport Events{% endblock %}
+
 {% block body %}
-  <h2>Answer competency questions:</h2>
   <ul>
     <form class="row g-2" method="GET" action="/competency-questions">
         <div class="col-auto">
@@ -24,6 +27,16 @@
 
     <!-- <canvas class="my-4 w-100" id="myChart" width="900" height="380"></canvas> -->
 
+    <div class="card">
+        <div class="card-body">
+            <code>
+                <pre>
+                    {{- sparqlQuery -}}
+                </pre>
+            </code>
+        </div>
+    </div>
+
     <div class="table-responsive">
         <table class="table table-striped table-sm">
         <thead>
@@ -37,10 +50,10 @@
         <tbody>
             {% for res in sparqlRes.results.bindings %}
                 <tr>
-                    <td></td>
+                    <td>{{ loop.index }}</td>
                     {% for var in sparqlVars %}
                         {% if var+"Label" in sparqlRes.head.vars %}
-                            <td><a href="{{ res[var].value }}">{{ res[var+"Label"].value }}</a></td>
+                            <td>{{ res[var+"Label"].value }} ({{ res[var].value }})</td>
                         {% else %}
                             <td>{{ res[var].value }}</td>
                         {% endif %}
