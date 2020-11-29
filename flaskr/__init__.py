@@ -39,7 +39,7 @@ def create_app(test_config=None):
         if ("id" in request.args):
             questionId = int(request.args['id'])
 
-        if (not questionId or questionId < 1 or questionId > 10):
+        if (not questionId or questionId < 1 or questionId > 11):
             questionId = 1
         
         if questionId == 1:
@@ -69,7 +69,7 @@ def create_app(test_config=None):
             """
         elif questionId == 3:
             q = """
-            select  ?won (COUNT(?won) as ?numberOfTime) where {
+            select ?team (COUNT(?team) as ?numberOfTime) ?teamLabel  where {
                 ?match se:RoundNumber ?round .
                 ?match se:hasAwayTeam ?awayTeam .
                 ?match se:hasHomeTeam ?homeTeam .
@@ -77,11 +77,12 @@ def create_app(test_config=None):
                 ?match se:AwayTeamScore ?awayScore . 
                 BIND(
                     IF(?homeScore > ?awayScore, ?homeTeam,
-                        IF(?homeScore < ?awayScore, ?awayTeam,"Draw")) AS ?won) .
+                        IF(?homeScore < ?awayScore, ?awayTeam,"Draw")) AS ?team) .
             
-                filter(?won != "Draw" && ( ?round = "1" || ?round = "2"  || ?round ="3")) .
+                filter(?team != "Draw" && ( ?round = "1" || ?round = "2"  || ?round ="3")) .
+                ?team rdfs:label ?teamLabel .
             }
-            group by ?won
+            group by ?team ?teamLabel
             order by desc(?numberOfTime) limit 3
             """
         elif questionId == 4:
@@ -107,43 +108,50 @@ def create_app(test_config=None):
             """
         elif questionId == 6:
             q = """
-            SELECT ?team WHERE {
+            SELECT ?team ?teamLabel 
+            WHERE {
+                ?team rdfs:label ?teamLabel.{
+                    SELECT ?team
+                    WHERE {
                     ?player se:hasNationality ?team.
                     ?player se:Goals ?goal.
                         FILTER(?goal != "-").
+                    }
+                    GROUP BY ?team
+                    ORDER BY ASC((SUM(xsd:integer(?goal))))
                 }
-            GROUP BY ?team
-            ORDER BY ASC((SUM(xsd:integer(?goal)))) LIMIT 1
+            }
             """
         elif questionId == 7:
             q = """
             select ?nationality where { 
-                ?player se:hasNationality ?nationality . {
-                select * where { 
-                    ?player se:Assists ?numb 
-                }
-                ORDER BY DESC(?numb) LIMIT 10
-
+                ?player se:hasNationality ?nationality .{
+                    select * where { 
+                        ?player se:Assists ?numb 
+                    }
+                    ORDER BY DESC(?numb) LIMIT 10
                 }
             }
             """
         elif questionId == 8:
-            q = ""
-            print("[TODO]")
+            q = "SELECT * WHERE { VALUES ?result { <http://example.org/TO-DO> } }"
         elif questionId == 9:
             q = """
-            select ?players where { 
+            select ?players ?playersLabel where { 
                 ?matches rdf:type se:Match ;
                     se:RoundNumber "Semi Finals" ;
                     se:hasAwayTeam|se:hasHomeTeam ?teams .
                 
                 ?players rdf:type se:Player ;
-                        se:playsInTeam ?teams .
+                        se:playsInTeam ?teams;
+                        rdfs:label ?playersLabel; .
             }
             """
-        elif quetionId == 10:
+        elif questionId == 10:
             q = """
-            SELECT ?player WHERE {
+            SELECT ?player ?playerLabel
+            WHERE {
+                ?player rdfs:label ?playerLabel.
                 ?player se:playsInTeam ?team.{
                     ?match se:AwayTeamScore ?away_team_score.
                     ?match se:HomeTeamScore ?home_team_score.
@@ -156,9 +164,28 @@ def create_app(test_config=None):
                             IF(?away_team_score < ?home_team_score, ?home_team, "No one"))
                         AS ?team
                     ).
-                    FILTER(?time > "16/06/2018" && ?time < "22/06/2018").
-                } 
-            } 
+                    FILTER(?time > "16-06-2018" && ?time < "22-06-2018").
+                }
+            }
+            """
+        elif questionId == 11:
+            q = """
+            PREFIX dbo: <http://dbpedia.org/ontology/>
+            SELECT *
+            WHERE {
+                SERVICE <http://192.168.1.47:7200/repositories/test> {
+                    ?player se:playsInTeam ?team .
+                    ?player rdfs:label ?playerLabel .
+                    ?team rdfs:label ?teamLabel .
+                }
+                
+                SERVICE <http://dbpedia.org/sparql> {
+                    ?country rdf:type dbo:Country ;
+                        rdfs:label ?teamLabel ;
+                        dbo:populationTotal ?population .
+                    
+                }
+            } LIMIT 10
             """
         
         sparql = SPARQLWrapper("http://192.168.1.47:7200/repositories/test")
