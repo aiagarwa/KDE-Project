@@ -6,7 +6,7 @@ We have been using GraphDB Free for this project. A local instance can be create
 1. Install [GraphDB Free](https://www.ontotext.com/products/graphdb/graphdb-free/) on your local machine
 2. Run GraphDB Workbench and open it with your web browser (default URL is `http://localhost:7200/`)
 3. Go to Setup > Repositories > Create new repository
-4. Give a name to the repository, select Ruleset `OWL-Max (Optimized)` and enter Base URL `http://www.semanticweb.org/kde/ontologies/sport-events#` and click Create repository
+4. Give a name to the repository, select Ruleset `OWL-Max (Optimized)`, enter Base URL `http://www.semanticweb.org/kde/ontologies/sport-events#` and click Create repository
 5. Go to Import > RDF and click on Upload RDF Files
 6. Upload our triplestore into this repository: `data/triplestore.ttl`
 7. Click on Import button of the uploaded file, leave parameters as default and click on Import button
