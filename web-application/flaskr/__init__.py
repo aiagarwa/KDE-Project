@@ -5,9 +5,7 @@ from SPARQLWrapper import SPARQLWrapper, JSON
 def create_app(test_config=None):
     # create and configure the app
     app = Flask(__name__, instance_relative_config=True, static_url_path='/assets')
-    app.config.from_mapping(
-        SECRET_KEY='dev',
-    )
+    app.config.from_pyfile('settings.py')
 
     if test_config is None:
         # load the instance config, if it exists, when not testing
@@ -173,7 +171,7 @@ def create_app(test_config=None):
             PREFIX dbo: <http://dbpedia.org/ontology/>
             SELECT *
             WHERE {
-                SERVICE <http://192.168.1.47:7200/repositories/test> {
+                SERVICE <""" + app.config.get("LOCAL_TRIPLESTORE") + """> {
                     ?player se:playsInTeam ?team .
                     ?player rdfs:label ?playerLabel .
                     ?team rdfs:label ?teamLabel .
@@ -188,7 +186,7 @@ def create_app(test_config=None):
             } LIMIT 10
             """
         
-        sparql = SPARQLWrapper("http://192.168.1.47:7200/repositories/test")
+        sparql = SPARQLWrapper(app.config.get("LOCAL_TRIPLESTORE"))
         query = """
             PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
             PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
