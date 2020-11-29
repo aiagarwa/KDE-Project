@@ -1,0 +1,36 @@
+{% extends "layout.html" %}
+
+{% block title %}Dashboard{% endblock %}
+{% block metaTitle %}KDE Sport Events{% endblock %}
+
+{% block body %}
+<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
+    <div class="col">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Run Queries</h5>
+          <p class="card-text">Answer our pre-defined competency questions and run your own SPARQL queries.</p>
+          <a href="/run-queries" class="btn btn-primary">Go</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">View reports</h5>
+          <p class="card-text">Take a look at technical and personal reports related to this project.</p>
+          <a href="/reports" class="btn btn-primary">Go</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Help</h5>
+          <p class="card-text">Get help to create triplestore, generate Widoco documentation, etc.</p>
+          <a href="/help" class="btn btn-primary">Go</a>
+        </div>
+      </div>
+    </div>
+</div>
+{% endblock %}
