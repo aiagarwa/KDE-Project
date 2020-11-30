@@ -2,7 +2,19 @@
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix : <> .
-<..\index-en.html> a prov:Entity;
+<http://www.semanticweb.org/kde/ontologies/sport-events> a prov:Entity;
+	 dc:title "Football event";
+	 prov:wasAttributedTo :agent0;
+	 prov:wasAttributedTo :agent1;
+	 prov:wasAttributedTo :agent2;
+	 prov:wasAttributedTo :agent3;
+	 prov:wasAttributedTo :agent4;
 	 prov:wasAttributedTo <https://github.com/dgarijo/Widoco/>,<http://www.essepuntato.it/lode/>;
 	 prov:specializationOf <http://www.semanticweb.org/kde/ontologies/sport-events>;
+	 prov:wasGeneratedAt "30/11/2020";
 .
+:agent0 a prov:Agent; foaf:name "Aishwarya Agarwal".
+:agent1 a prov:Agent; foaf:name "Boris Flesch".
+:agent2 a prov:Agent; foaf:name "Sherwin Mascarenhas".
+:agent3 a prov:Agent; foaf:name "Niejun Yin".
+:agent4 a prov:Agent; foaf:name "Rui Xu".

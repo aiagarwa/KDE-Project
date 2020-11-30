@@ -5,36 +5,39 @@
     "baseIris" : [ "http://www.w3.org/2002/07/owl", "http://www.w3.org/2000/01/rdf-schema", "http://www.semanticweb.org/kde/ontologies/sport-events", "http://www.w3.org/2001/XMLSchema", "http://dbpedia.org/ontology" ],
     "iri" : "http://www.semanticweb.org/kde/ontologies/sport-events",
     "comments" : {
-      "undefined" : "The 2018 football world cup ontology that describes matches and teams"
+      "undefined" : "This ontology describes matches and teams as part of football events (i.e. soccer). It has been created based on Football World Cup 2018 and is meant to be used in other similar events and is flexible to be suitable for other sport events (e.g. handball, basketball, etc.) with minor modifications only."
     }
   },
   "namespace" : [ ],
   "class" : [ {
     "id" : "3",
-    "type" : "owl:Thing"
+    "type" : "rdfs:Literal"
   }, {
     "id" : "1",
     "type" : "owl:Class"
   }, {
-    "id" : "12",
+    "id" : "9",
     "type" : "owl:Class"
-  }, {
-    "id" : "15",
-    "type" : "owl:Class"
-  }, {
-    "id" : "17",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "18",
-    "type" : "rdfs:Datatype"
   }, {
     "id" : "10",
     "type" : "owl:Class"
   }, {
-    "id" : "16",
+    "id" : "20",
     "type" : "owl:Class"
   }, {
-    "id" : "31",
+    "id" : "22",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "23",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "12",
+    "type" : "owl:Class"
+  }, {
+    "id" : "21",
+    "type" : "owl:Class"
+  }, {
+    "id" : "13",
     "type" : "rdfs:Literal"
   }, {
     "id" : "34",
@@ -49,99 +52,99 @@
     "id" : "37",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "40",
+    "id" : "38",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "39",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "41",
+    "id" : "40",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "11",
-    "type" : "owl:Class"
-  }, {
-    "id" : "8",
+    "id" : "49",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "14",
+    "id" : "17",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "46",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "50",
     "type" : "rdfs:Datatype"
   }, {
+    "id" : "19",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "44",
+    "type" : "rdfs:Datatype"
+  }, {
     "id" : "51",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "6",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "52",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "53",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "49",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "56",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "33",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "45",
     "type" : "rdfs:Literal"
+  }, {
+    "id" : "61",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "15",
+    "type" : "owl:Class"
   }, {
     "id" : "62",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "6",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "55",
+    "id" : "8",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "63",
     "type" : "owl:Class"
   }, {
-    "id" : "65",
+    "id" : "64",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "28",
+    "id" : "25",
     "type" : "owl:Class"
   }, {
     "id" : "5",
     "type" : "owl:Class"
   }, {
-    "id" : "66",
+    "id" : "65",
     "type" : "owl:Class"
   }, {
-    "id" : "29",
+    "id" : "26",
     "type" : "owl:Class"
   }, {
-    "id" : "69",
+    "id" : "27",
     "type" : "owl:Class"
   }, {
-    "id" : "30",
+    "id" : "41",
     "type" : "owl:Class"
   }, {
     "id" : "42",
     "type" : "owl:Class"
   }, {
-    "id" : "43",
+    "id" : "81",
     "type" : "owl:Class"
   }, {
-    "id" : "19",
+    "id" : "24",
     "type" : "owl:Class"
   }, {
-    "id" : "78",
+    "id" : "80",
     "type" : "owl:Class"
   } ],
   "classAttribute" : [ {
-    "iri" : "http://www.w3.org/2002/07/owl#Thing",
-    "baseIri" : "http://owl2vowl.de",
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "id" : "3",
     "label" : {
-      "undefined" : "Thing"
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
     }
   }, {
     "iri" : "http://www.semanticweb.org/kde/ontologies/sport-events#Team",
@@ -155,8 +158,20 @@
     },
     "id" : "1"
   }, {
-    "iri" : "http://www.semanticweb.org/kde/ontologies/sport-events#City",
-    "baseIri" : "http://www.semanticweb.org/kde/ontologies/sport-events",
+    "iri" : "http://dbpedia.org/ontology/SoccerClub",
+    "baseIri" : "http://dbpedia.org/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SoccerClub"
+    },
+    "comment" : {
+      "undefined" : "The football club"
+    },
+    "attributes" : [ "external" ],
+    "id" : "9"
+  }, {
+    "iri" : "http://dbpedia.org/ontology/City",
+    "baseIri" : "http://dbpedia.org/ontology",
     "instances" : 0,
     "label" : {
       "IRI-based" : "City"
@@ -164,7 +179,8 @@
     "comment" : {
       "undefined" : "The city where the stadium is located in the World Cup"
     },
-    "id" : "12"
+    "attributes" : [ "external" ],
+    "id" : "10"
   }, {
     "iri" : "http://www.semanticweb.org/kde/ontologies/sport-events#Forward",
     "baseIri" : "http://www.semanticweb.org/kde/ontologies/sport-events",
@@ -175,19 +191,19 @@
     "comment" : {
       "undefined" : "Forwards are the players closest to the opposition goal, with the principal role of scoring goals."
     },
-    "id" : "15",
-    "superClasses" : [ "16" ]
+    "id" : "20",
+    "superClasses" : [ "21" ]
   }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "17",
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "22",
     "label" : {
-      "IRI-based" : "nonNegativeInteger"
+      "undefined" : "Thing"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "18",
+    "id" : "23",
     "label" : {
       "IRI-based" : "nonNegativeInteger"
     }
@@ -199,8 +215,8 @@
       "IRI-based" : "FootballMatch"
     },
     "attributes" : [ "external" ],
-    "id" : "10",
-    "superClasses" : [ "19" ]
+    "id" : "12",
+    "superClasses" : [ "24" ]
   }, {
     "iri" : "http://www.semanticweb.org/kde/ontologies/sport-events#Role",
     "baseIri" : "http://www.semanticweb.org/kde/ontologies/sport-events",
@@ -208,15 +224,15 @@
     "label" : {
       "IRI-based" : "Role"
     },
-    "subClasses" : [ "28", "15", "29", "30" ],
+    "subClasses" : [ "25", "20", "26", "27" ],
     "comment" : {
       "undefined" : "Positions and responsibilities of the players on a football field"
     },
-    "id" : "16"
+    "id" : "21"
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
-    "id" : "31",
+    "id" : "13",
     "label" : {
       "IRI-based" : "Literal",
       "undefined" : "Literal"
@@ -253,7 +269,7 @@
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "40",
+    "id" : "38",
     "label" : {
       "IRI-based" : "nonNegativeInteger"
     }
@@ -267,62 +283,9 @@
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "41",
+    "id" : "40",
     "label" : {
       "IRI-based" : "nonNegativeInteger"
-    }
-  }, {
-    "iri" : "http://www.semanticweb.org/kde/ontologies/sport-events#Stadium",
-    "baseIri" : "http://www.semanticweb.org/kde/ontologies/sport-events",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Stadium"
-    },
-    "comment" : {
-      "undefined" : "A place or venue for outdoor sports, concerts, or other events"
-    },
-    "id" : "11"
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#int",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "8",
-    "label" : {
-      "IRI-based" : "int"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#int",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "14",
-    "label" : {
-      "IRI-based" : "int"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "50",
-    "label" : {
-      "IRI-based" : "nonNegativeInteger"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#double",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "51",
-    "label" : {
-      "IRI-based" : "double"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#int",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "52",
-    "label" : {
-      "IRI-based" : "int"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#int",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "53",
-    "label" : {
-      "IRI-based" : "int"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#int",
@@ -332,33 +295,46 @@
       "IRI-based" : "int"
     }
   }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "56",
+    "id" : "17",
     "label" : {
-      "IRI-based" : "nonNegativeInteger"
+      "IRI-based" : "int"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "33",
+    "id" : "46",
     "label" : {
       "IRI-based" : "nonNegativeInteger"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
-    "id" : "45",
-    "label" : {
-      "IRI-based" : "Literal",
-      "undefined" : "Literal"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#double",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "62",
+    "id" : "50",
     "label" : {
       "IRI-based" : "double"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "19",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "44",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "51",
+    "label" : {
+      "IRI-based" : "int"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -368,9 +344,50 @@
       "IRI-based" : "nonNegativeInteger"
     }
   }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "52",
+    "label" : {
+      "IRI-based" : "nonNegativeInteger"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "53",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#double",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "55",
+    "id" : "61",
+    "label" : {
+      "IRI-based" : "double"
+    }
+  }, {
+    "iri" : "http://dbpedia.org/ontology/Stadium",
+    "baseIri" : "http://dbpedia.org/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Stadium"
+    },
+    "comment" : {
+      "undefined" : "A place or venue for outdoor sports, concerts, or other events"
+    },
+    "attributes" : [ "external" ],
+    "id" : "15"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "62",
+    "label" : {
+      "IRI-based" : "nonNegativeInteger"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#double",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "8",
     "label" : {
       "IRI-based" : "double"
     }
@@ -388,7 +405,7 @@
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "65",
+    "id" : "64",
     "label" : {
       "IRI-based" : "nonNegativeInteger"
     }
@@ -402,8 +419,8 @@
     "comment" : {
       "undefined" : "Defenders are positioned in front of the goalkeeper and have the principal role of keeping the opposition away from their goal"
     },
-    "id" : "28",
-    "superClasses" : [ "16" ]
+    "id" : "25",
+    "superClasses" : [ "21" ]
   }, {
     "iri" : "http://dbpedia.org/ontology/SoccerPlayer",
     "baseIri" : "http://dbpedia.org/ontology",
@@ -413,7 +430,7 @@
     },
     "attributes" : [ "external" ],
     "id" : "5",
-    "superClasses" : [ "66" ]
+    "superClasses" : [ "65" ]
   }, {
     "iri" : "http://dbpedia.org/ontology/Athlete",
     "baseIri" : "http://dbpedia.org/ontology",
@@ -423,7 +440,7 @@
     },
     "subClasses" : [ "5" ],
     "attributes" : [ "external" ],
-    "id" : "66"
+    "id" : "65"
   }, {
     "iri" : "http://www.semanticweb.org/kde/ontologies/sport-events#Goalkeeper",
     "baseIri" : "http://www.semanticweb.org/kde/ontologies/sport-events",
@@ -434,19 +451,8 @@
     "comment" : {
       "undefined" : "A specialist playing position with the job of defending a team's goal and preventing the opposition from scoring. They are the only player on the pitch that can handle the ball in open play, although they can only do so in their penalty area."
     },
-    "id" : "29",
-    "superClasses" : [ "16" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/kde/ontologies/sport-events#Club",
-    "baseIri" : "http://www.semanticweb.org/kde/ontologies/sport-events",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Club"
-    },
-    "comment" : {
-      "undefined" : "The football club"
-    },
-    "id" : "69"
+    "id" : "26",
+    "superClasses" : [ "21" ]
   }, {
     "iri" : "http://www.semanticweb.org/kde/ontologies/sport-events#Midfielder",
     "baseIri" : "http://www.semanticweb.org/kde/ontologies/sport-events",
@@ -457,18 +463,23 @@
     "comment" : {
       "undefined" : "Midfielders are generally positioned on the field between their team's defenders and forwards."
     },
-    "id" : "30",
-    "superClasses" : [ "16" ]
+    "id" : "27",
+    "superClasses" : [ "21" ]
   }, {
     "instances" : 0,
-    "union" : [ "12", "11" ],
-    "attributes" : [ "anonymous", "union" ],
+    "union" : [ "10", "15" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "41"
+  }, {
+    "instances" : 0,
+    "union" : [ "10", "63" ],
+    "attributes" : [ "union", "anonymous" ],
     "id" : "42"
   }, {
     "instances" : 0,
-    "union" : [ "12", "63" ],
-    "attributes" : [ "anonymous", "union" ],
-    "id" : "43"
+    "union" : [ "1", "9" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "81"
   }, {
     "iri" : "http://dbpedia.org/ontology/SportsEvent",
     "baseIri" : "http://dbpedia.org/ontology",
@@ -476,14 +487,14 @@
     "label" : {
       "IRI-based" : "SportsEvent"
     },
-    "subClasses" : [ "10" ],
+    "subClasses" : [ "12" ],
     "attributes" : [ "external" ],
-    "id" : "19"
+    "id" : "24"
   }, {
     "instances" : 0,
-    "union" : [ "1", "69" ],
-    "attributes" : [ "anonymous", "union" ],
-    "id" : "78"
+    "union" : [ "1", "9" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "80"
   } ],
   "property" : [ {
     "id" : "0",
@@ -495,122 +506,119 @@
     "id" : "7",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "9",
+    "id" : "11",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "14",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "13",
+    "id" : "16",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "18",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "2",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "32",
-    "type" : "owl:datatypeProperty"
-  }, {
-    "id" : "38",
-    "type" : "owl:datatypeProperty"
-  }, {
-    "id" : "21",
+    "id" : "29",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "44",
+    "id" : "43",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "46",
+    "id" : "45",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "47",
-    "type" : "owl:datatypeProperty"
-  }, {
-    "id" : "48",
-    "type" : "owl:datatypeProperty"
+    "id" : "28",
+    "type" : "owl:objectProperty"
   }, {
     "id" : "54",
     "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "55",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "56",
+    "type" : "owl:disjointWith"
   }, {
     "id" : "57",
     "type" : "owl:disjointWith"
   }, {
     "id" : "58",
-    "type" : "owl:disjointWith"
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "59",
-    "type" : "owl:datatypeProperty"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "60",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "61",
-    "type" : "owl:disjointWith"
-  }, {
-    "id" : "27",
+    "id" : "48",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "64",
+    "id" : "66",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "67",
-    "type" : "owl:datatypeProperty"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "68",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "23",
-    "type" : "owl:objectProperty"
+    "id" : "69",
+    "type" : "owl:disjointWith"
   }, {
     "id" : "70",
-    "type" : "owl:disjointWith"
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "71",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "72",
-    "type" : "owl:disjointWith"
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "73",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "74",
-    "type" : "owl:datatypeProperty"
-  }, {
-    "id" : "26",
+    "id" : "33",
     "type" : "owl:objectProperty"
+  }, {
+    "id" : "47",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "74",
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "75",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "20",
-    "type" : "owl:objectProperty"
-  }, {
     "id" : "76",
     "type" : "owl:datatypeProperty"
-  }, {
-    "id" : "24",
-    "type" : "owl:objectProperty"
   }, {
     "id" : "77",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "22",
+    "id" : "32",
     "type" : "owl:objectProperty"
   }, {
+    "id" : "78",
+    "type" : "owl:datatypeProperty"
+  }, {
     "id" : "79",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "80",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "81",
-    "type" : "owl:datatypeProperty"
+    "id" : "30",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "31",
+    "type" : "owl:objectProperty"
   }, {
     "id" : "82",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "83",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "25",
-    "type" : "owl:objectProperty"
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "84",
     "type" : "rdfs:SubClassOf"
@@ -619,13 +627,16 @@
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "86",
-    "type" : "owl:datatypeProperty"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "87",
-    "type" : "owl:datatypeProperty"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "88",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "89",
+    "type" : "owl:datatypeProperty"
   } ],
   "propertyAttribute" : [ {
     "iri" : "http://www.semanticweb.org/kde/ontologies/sport-events#isOpponentOf",
@@ -636,359 +647,365 @@
     },
     "superproperty" : [ "2" ],
     "domain" : "1",
-    "attributes" : [ "object", "symmetric" ],
+    "attributes" : [ "symmetric", "object" ],
     "id" : "0"
   }, {
-    "iri" : "http://www.semanticweb.org/kde/ontologies/sport-events#Assists",
+    "iri" : "http://www.semanticweb.org/kde/ontologies/sport-events#goals",
     "baseIri" : "http://www.semanticweb.org/kde/ontologies/sport-events",
     "range" : "6",
     "label" : {
-      "IRI-based" : "Assists"
+      "IRI-based" : "goals"
     },
     "domain" : "5",
-    "comment" : {
-      "undefined" : "the total number of assists"
-    },
     "attributes" : [ "datatype" ],
     "id" : "4"
   }, {
-    "iri" : "http://www.semanticweb.org/kde/ontologies/sport-events#PerformanceTotal",
+    "iri" : "http://www.semanticweb.org/kde/ontologies/sport-events#averageShotsPerGame",
     "baseIri" : "http://www.semanticweb.org/kde/ontologies/sport-events",
     "range" : "8",
     "label" : {
-      "IRI-based" : "PerformanceTotal"
+      "IRI-based" : "averageShotsPerGame"
     },
     "domain" : "5",
-    "comment" : {
-      "undefined" : "The overall performance"
-    },
     "attributes" : [ "datatype" ],
     "id" : "7"
   }, {
+    "iri" : "http://www.semanticweb.org/kde/ontologies/sport-events#result",
+    "baseIri" : "http://www.semanticweb.org/kde/ontologies/sport-events",
+    "range" : "13",
+    "label" : {
+      "IRI-based" : "result"
+    },
+    "domain" : "12",
+    "comment" : {
+      "undefined" : "The final score of a match"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "11"
+  }, {
     "iri" : "http://www.semanticweb.org/kde/ontologies/sport-events#tookPlaceIn",
     "baseIri" : "http://www.semanticweb.org/kde/ontologies/sport-events",
-    "range" : "11",
+    "range" : "15",
     "label" : {
       "IRI-based" : "tookPlaceIn"
     },
     "superproperty" : [ "2" ],
-    "domain" : "10",
+    "domain" : "12",
     "attributes" : [ "object" ],
-    "id" : "9"
+    "id" : "14"
   }, {
-    "iri" : "http://www.semanticweb.org/kde/ontologies/sport-events#PerformancePossession",
+    "iri" : "http://www.semanticweb.org/kde/ontologies/sport-events#performancePossession",
     "baseIri" : "http://www.semanticweb.org/kde/ontologies/sport-events",
-    "range" : "14",
+    "range" : "17",
     "label" : {
-      "IRI-based" : "PerformancePossession"
+      "IRI-based" : "performancePossession"
     },
     "domain" : "5",
     "comment" : {
       "undefined" : "The possession performance based on KPI"
     },
     "attributes" : [ "datatype" ],
-    "id" : "13"
+    "id" : "16"
   }, {
-    "iri" : "http://www.w3.org/2002/07/owl#topObjectProperty",
-    "baseIri" : "http://www.w3.org/2002/07/owl",
-    "range" : "3",
-    "label" : {
-      "IRI-based" : "topObjectProperty"
-    },
-    "domain" : "3",
-    "subproperty" : [ "20", "21", "0", "9", "22", "23", "24", "25", "26", "27" ],
-    "attributes" : [ "object", "external" ],
-    "id" : "2"
-  }, {
-    "iri" : "http://www.semanticweb.org/kde/ontologies/sport-events#HomeTeamScore",
+    "iri" : "http://www.semanticweb.org/kde/ontologies/sport-events#manOfTheMatch",
     "baseIri" : "http://www.semanticweb.org/kde/ontologies/sport-events",
-    "range" : "33",
+    "range" : "19",
     "label" : {
-      "IRI-based" : "HomeTeamScore"
-    },
-    "domain" : "10",
-    "comment" : {
-      "undefined" : "Home team score in the result"
-    },
-    "attributes" : [ "datatype" ],
-    "id" : "32"
-  }, {
-    "iri" : "http://www.semanticweb.org/kde/ontologies/sport-events#Rating",
-    "baseIri" : "http://www.semanticweb.org/kde/ontologies/sport-events",
-    "range" : "39",
-    "label" : {
-      "IRI-based" : "Rating"
-    },
-    "domain" : "5",
-    "comment" : {
-      "undefined" : "The overall FIFA rating of player"
-    },
-    "attributes" : [ "datatype" ],
-    "id" : "38"
-  }, {
-    "iri" : "http://www.semanticweb.org/kde/ontologies/sport-events#isIn",
-    "baseIri" : "http://www.semanticweb.org/kde/ontologies/sport-events",
-    "range" : "43",
-    "label" : {
-      "IRI-based" : "isIn"
-    },
-    "superproperty" : [ "2" ],
-    "domain" : "42",
-    "attributes" : [ "object", "transitive" ],
-    "id" : "21"
-  }, {
-    "iri" : "http://www.semanticweb.org/kde/ontologies/sport-events#Group",
-    "baseIri" : "http://www.semanticweb.org/kde/ontologies/sport-events",
-    "range" : "45",
-    "label" : {
-      "IRI-based" : "Group"
-    },
-    "domain" : "10",
-    "comment" : {
-      "undefined" : "Competing countries were divided into eight groups of four teams (groups A to H)."
-    },
-    "attributes" : [ "datatype" ],
-    "id" : "44"
-  }, {
-    "iri" : "http://www.semanticweb.org/kde/ontologies/sport-events#RoundNumber",
-    "baseIri" : "http://www.semanticweb.org/kde/ontologies/sport-events",
-    "range" : "36",
-    "label" : {
-      "IRI-based" : "RoundNumber"
-    },
-    "domain" : "10",
-    "comment" : {
-      "undefined" : "Different stages of the World Cup"
-    },
-    "attributes" : [ "datatype" ],
-    "id" : "46"
-  }, {
-    "iri" : "http://www.semanticweb.org/kde/ontologies/sport-events#ScheduledAt",
-    "baseIri" : "http://www.semanticweb.org/kde/ontologies/sport-events",
-    "range" : "35",
-    "label" : {
-      "IRI-based" : "ScheduledAt"
-    },
-    "domain" : "10",
-    "comment" : {
-      "undefined" : "The start time of a match"
-    },
-    "attributes" : [ "datatype" ],
-    "id" : "47"
-  }, {
-    "iri" : "http://www.semanticweb.org/kde/ontologies/sport-events#PerformanceAttack",
-    "baseIri" : "http://www.semanticweb.org/kde/ontologies/sport-events",
-    "range" : "49",
-    "label" : {
-      "IRI-based" : "PerformanceAttack"
-    },
-    "domain" : "5",
-    "comment" : {
-      "undefined" : "The attack performance based on offensive KPI"
-    },
-    "attributes" : [ "datatype" ],
-    "id" : "48"
-  }, {
-    "iri" : "http://www.semanticweb.org/kde/ontologies/sport-events#AverageShotsPerGame",
-    "baseIri" : "http://www.semanticweb.org/kde/ontologies/sport-events",
-    "range" : "55",
-    "label" : {
-      "IRI-based" : "AverageShotsPerGame"
-    },
-    "domain" : "5",
-    "attributes" : [ "datatype" ],
-    "id" : "54"
-  }, {
-    "range" : "30",
-    "domain" : "28",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "57"
-  }, {
-    "range" : "29",
-    "domain" : "15",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "58"
-  }, {
-    "iri" : "http://www.semanticweb.org/kde/ontologies/sport-events#YellowCards",
-    "baseIri" : "http://www.semanticweb.org/kde/ontologies/sport-events",
-    "range" : "18",
-    "label" : {
-      "IRI-based" : "YellowCards"
-    },
-    "domain" : "5",
-    "comment" : {
-      "undefined" : "The number of times a player has yellow cards in a season"
-    },
-    "attributes" : [ "datatype" ],
-    "id" : "59"
-  }, {
-    "range" : "30",
-    "domain" : "15",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "60"
-  }, {
-    "range" : "30",
-    "domain" : "29",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "61"
-  }, {
-    "iri" : "http://www.semanticweb.org/kde/ontologies/sport-events#hasAwayTeam",
-    "baseIri" : "http://www.semanticweb.org/kde/ontologies/sport-events",
-    "range" : "63",
-    "label" : {
-      "IRI-based" : "hasAwayTeam"
-    },
-    "superproperty" : [ "2" ],
-    "domain" : "10",
-    "comment" : {
-      "undefined" : "Every World Cup match has an away team"
-    },
-    "attributes" : [ "object" ],
-    "id" : "27"
-  }, {
-    "iri" : "http://www.semanticweb.org/kde/ontologies/sport-events#PerformanceDefense",
-    "baseIri" : "http://www.semanticweb.org/kde/ontologies/sport-events",
-    "range" : "53",
-    "label" : {
-      "IRI-based" : "PerformanceDefense"
-    },
-    "domain" : "5",
-    "comment" : {
-      "undefined" : "The defense performance based on defensive KPI"
-    },
-    "attributes" : [ "datatype" ],
-    "id" : "64"
-  }, {
-    "iri" : "http://www.semanticweb.org/kde/ontologies/sport-events#Result",
-    "baseIri" : "http://www.semanticweb.org/kde/ontologies/sport-events",
-    "range" : "31",
-    "label" : {
-      "IRI-based" : "Result"
-    },
-    "domain" : "10",
-    "comment" : {
-      "undefined" : "The final score of a match"
-    },
-    "attributes" : [ "datatype" ],
-    "id" : "67"
-  }, {
-    "iri" : "http://www.semanticweb.org/kde/ontologies/sport-events#ManOfTheMatch",
-    "baseIri" : "http://www.semanticweb.org/kde/ontologies/sport-events",
-    "range" : "52",
-    "label" : {
-      "IRI-based" : "ManOfTheMatch"
+      "IRI-based" : "manOfTheMatch"
     },
     "domain" : "5",
     "comment" : {
       "undefined" : "The number of times a player has won man of the match. man of the match is often given to the outstanding player in a particular match"
     },
     "attributes" : [ "datatype" ],
-    "id" : "68"
+    "id" : "18"
   }, {
-    "iri" : "http://www.semanticweb.org/kde/ontologies/sport-events#playsInClub",
-    "baseIri" : "http://www.semanticweb.org/kde/ontologies/sport-events",
-    "range" : "69",
+    "iri" : "http://www.w3.org/2002/07/owl#topObjectProperty",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "22",
     "label" : {
-      "IRI-based" : "playsInClub"
+      "IRI-based" : "topObjectProperty"
+    },
+    "domain" : "22",
+    "subproperty" : [ "28", "29", "0", "30", "14", "31", "32", "33" ],
+    "attributes" : [ "external", "object" ],
+    "id" : "2"
+  }, {
+    "iri" : "http://www.semanticweb.org/kde/ontologies/sport-events#isIn",
+    "baseIri" : "http://www.semanticweb.org/kde/ontologies/sport-events",
+    "range" : "42",
+    "label" : {
+      "IRI-based" : "isIn"
     },
     "superproperty" : [ "2" ],
-    "domain" : "5",
-    "attributes" : [ "object" ],
-    "id" : "23"
+    "domain" : "41",
+    "attributes" : [ "transitive", "object" ],
+    "id" : "29"
   }, {
-    "range" : "15",
-    "domain" : "28",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "70"
-  }, {
-    "iri" : "http://www.semanticweb.org/kde/ontologies/sport-events#PlayedGames",
+    "iri" : "http://www.semanticweb.org/kde/ontologies/sport-events#performanceDefense",
     "baseIri" : "http://www.semanticweb.org/kde/ontologies/sport-events",
-    "range" : "50",
+    "range" : "44",
     "label" : {
-      "IRI-based" : "PlayedGames"
+      "IRI-based" : "performanceDefense"
+    },
+    "domain" : "5",
+    "comment" : {
+      "undefined" : "The defense performance based on defensive KPI"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "43"
+  }, {
+    "iri" : "http://www.semanticweb.org/kde/ontologies/sport-events#playedGames",
+    "baseIri" : "http://www.semanticweb.org/kde/ontologies/sport-events",
+    "range" : "46",
+    "label" : {
+      "IRI-based" : "playedGames"
     },
     "domain" : "5",
     "comment" : {
       "undefined" : "The number of matches played by a certain player in a season"
     },
     "attributes" : [ "datatype" ],
-    "id" : "71"
+    "id" : "45"
   }, {
-    "range" : "29",
-    "domain" : "28",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "72"
-  }, {
-    "iri" : "http://www.semanticweb.org/kde/ontologies/sport-events#Rank",
+    "iri" : "http://www.semanticweb.org/kde/ontologies/sport-events#hasTeam",
     "baseIri" : "http://www.semanticweb.org/kde/ontologies/sport-events",
-    "range" : "41",
+    "range" : "22",
     "label" : {
-      "IRI-based" : "Rank"
+      "IRI-based" : "hasTeam"
+    },
+    "superproperty" : [ "2" ],
+    "domain" : "22",
+    "subproperty" : [ "47", "48" ],
+    "attributes" : [ "object" ],
+    "id" : "28"
+  }, {
+    "iri" : "http://www.semanticweb.org/kde/ontologies/sport-events#yellowCards",
+    "baseIri" : "http://www.semanticweb.org/kde/ontologies/sport-events",
+    "range" : "23",
+    "label" : {
+      "IRI-based" : "yellowCards"
     },
     "domain" : "5",
     "comment" : {
-      "undefined" : "Ranking of ratings"
+      "undefined" : "The number of times a player has yellow cards in a season"
     },
     "attributes" : [ "datatype" ],
-    "id" : "73"
+    "id" : "54"
   }, {
-    "iri" : "http://www.semanticweb.org/kde/ontologies/sport-events#Goals",
+    "iri" : "http://www.semanticweb.org/kde/ontologies/sport-events#group",
     "baseIri" : "http://www.semanticweb.org/kde/ontologies/sport-events",
-    "range" : "56",
+    "range" : "53",
     "label" : {
-      "IRI-based" : "Goals"
+      "IRI-based" : "group"
+    },
+    "domain" : "12",
+    "comment" : {
+      "undefined" : "Competing countries were divided into eight groups of four teams (groups A to H)."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "55"
+  }, {
+    "range" : "27",
+    "domain" : "25",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "56"
+  }, {
+    "range" : "26",
+    "domain" : "20",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "57"
+  }, {
+    "iri" : "http://www.semanticweb.org/kde/ontologies/sport-events#round",
+    "baseIri" : "http://www.semanticweb.org/kde/ontologies/sport-events",
+    "range" : "36",
+    "label" : {
+      "IRI-based" : "round"
+    },
+    "domain" : "12",
+    "comment" : {
+      "undefined" : "Different stages of the World Cup"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "58"
+  }, {
+    "range" : "27",
+    "domain" : "20",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "59"
+  }, {
+    "range" : "27",
+    "domain" : "26",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "60"
+  }, {
+    "iri" : "http://www.semanticweb.org/kde/ontologies/sport-events#hasAwayTeam",
+    "baseIri" : "http://www.semanticweb.org/kde/ontologies/sport-events",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "hasAwayTeam"
+    },
+    "superproperty" : [ "28" ],
+    "domain" : "12",
+    "comment" : {
+      "undefined" : "Every World Cup match has an away team"
+    },
+    "attributes" : [ "object" ],
+    "id" : "48"
+  }, {
+    "iri" : "http://www.semanticweb.org/kde/ontologies/sport-events#assists",
+    "baseIri" : "http://www.semanticweb.org/kde/ontologies/sport-events",
+    "range" : "62",
+    "label" : {
+      "IRI-based" : "assists"
     },
     "domain" : "5",
-    "attributes" : [ "datatype" ],
-    "id" : "74"
-  }, {
-    "iri" : "http://www.semanticweb.org/kde/ontologies/sport-events#hasRole",
-    "baseIri" : "http://www.semanticweb.org/kde/ontologies/sport-events",
-    "range" : "16",
-    "label" : {
-      "IRI-based" : "hasRole"
+    "comment" : {
+      "undefined" : "the total number of assists"
     },
-    "superproperty" : [ "2" ],
-    "domain" : "66",
-    "attributes" : [ "object" ],
-    "id" : "26"
+    "attributes" : [ "datatype" ],
+    "id" : "66"
   }, {
-    "iri" : "http://www.semanticweb.org/kde/ontologies/sport-events#PassSuccessPercentage",
+    "range" : "20",
+    "domain" : "25",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "67"
+  }, {
+    "iri" : "http://www.semanticweb.org/kde/ontologies/sport-events#performanceAttack",
     "baseIri" : "http://www.semanticweb.org/kde/ontologies/sport-events",
     "range" : "51",
     "label" : {
-      "IRI-based" : "PassSuccessPercentage"
+      "IRI-based" : "performanceAttack"
     },
     "domain" : "5",
-    "attributes" : [ "datatype" ],
-    "id" : "75"
-  }, {
-    "iri" : "http://www.semanticweb.org/kde/ontologies/sport-events#hasHomeTeam",
-    "baseIri" : "http://www.semanticweb.org/kde/ontologies/sport-events",
-    "range" : "63",
-    "label" : {
-      "IRI-based" : "hasHomeTeam"
-    },
-    "superproperty" : [ "2" ],
-    "domain" : "10",
     "comment" : {
-      "undefined" : "Every World Cup game has an home team"
+      "undefined" : "The attack performance based on offensive KPI"
     },
-    "attributes" : [ "object" ],
-    "id" : "20"
+    "attributes" : [ "datatype" ],
+    "id" : "68"
   }, {
-    "iri" : "http://www.semanticweb.org/kde/ontologies/sport-events#RedCards",
+    "range" : "26",
+    "domain" : "25",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "69"
+  }, {
+    "iri" : "http://www.semanticweb.org/kde/ontologies/sport-events#redCards",
     "baseIri" : "http://www.semanticweb.org/kde/ontologies/sport-events",
     "range" : "34",
     "label" : {
-      "IRI-based" : "RedCards"
+      "IRI-based" : "redCards"
     },
     "domain" : "5",
     "comment" : {
       "undefined" : "The number of times a player has red cards in a season"
     },
     "attributes" : [ "datatype" ],
+    "id" : "70"
+  }, {
+    "iri" : "http://www.semanticweb.org/kde/ontologies/sport-events#passSuccessPercentage",
+    "baseIri" : "http://www.semanticweb.org/kde/ontologies/sport-events",
+    "range" : "50",
+    "label" : {
+      "IRI-based" : "passSuccessPercentage"
+    },
+    "domain" : "5",
+    "attributes" : [ "datatype" ],
+    "id" : "71"
+  }, {
+    "iri" : "http://www.semanticweb.org/kde/ontologies/sport-events#homeTeamScore",
+    "baseIri" : "http://www.semanticweb.org/kde/ontologies/sport-events",
+    "range" : "52",
+    "label" : {
+      "IRI-based" : "homeTeamScore"
+    },
+    "domain" : "12",
+    "comment" : {
+      "undefined" : "Home team score in the result"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "72"
+  }, {
+    "iri" : "http://www.semanticweb.org/kde/ontologies/sport-events#rating",
+    "baseIri" : "http://www.semanticweb.org/kde/ontologies/sport-events",
+    "range" : "39",
+    "label" : {
+      "IRI-based" : "rating"
+    },
+    "domain" : "5",
+    "comment" : {
+      "undefined" : "The overall FIFA rating of player"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "73"
+  }, {
+    "iri" : "http://www.semanticweb.org/kde/ontologies/sport-events#hasRole",
+    "baseIri" : "http://www.semanticweb.org/kde/ontologies/sport-events",
+    "range" : "21",
+    "label" : {
+      "IRI-based" : "hasRole"
+    },
+    "superproperty" : [ "2" ],
+    "domain" : "65",
+    "attributes" : [ "object" ],
+    "id" : "33"
+  }, {
+    "iri" : "http://www.semanticweb.org/kde/ontologies/sport-events#hasHomeTeam",
+    "baseIri" : "http://www.semanticweb.org/kde/ontologies/sport-events",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "hasHomeTeam"
+    },
+    "superproperty" : [ "28" ],
+    "domain" : "12",
+    "comment" : {
+      "undefined" : "Every World Cup match has a home team"
+    },
+    "attributes" : [ "object" ],
+    "id" : "47"
+  }, {
+    "range" : "24",
+    "domain" : "12",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "74"
+  }, {
+    "iri" : "http://www.semanticweb.org/kde/ontologies/sport-events#points",
+    "baseIri" : "http://www.semanticweb.org/kde/ontologies/sport-events",
+    "range" : "37",
+    "label" : {
+      "IRI-based" : "points"
+    },
+    "domain" : "1",
+    "comment" : {
+      "undefined" : "A points system is used, with points being awarded based on the results of all FIFA-recognised full international matches."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "75"
+  }, {
+    "iri" : "http://www.semanticweb.org/kde/ontologies/sport-events#scheduledAt",
+    "baseIri" : "http://www.semanticweb.org/kde/ontologies/sport-events",
+    "range" : "35",
+    "label" : {
+      "IRI-based" : "scheduledAt"
+    },
+    "domain" : "12",
+    "comment" : {
+      "undefined" : "The start time of a match"
+    },
+    "attributes" : [ "datatype" ],
     "id" : "76"
+  }, {
+    "iri" : "http://www.semanticweb.org/kde/ontologies/sport-events#rank",
+    "baseIri" : "http://www.semanticweb.org/kde/ontologies/sport-events",
+    "range" : "40",
+    "label" : {
+      "IRI-based" : "rank"
+    },
+    "domain" : "5",
+    "comment" : {
+      "undefined" : "Ranking of ratings"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "77"
   }, {
     "iri" : "http://www.semanticweb.org/kde/ontologies/sport-events#hasNationality",
     "baseIri" : "http://www.semanticweb.org/kde/ontologies/sport-events",
@@ -997,123 +1014,118 @@
       "IRI-based" : "hasNationality"
     },
     "superproperty" : [ "2" ],
-    "domain" : "66",
+    "domain" : "65",
     "attributes" : [ "object" ],
-    "id" : "24"
+    "id" : "32"
   }, {
-    "iri" : "http://www.semanticweb.org/kde/ontologies/sport-events#AwayTeamScore",
+    "iri" : "http://www.semanticweb.org/kde/ontologies/sport-events#aerialAttacksWon",
     "baseIri" : "http://www.semanticweb.org/kde/ontologies/sport-events",
-    "range" : "65",
+    "range" : "61",
     "label" : {
-      "IRI-based" : "AwayTeamScore"
-    },
-    "domain" : "10",
-    "comment" : {
-      "undefined" : "Away team score in the result"
-    },
-    "attributes" : [ "datatype" ],
-    "id" : "77"
-  }, {
-    "iri" : "http://www.semanticweb.org/kde/ontologies/sport-events#hasPlayer",
-    "inverse" : "25",
-    "baseIri" : "http://www.semanticweb.org/kde/ontologies/sport-events",
-    "range" : "66",
-    "label" : {
-      "IRI-based" : "hasPlayer"
-    },
-    "superproperty" : [ "2" ],
-    "domain" : "78",
-    "attributes" : [ "object" ],
-    "id" : "22"
-  }, {
-    "range" : "19",
-    "domain" : "10",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "79"
-  }, {
-    "iri" : "http://www.semanticweb.org/kde/ontologies/sport-events#AerialAttacksWon",
-    "baseIri" : "http://www.semanticweb.org/kde/ontologies/sport-events",
-    "range" : "62",
-    "label" : {
-      "IRI-based" : "AerialAttacksWon"
+      "IRI-based" : "aerialAttacksWon"
     },
     "domain" : "5",
     "comment" : {
       "undefined" : "Aerial duels won per game"
     },
     "attributes" : [ "datatype" ],
-    "id" : "80"
+    "id" : "78"
   }, {
-    "iri" : "http://www.w3.org/2002/07/owl#topDataProperty",
-    "baseIri" : "http://www.w3.org/2002/07/owl",
-    "range" : "17",
-    "label" : {
-      "IRI-based" : "topDataProperty"
-    },
-    "domain" : "5",
-    "attributes" : [ "datatype", "external" ],
-    "id" : "81"
-  }, {
-    "range" : "16",
-    "domain" : "29",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "82"
-  }, {
-    "range" : "16",
-    "domain" : "15",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "83"
-  }, {
-    "iri" : "http://www.semanticweb.org/kde/ontologies/sport-events#playsInTeam",
+    "iri" : "http://www.semanticweb.org/kde/ontologies/sport-events#awayTeamScore",
     "baseIri" : "http://www.semanticweb.org/kde/ontologies/sport-events",
-    "range" : "1",
+    "range" : "64",
     "label" : {
-      "IRI-based" : "playsInTeam"
+      "IRI-based" : "awayTeamScore"
+    },
+    "domain" : "12",
+    "comment" : {
+      "undefined" : "Away team score in the result"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "79"
+  }, {
+    "iri" : "http://www.semanticweb.org/kde/ontologies/sport-events#playsIn",
+    "baseIri" : "http://www.semanticweb.org/kde/ontologies/sport-events",
+    "range" : "80",
+    "label" : {
+      "IRI-based" : "playsIn"
     },
     "superproperty" : [ "2" ],
     "domain" : "5",
     "attributes" : [ "object" ],
-    "id" : "25"
+    "id" : "30"
   }, {
-    "range" : "66",
+    "iri" : "http://www.semanticweb.org/kde/ontologies/sport-events#hasPlayer",
+    "inverse" : "30",
+    "baseIri" : "http://www.semanticweb.org/kde/ontologies/sport-events",
+    "range" : "65",
+    "label" : {
+      "IRI-based" : "hasPlayer"
+    },
+    "superproperty" : [ "2" ],
+    "domain" : "81",
+    "attributes" : [ "object" ],
+    "id" : "31"
+  }, {
+    "range" : "65",
     "domain" : "5",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "82"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#topDataProperty",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "3",
+    "label" : {
+      "IRI-based" : "topDataProperty"
+    },
+    "domain" : "22",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "83"
+  }, {
+    "range" : "21",
+    "domain" : "20",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "84"
   }, {
-    "range" : "16",
-    "domain" : "30",
-    "attributes" : [ "object", "anonymous" ],
+    "range" : "21",
+    "domain" : "25",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "85"
   }, {
-    "iri" : "http://www.semanticweb.org/kde/ontologies/sport-events#Points",
-    "baseIri" : "http://www.semanticweb.org/kde/ontologies/sport-events",
-    "range" : "37",
-    "label" : {
-      "IRI-based" : "Points"
-    },
-    "domain" : "1",
-    "comment" : {
-      "undefined" : "A points system is used, with points being awarded based on the results of all FIFA-recognised full international matches."
-    },
-    "attributes" : [ "datatype" ],
+    "range" : "21",
+    "domain" : "27",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "86"
   }, {
-    "iri" : "http://www.semanticweb.org/kde/ontologies/sport-events#PlayedMinutes",
+    "range" : "21",
+    "domain" : "26",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "87"
+  }, {
+    "iri" : "http://www.semanticweb.org/kde/ontologies/sport-events#performanceTotal",
     "baseIri" : "http://www.semanticweb.org/kde/ontologies/sport-events",
-    "range" : "40",
+    "range" : "49",
     "label" : {
-      "IRI-based" : "PlayedMinutes"
+      "IRI-based" : "performanceTotal"
+    },
+    "domain" : "5",
+    "comment" : {
+      "undefined" : "The overall performance"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "88"
+  }, {
+    "iri" : "http://www.semanticweb.org/kde/ontologies/sport-events#playedMinutes",
+    "baseIri" : "http://www.semanticweb.org/kde/ontologies/sport-events",
+    "range" : "38",
+    "label" : {
+      "IRI-based" : "playedMinutes"
     },
     "domain" : "5",
     "comment" : {
       "undefined" : "Average minutes of participation in each match"
     },
     "attributes" : [ "datatype" ],
-    "id" : "87"
-  }, {
-    "range" : "16",
-    "domain" : "28",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "88"
+    "id" : "89"
   } ]
 }

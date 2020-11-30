@@ -1,0 +1,2038 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+ <link rel="stylesheet" href="resources/primer.css" media="screen" />    <link rel="stylesheet" href="resources/rec.css" media="screen" />    <link rel="stylesheet" href="resources/extra.css" media="screen" />    <link rel="stylesheet" href="resources/owl.css" media="screen" />    <title>Football event</title>
+
+
+<!-- SCHEMA.ORG METADATA -->
+<script type="application/ld+json">{"@context":"http://schema.org","@type":"TechArticle","url":"http://www.semanticweb.org/kde/ontologies/sport-events","image":"http://vowl.visualdataweb.org/webvowl/#iri=http://www.semanticweb.org/kde/ontologies/sport-events","name":"Football event", "headline":"This ontology describes matches and teams as part of football events (i.e. soccer). It has been created based on Football World Cup 2018 and is meant to be used in other similar events and is flexible to be suitable for other sport events (e.g. handball, basketball, etc.) with minor modifications only.", "datePublished":"30/11/2020", "version":"1.0.0", "license":"null", "author":[{"@type":"Person","name":"Aishwarya Agarwal"},{"@type":"Person","name":"Boris Flesch"},{"@type":"Person","name":"Sherwin Mascarenhas"},{"@type":"Person","name":"Niejun Yin"},{"@type":"Person","name":"Rui Xu"}]}</script>
+
+<script src="resources/jquery.js"></script> 
+<script src="resources/marked.min.js"></script> 
+    <script> 
+function loadHash() {
+  jQuery(".markdown").each(function(el){jQuery(this).after(marked(jQuery(this).text())).remove()});
+	var hash = location.hash;
+	if($(hash).offset()!=null){
+	  $('html, body').animate({scrollTop: $(hash).offset().top}, 0);
+}
+	loadTOC();
+}
+function loadTOC(){
+	//process toc dynamically
+	  var t='<h2>Table of contents</h2><ul>';i = 1;j=0;
+	  jQuery(".list").each(function(){
+		if(jQuery(this).is('h2')){
+			if(j>0){
+				t+='</ul>';
+				j=0;
+			}
+			t+= '<li>'+i+'. <a href=#'+ jQuery(this).attr('id')+'>'+ jQuery(this).ignore("span").text()+'</a></li>';
+			i++;
+		}
+		if(jQuery(this).is('h3')){
+			if(j==0){
+				t+='<ul>';
+			}
+			j++;
+			t+= '<li>'+(i-1)+'.'+j+'. '+'<a href=#'+ jQuery(this).attr('id')+'>'+ jQuery(this).ignore("span").text()+'</a></li>';
+		}
+	  });
+	  t+='</ul>';
+	  $("#toc").html(t); 
+}
+ $.fn.ignore = function(sel){
+        return this.clone().find(sel||">*").remove().end();
+ }; 
+   </script> 
+  </head> 
+
+<body>
+<div class="container">
+<div class="head">
+<div style="float:right">language <a href="index-en.html"><b>en</b></a> </div>
+<h1>Football event</h1>
+<h2>Release  30/11/2020</h2>
+
+
+<dl>
+<dt>This version:</dt>
+<dd><a href="http://www.semanticweb.org/kde/ontologies/sport-events">http://www.semanticweb.org/kde/ontologies/sport-events</a></dd>
+<dt>Latest version:</dt>
+<dd><a href="http://www.semanticweb.org/kde/ontologies/sport-events">http://www.semanticweb.org/kde/ontologies/sport-events</a></dd>
+<dt>Revision:</dt>
+<dd>1.0.0</dd>
+<dt>Authors:</dt>
+<dd>Aishwarya Agarwal</dd><dd>Boris Flesch</dd><dd>Sherwin Mascarenhas</dd><dd>Niejun Yin</dd><dd>Rui Xu</dd>
+
+<dt>Publisher:</dt>
+<dd><a href="null">Group G,Trinity College Dublin</a>, (<a href="null">null</a>)</dd>
+<dt>Download serialization:</dt><dd><span><a href="ontology.json" target="_blank"><img src="https://img.shields.io/badge/Format-JSON_LD-blue.svg" alt="JSON-LD" /></a> </span><span><a href="ontology.xml" target="_blank"><img src="https://img.shields.io/badge/Format-RDF/XML-blue.svg" alt="RDF/XML" /></a> </span><span><a href="ontology.nt" target="_blank"><img src="https://img.shields.io/badge/Format-N_Triples-blue.svg" alt="N-Triples" /></a> </span><span><a href="ontology.ttl" target="_blank"><img src="https://img.shields.io/badge/Format-TTL-blue.svg" alt="TTL" /></a> </span></dd><dt>License: </dt><dd><a href="null" target="_blank"><img src="https://img.shields.io/badge/License-null-blue.svg" alt="null" /></a>
+<a href="null" rel="license" target="_blank">
+<img src="null" style="border-width:0" alt="License" />
+</a>
+<br/></dd><dt>Visualization:</dt><dd><a href="webvowl/index.html#" target="_blank"><img src="https://img.shields.io/badge/Visualize_with-WebVowl-blue.svg" alt="Visualize with WebVowl" /></a></dd>
+<!-- <dt>Evaluation:</dt><dd><a href="OOPSEvaluation/OOPSeval.html#" target="_blank"><img src="https://img.shields.io/badge/Evaluate_with-OOPS! (OntOlogy Pitfall Scanner!)-blue.svg" alt="Evaluate with OOPS!" /></a></dd> --></dl>
+
+<a href="provenance/provenance-en.html" target="_blank">Provenance of this page</a><hr/>
+</div>
+<div class="status">
+<div>
+<span>Ontology Specification Draft</span>
+</div>
+</div>     <div id="abstract"><h2>Abstract</h2><span class="markdown">
+This ontology describes matches and teams as part of football events (i.e. soccer). It has been created based on Football World Cup 2018 and is meant to be used in other similar events and is flexible to be suitable for other sport events (e.g. handball, basketball, etc.) with minor modifications only.</span>
+</div>
+<div id="toc"></div> 
+
+<!--INTRODUCTION SECTION-->
+    <div id="introduction"><h2 id="intro" class="list">Introduction <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<span class="markdown">
+This is a place holder text for the introduction. The introduction should briefly describe the ontology, its motivation, state of the art and goals.</span>
+<div id="namespacedeclarations">
+<h3 id="ns" class="list">Namespace declarations</h3>
+<div id="ns" align="center">
+<table>
+<caption> <a href="#ns"> Table 1</a>: Namespaces used in the document </caption>
+<tbody>
+<tr><td><b>se</b></td><td>&lt;http://www.semanticweb.org/kde/ontologies/sport-events&gt;</td></tr>
+<tr><td><b>owl</b></td><td>&lt;http://www.w3.org/2002/07/owl&gt;</td></tr>
+<tr><td><b>rdf</b></td><td>&lt;http://www.w3.org/1999/02/22-rdf-syntax-ns&gt;</td></tr>
+<tr><td><b>xsd</b></td><td>&lt;http://www.w3.org/2001/XMLSchema&gt;</td></tr>
+<tr><td><b>rdfs</b></td><td>&lt;http://www.w3.org/2000/01/rdf-schema&gt;</td></tr>
+<tr><td><b>ontologies</b></td><td>&lt;http://www.semanticweb.org/kde/ontologies&gt;</td></tr>
+<tr><td><b>ontology</b></td><td>&lt;http://dbpedia.org/ontology&gt;</td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+  
+
+<!--OVERVIEW SECTION-->
+    <div id="overview"><h2 id="overv" class="list">Football event: Overview <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<span class="markdown">
+This ontology has the following classes and properties.</span>
+<h4>Classes</h4>
+<ul class="hlist">
+   <li>
+      <a href="#http://dbpedia.org/ontology/City" title="http://dbpedia.org/ontology/City">
+         <span>city</span>
+      </a>
+   </li>
+   <li>
+      <a href="#Country"
+         title="http://www.semanticweb.org/kde/ontologies/sport-events#Country">
+         <span>country</span>
+      </a>
+   </li>
+   <li>
+      <a href="#Defender"
+         title="http://www.semanticweb.org/kde/ontologies/sport-events#Defender">
+         <span>defender</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://dbpedia.org/ontology/FootballMatch" title="http://dbpedia.org/ontology/FootballMatch">
+         <span>football match</span>
+      </a>
+   </li>
+   <li>
+      <a href="#Forward"
+         title="http://www.semanticweb.org/kde/ontologies/sport-events#Forward">
+         <span>forward</span>
+      </a>
+   </li>
+   <li>
+      <a href="#Goalkeeper"
+         title="http://www.semanticweb.org/kde/ontologies/sport-events#Goalkeeper">
+         <span>goalkeeper</span>
+      </a>
+   </li>
+   <li>
+      <a href="#Midfielder"
+         title="http://www.semanticweb.org/kde/ontologies/sport-events#Midfielder">
+         <span>midfielder</span>
+      </a>
+   </li>
+   <li>
+      <a href="#Role"
+         title="http://www.semanticweb.org/kde/ontologies/sport-events#Role">
+         <span>role</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://dbpedia.org/ontology/SoccerClub" title="http://dbpedia.org/ontology/SoccerClub">
+         <span>soccer club</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://dbpedia.org/ontology/SoccerPlayer" title="http://dbpedia.org/ontology/SoccerPlayer">
+         <span>soccer player</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://dbpedia.org/ontology/Stadium" title="http://dbpedia.org/ontology/Stadium">
+         <span>stadium</span>
+      </a>
+   </li>
+   <li>
+      <a href="#Team"
+         title="http://www.semanticweb.org/kde/ontologies/sport-events#Team">
+         <span>team</span>
+      </a>
+   </li>
+</ul><h4>Object Properties</h4><ul class="hlist">
+   <li>
+      <a href="#hasAwayTeam"
+         title="http://www.semanticweb.org/kde/ontologies/sport-events#hasAwayTeam">
+         <span>has away team</span>
+      </a>
+   </li>
+   <li>
+      <a href="#hasHomeTeam"
+         title="http://www.semanticweb.org/kde/ontologies/sport-events#hasHomeTeam">
+         <span>has home team</span>
+      </a>
+   </li>
+   <li>
+      <a href="#hasNationality"
+         title="http://www.semanticweb.org/kde/ontologies/sport-events#hasNationality">
+         <span>has nationality</span>
+      </a>
+   </li>
+   <li>
+      <a href="#hasPlayer"
+         title="http://www.semanticweb.org/kde/ontologies/sport-events#hasPlayer">
+         <span>has player</span>
+      </a>
+   </li>
+   <li>
+      <a href="#hasRole"
+         title="http://www.semanticweb.org/kde/ontologies/sport-events#hasRole">
+         <span>has role</span>
+      </a>
+   </li>
+   <li>
+      <a href="#hasTeam"
+         title="http://www.semanticweb.org/kde/ontologies/sport-events#hasTeam">
+         <span>has team</span>
+      </a>
+   </li>
+   <li>
+      <a href="#isIn"
+         title="http://www.semanticweb.org/kde/ontologies/sport-events#isIn">
+         <span>is in</span>
+      </a>
+   </li>
+   <li>
+      <a href="#isOpponentOf"
+         title="http://www.semanticweb.org/kde/ontologies/sport-events#isOpponentOf">
+         <span>is opponent of</span>
+      </a>
+   </li>
+   <li>
+      <a href="#playsIn"
+         title="http://www.semanticweb.org/kde/ontologies/sport-events#playsIn">
+         <span>plays in</span>
+      </a>
+   </li>
+   <li>
+      <a href="#tookPlaceIn"
+         title="http://www.semanticweb.org/kde/ontologies/sport-events#tookPlaceIn">
+         <span>took place in</span>
+      </a>
+   </li>
+</ul><h4>Data Properties</h4><ul class="hlist">
+   <li>
+      <a href="#aerialAttacksWon"
+         title="http://www.semanticweb.org/kde/ontologies/sport-events#aerialAttacksWon">
+         <span>aerial attacks won</span>
+      </a>
+   </li>
+   <li>
+      <a href="#assists"
+         title="http://www.semanticweb.org/kde/ontologies/sport-events#assists">
+         <span>assists</span>
+      </a>
+   </li>
+   <li>
+      <a href="#averageShotsPerGame"
+         title="http://www.semanticweb.org/kde/ontologies/sport-events#averageShotsPerGame">
+         <span>average shots per game</span>
+      </a>
+   </li>
+   <li>
+      <a href="#awayTeamScore"
+         title="http://www.semanticweb.org/kde/ontologies/sport-events#awayTeamScore">
+         <span>away team score</span>
+      </a>
+   </li>
+   <li>
+      <a href="#goals"
+         title="http://www.semanticweb.org/kde/ontologies/sport-events#goals">
+         <span>goals</span>
+      </a>
+   </li>
+   <li>
+      <a href="#group"
+         title="http://www.semanticweb.org/kde/ontologies/sport-events#group">
+         <span>group</span>
+      </a>
+   </li>
+   <li>
+      <a href="#homeTeamScore"
+         title="http://www.semanticweb.org/kde/ontologies/sport-events#homeTeamScore">
+         <span>home team score</span>
+      </a>
+   </li>
+   <li>
+      <a href="#manOfTheMatch"
+         title="http://www.semanticweb.org/kde/ontologies/sport-events#manOfTheMatch">
+         <span>man of the match</span>
+      </a>
+   </li>
+   <li>
+      <a href="#passSuccessPercentage"
+         title="http://www.semanticweb.org/kde/ontologies/sport-events#passSuccessPercentage">
+         <span>pass success percentage</span>
+      </a>
+   </li>
+   <li>
+      <a href="#performanceAttack"
+         title="http://www.semanticweb.org/kde/ontologies/sport-events#performanceAttack">
+         <span>performance attack</span>
+      </a>
+   </li>
+   <li>
+      <a href="#performanceDefense"
+         title="http://www.semanticweb.org/kde/ontologies/sport-events#performanceDefense">
+         <span>performance defense</span>
+      </a>
+   </li>
+   <li>
+      <a href="#performancePossession"
+         title="http://www.semanticweb.org/kde/ontologies/sport-events#performancePossession">
+         <span>performance possession</span>
+      </a>
+   </li>
+   <li>
+      <a href="#performanceTotal"
+         title="http://www.semanticweb.org/kde/ontologies/sport-events#performanceTotal">
+         <span>performance total</span>
+      </a>
+   </li>
+   <li>
+      <a href="#playedGames"
+         title="http://www.semanticweb.org/kde/ontologies/sport-events#playedGames">
+         <span>played games</span>
+      </a>
+   </li>
+   <li>
+      <a href="#playedMinutes"
+         title="http://www.semanticweb.org/kde/ontologies/sport-events#playedMinutes">
+         <span>played minutes</span>
+      </a>
+   </li>
+   <li>
+      <a href="#points"
+         title="http://www.semanticweb.org/kde/ontologies/sport-events#points">
+         <span>points</span>
+      </a>
+   </li>
+   <li>
+      <a href="#rank"
+         title="http://www.semanticweb.org/kde/ontologies/sport-events#rank">
+         <span>rank</span>
+      </a>
+   </li>
+   <li>
+      <a href="#rating"
+         title="http://www.semanticweb.org/kde/ontologies/sport-events#rating">
+         <span>rating</span>
+      </a>
+   </li>
+   <li>
+      <a href="#redCards"
+         title="http://www.semanticweb.org/kde/ontologies/sport-events#redCards">
+         <span>red cards</span>
+      </a>
+   </li>
+   <li>
+      <a href="#result"
+         title="http://www.semanticweb.org/kde/ontologies/sport-events#result">
+         <span>result</span>
+      </a>
+   </li>
+   <li>
+      <a href="#round"
+         title="http://www.semanticweb.org/kde/ontologies/sport-events#round">
+         <span>round</span>
+      </a>
+   </li>
+   <li>
+      <a href="#scheduledAt"
+         title="http://www.semanticweb.org/kde/ontologies/sport-events#scheduledAt">
+         <span>scheduled at</span>
+      </a>
+   </li>
+   <li>
+      <a href="#yellowCards"
+         title="http://www.semanticweb.org/kde/ontologies/sport-events#yellowCards">
+         <span>yellow cards</span>
+      </a>
+   </li>
+</div>
+  
+
+<!--DESCRIPTION SECTION-->
+    <div id="description"><h2 id="desc" class="list">Football event: Description <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+</ul><iframe align="center" width="100%" height ="500px" src="webvowl/index.html"></iframe> 
+</div>
+   
+
+<!--CROSSREF SECTION-->
+   <div id="crossref"><h2 id="crossreference" class="list">Cross reference for Football event classes, properties and dataproperties <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+This section provides details for each class and property defined by Football event.
+<div id="classes">
+   <h3 id="classes-headline" class="list">Classes</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#http://dbpedia.org/ontology/City" title="http://dbpedia.org/ontology/City">
+            <span>city</span>
+         </a>
+      </li>
+      <li>
+         <a href="#Country"
+            title="http://www.semanticweb.org/kde/ontologies/sport-events#Country">
+            <span>country</span>
+         </a>
+      </li>
+      <li>
+         <a href="#Defender"
+            title="http://www.semanticweb.org/kde/ontologies/sport-events#Defender">
+            <span>defender</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://dbpedia.org/ontology/FootballMatch" title="http://dbpedia.org/ontology/FootballMatch">
+            <span>football match</span>
+         </a>
+      </li>
+      <li>
+         <a href="#Forward"
+            title="http://www.semanticweb.org/kde/ontologies/sport-events#Forward">
+            <span>forward</span>
+         </a>
+      </li>
+      <li>
+         <a href="#Goalkeeper"
+            title="http://www.semanticweb.org/kde/ontologies/sport-events#Goalkeeper">
+            <span>goalkeeper</span>
+         </a>
+      </li>
+      <li>
+         <a href="#Midfielder"
+            title="http://www.semanticweb.org/kde/ontologies/sport-events#Midfielder">
+            <span>midfielder</span>
+         </a>
+      </li>
+      <li>
+         <a href="#Role"
+            title="http://www.semanticweb.org/kde/ontologies/sport-events#Role">
+            <span>role</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://dbpedia.org/ontology/SoccerClub" title="http://dbpedia.org/ontology/SoccerClub">
+            <span>soccer club</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://dbpedia.org/ontology/SoccerPlayer" title="http://dbpedia.org/ontology/SoccerPlayer">
+            <span>soccer player</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://dbpedia.org/ontology/Stadium" title="http://dbpedia.org/ontology/Stadium">
+            <span>stadium</span>
+         </a>
+      </li>
+      <li>
+         <a href="#Team"
+            title="http://www.semanticweb.org/kde/ontologies/sport-events#Team">
+            <span>team</span>
+         </a>
+      </li>
+   </ul>
+   <div class="entity" id="http://dbpedia.org/ontology/City">
+      <h3>city<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://dbpedia.org/ontology/City</p>
+      <div class="comment">
+         <span class="markdown">The city where the stadium is located in the World Cup</span>
+      </div>
+      <dl class="description">
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#isIn"
+               title="http://www.semanticweb.org/kde/ontologies/sport-events#isIn">is in</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#isIn"
+               title="http://www.semanticweb.org/kde/ontologies/sport-events#isIn">is in</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="Country">
+      <h3>country<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/kde/ontologies/sport-events#Country</p>
+      <div class="comment">
+         <span class="markdown">Country to which the national team belongs</span>
+      </div>
+      <dl class="description">
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#hasNationality"
+               title="http://www.semanticweb.org/kde/ontologies/sport-events#hasNationality">has nationality</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#isIn"
+               title="http://www.semanticweb.org/kde/ontologies/sport-events#isIn">is in</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="Defender">
+      <h3>defender<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/kde/ontologies/sport-events#Defender</p>
+      <div class="comment">
+         <span class="markdown">Defenders are positioned in front of the goalkeeper and have the principal role of keeping the opposition away from their goal</span>
+      </div>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#Role"
+               title="http://www.semanticweb.org/kde/ontologies/sport-events#Role">role</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is disjoint with</dt>
+         <dd>
+            <a href="#Forward"
+               title="http://www.semanticweb.org/kde/ontologies/sport-events#Forward">forward</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Goalkeeper"
+               title="http://www.semanticweb.org/kde/ontologies/sport-events#Goalkeeper">goalkeeper</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Midfielder"
+               title="http://www.semanticweb.org/kde/ontologies/sport-events#Midfielder">midfielder</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="http://dbpedia.org/ontology/FootballMatch">
+      <h3>football match<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://dbpedia.org/ontology/FootballMatch</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <span class="dotted" title="http://dbpedia.org/ontology/SportsEvent">sports event</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#awayTeamScore"
+               title="http://www.semanticweb.org/kde/ontologies/sport-events#awayTeamScore">away team score</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#group"
+               title="http://www.semanticweb.org/kde/ontologies/sport-events#group">group</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#hasAwayTeam"
+               title="http://www.semanticweb.org/kde/ontologies/sport-events#hasAwayTeam">has away team</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#hasHomeTeam"
+               title="http://www.semanticweb.org/kde/ontologies/sport-events#hasHomeTeam">has home team</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#homeTeamScore"
+               title="http://www.semanticweb.org/kde/ontologies/sport-events#homeTeamScore">home team score</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#result"
+               title="http://www.semanticweb.org/kde/ontologies/sport-events#result">result</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#round"
+               title="http://www.semanticweb.org/kde/ontologies/sport-events#round">round</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#scheduledAt"
+               title="http://www.semanticweb.org/kde/ontologies/sport-events#scheduledAt">scheduled at</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#tookPlaceIn"
+               title="http://www.semanticweb.org/kde/ontologies/sport-events#tookPlaceIn">took place in</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="Forward">
+      <h3>forward<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/kde/ontologies/sport-events#Forward</p>
+      <div class="comment">
+         <span class="markdown">Forwards are the players closest to the opposition goal, with the principal role of scoring goals.</span>
+      </div>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#Role"
+               title="http://www.semanticweb.org/kde/ontologies/sport-events#Role">role</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is disjoint with</dt>
+         <dd>
+            <a href="#Defender"
+               title="http://www.semanticweb.org/kde/ontologies/sport-events#Defender">defender</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Goalkeeper"
+               title="http://www.semanticweb.org/kde/ontologies/sport-events#Goalkeeper">goalkeeper</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Midfielder"
+               title="http://www.semanticweb.org/kde/ontologies/sport-events#Midfielder">midfielder</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="Goalkeeper">
+      <h3>goalkeeper<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/kde/ontologies/sport-events#Goalkeeper</p>
+      <div class="comment">
+         <span class="markdown">A specialist playing position with the job of defending a team's goal and preventing the opposition from scoring. They are the only player on the pitch that can handle the ball in open play, although they can only do so in their penalty area.</span>
+      </div>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#Role"
+               title="http://www.semanticweb.org/kde/ontologies/sport-events#Role">role</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is disjoint with</dt>
+         <dd>
+            <a href="#Defender"
+               title="http://www.semanticweb.org/kde/ontologies/sport-events#Defender">defender</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Forward"
+               title="http://www.semanticweb.org/kde/ontologies/sport-events#Forward">forward</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Midfielder"
+               title="http://www.semanticweb.org/kde/ontologies/sport-events#Midfielder">midfielder</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="Midfielder">
+      <h3>midfielder<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/kde/ontologies/sport-events#Midfielder</p>
+      <div class="comment">
+         <span class="markdown">Midfielders are generally positioned on the field between their team's defenders and forwards.</span>
+      </div>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#Role"
+               title="http://www.semanticweb.org/kde/ontologies/sport-events#Role">role</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is disjoint with</dt>
+         <dd>
+            <a href="#Defender"
+               title="http://www.semanticweb.org/kde/ontologies/sport-events#Defender">defender</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Forward"
+               title="http://www.semanticweb.org/kde/ontologies/sport-events#Forward">forward</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Goalkeeper"
+               title="http://www.semanticweb.org/kde/ontologies/sport-events#Goalkeeper">goalkeeper</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="Role">
+      <h3>role<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/kde/ontologies/sport-events#Role</p>
+      <div class="comment">
+         <span class="markdown">Positions and responsibilities of the players on a football field</span>
+      </div>
+      <dl class="description">
+         <dt>has sub-classes</dt>
+         <dd>
+            <a href="#Defender"
+               title="http://www.semanticweb.org/kde/ontologies/sport-events#Defender">defender</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Forward"
+               title="http://www.semanticweb.org/kde/ontologies/sport-events#Forward">forward</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Goalkeeper"
+               title="http://www.semanticweb.org/kde/ontologies/sport-events#Goalkeeper">goalkeeper</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Midfielder"
+               title="http://www.semanticweb.org/kde/ontologies/sport-events#Midfielder">midfielder</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#hasRole"
+               title="http://www.semanticweb.org/kde/ontologies/sport-events#hasRole">has role</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="http://dbpedia.org/ontology/SoccerClub">
+      <h3>soccer club<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://dbpedia.org/ontology/SoccerClub</p>
+      <div class="comment">
+         <span class="markdown">The football club</span>
+      </div>
+      <dl class="description">
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#hasPlayer"
+               title="http://www.semanticweb.org/kde/ontologies/sport-events#hasPlayer">has player</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#playsIn"
+               title="http://www.semanticweb.org/kde/ontologies/sport-events#playsIn">plays in</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="http://dbpedia.org/ontology/SoccerPlayer">
+      <h3>soccer player<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://dbpedia.org/ontology/SoccerPlayer</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <span class="dotted" title="http://dbpedia.org/ontology/Athlete">athlete</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#aerialAttacksWon"
+               title="http://www.semanticweb.org/kde/ontologies/sport-events#aerialAttacksWon">aerial attacks won</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#assists"
+               title="http://www.semanticweb.org/kde/ontologies/sport-events#assists">assists</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#averageShotsPerGame"
+               title="http://www.semanticweb.org/kde/ontologies/sport-events#averageShotsPerGame">average shots per game</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#goals"
+               title="http://www.semanticweb.org/kde/ontologies/sport-events#goals">goals</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#manOfTheMatch"
+               title="http://www.semanticweb.org/kde/ontologies/sport-events#manOfTheMatch">man of the match</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#passSuccessPercentage"
+               title="http://www.semanticweb.org/kde/ontologies/sport-events#passSuccessPercentage">pass success percentage</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#performanceAttack"
+               title="http://www.semanticweb.org/kde/ontologies/sport-events#performanceAttack">performance attack</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#performanceDefense"
+               title="http://www.semanticweb.org/kde/ontologies/sport-events#performanceDefense">performance defense</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#performancePossession"
+               title="http://www.semanticweb.org/kde/ontologies/sport-events#performancePossession">performance possession</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#performanceTotal"
+               title="http://www.semanticweb.org/kde/ontologies/sport-events#performanceTotal">performance total</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#playedGames"
+               title="http://www.semanticweb.org/kde/ontologies/sport-events#playedGames">played games</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#playedMinutes"
+               title="http://www.semanticweb.org/kde/ontologies/sport-events#playedMinutes">played minutes</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#playsIn"
+               title="http://www.semanticweb.org/kde/ontologies/sport-events#playsIn">plays in</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#rank"
+               title="http://www.semanticweb.org/kde/ontologies/sport-events#rank">rank</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#rating"
+               title="http://www.semanticweb.org/kde/ontologies/sport-events#rating">rating</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#redCards"
+               title="http://www.semanticweb.org/kde/ontologies/sport-events#redCards">red cards</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#yellowCards"
+               title="http://www.semanticweb.org/kde/ontologies/sport-events#yellowCards">yellow cards</a>
+            <sup class="type-dp" title="data property">dp</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="http://dbpedia.org/ontology/Stadium">
+      <h3>stadium<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://dbpedia.org/ontology/Stadium</p>
+      <div class="comment">
+         <span class="markdown">A place or venue for outdoor sports, concerts, or other events</span>
+      </div>
+      <dl class="description">
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#isIn"
+               title="http://www.semanticweb.org/kde/ontologies/sport-events#isIn">is in</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#tookPlaceIn"
+               title="http://www.semanticweb.org/kde/ontologies/sport-events#tookPlaceIn">took place in</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="Team">
+      <h3>team<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/kde/ontologies/sport-events#Team</p>
+      <div class="comment">
+         <span class="markdown">The national football team</span>
+      </div>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd/>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#hasPlayer"
+               title="http://www.semanticweb.org/kde/ontologies/sport-events#hasPlayer">has player</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#isOpponentOf"
+               title="http://www.semanticweb.org/kde/ontologies/sport-events#isOpponentOf">is opponent of</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#points"
+               title="http://www.semanticweb.org/kde/ontologies/sport-events#points">points</a>
+            <sup class="type-dp" title="data property">dp</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#hasAwayTeam"
+               title="http://www.semanticweb.org/kde/ontologies/sport-events#hasAwayTeam">has away team</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#hasHomeTeam"
+               title="http://www.semanticweb.org/kde/ontologies/sport-events#hasHomeTeam">has home team</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#isOpponentOf"
+               title="http://www.semanticweb.org/kde/ontologies/sport-events#isOpponentOf">is opponent of</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#playsIn"
+               title="http://www.semanticweb.org/kde/ontologies/sport-events#playsIn">plays in</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+</div><div id="objectproperties">
+   <h3 id="properties" class="list">Object Properties</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#hasAwayTeam"
+            title="http://www.semanticweb.org/kde/ontologies/sport-events#hasAwayTeam">
+            <span>has away team</span>
+         </a>
+      </li>
+      <li>
+         <a href="#hasHomeTeam"
+            title="http://www.semanticweb.org/kde/ontologies/sport-events#hasHomeTeam">
+            <span>has home team</span>
+         </a>
+      </li>
+      <li>
+         <a href="#hasNationality"
+            title="http://www.semanticweb.org/kde/ontologies/sport-events#hasNationality">
+            <span>has nationality</span>
+         </a>
+      </li>
+      <li>
+         <a href="#hasPlayer"
+            title="http://www.semanticweb.org/kde/ontologies/sport-events#hasPlayer">
+            <span>has player</span>
+         </a>
+      </li>
+      <li>
+         <a href="#hasRole"
+            title="http://www.semanticweb.org/kde/ontologies/sport-events#hasRole">
+            <span>has role</span>
+         </a>
+      </li>
+      <li>
+         <a href="#hasTeam"
+            title="http://www.semanticweb.org/kde/ontologies/sport-events#hasTeam">
+            <span>has team</span>
+         </a>
+      </li>
+      <li>
+         <a href="#isIn"
+            title="http://www.semanticweb.org/kde/ontologies/sport-events#isIn">
+            <span>is in</span>
+         </a>
+      </li>
+      <li>
+         <a href="#isOpponentOf"
+            title="http://www.semanticweb.org/kde/ontologies/sport-events#isOpponentOf">
+            <span>is opponent of</span>
+         </a>
+      </li>
+      <li>
+         <a href="#playsIn"
+            title="http://www.semanticweb.org/kde/ontologies/sport-events#playsIn">
+            <span>plays in</span>
+         </a>
+      </li>
+      <li>
+         <a href="#tookPlaceIn"
+            title="http://www.semanticweb.org/kde/ontologies/sport-events#tookPlaceIn">
+            <span>took place in</span>
+         </a>
+      </li>
+   </ul>
+   <div class="entity" id="hasAwayTeam">
+      <h3>has away team<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/kde/ontologies/sport-events#hasAwayTeam</p>
+      <div class="comment">
+         <span class="markdown">Every World Cup match has an away team</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <a href="#hasTeam"
+                  title="http://www.semanticweb.org/kde/ontologies/sport-events#hasTeam">has team</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://dbpedia.org/ontology/FootballMatch" title="http://dbpedia.org/ontology/FootballMatch">football match</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#Team"
+                  title="http://www.semanticweb.org/kde/ontologies/sport-events#Team">team</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="hasHomeTeam">
+      <h3>has home team<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/kde/ontologies/sport-events#hasHomeTeam</p>
+      <div class="comment">
+         <span class="markdown">Every World Cup match has a home team</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <a href="#hasTeam"
+                  title="http://www.semanticweb.org/kde/ontologies/sport-events#hasTeam">has team</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://dbpedia.org/ontology/FootballMatch" title="http://dbpedia.org/ontology/FootballMatch">football match</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#Team"
+                  title="http://www.semanticweb.org/kde/ontologies/sport-events#Team">team</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="hasNationality">
+      <h3>has nationality<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/kde/ontologies/sport-events#hasNationality</p>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2002/07/owl#topObjectProperty">top object property</span>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <span class="dotted" title="http://dbpedia.org/ontology/Athlete">athlete</span>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#Country"
+                  title="http://www.semanticweb.org/kde/ontologies/sport-events#Country">country</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="hasPlayer">
+      <h3>has player<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/kde/ontologies/sport-events#hasPlayer</p>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2002/07/owl#topObjectProperty">top object property</span>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://dbpedia.org/ontology/SoccerClub" title="http://dbpedia.org/ontology/SoccerClub">soccer club</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dd>
+               <a href="#Team"
+                  title="http://www.semanticweb.org/kde/ontologies/sport-events#Team">team</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://dbpedia.org/ontology/Athlete">athlete</span>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#playsIn"
+                  title="http://www.semanticweb.org/kde/ontologies/sport-events#playsIn">plays in</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="hasRole">
+      <h3>has role<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/kde/ontologies/sport-events#hasRole</p>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2002/07/owl#topObjectProperty">top object property</span>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <span class="dotted" title="http://dbpedia.org/ontology/Athlete">athlete</span>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#Role"
+                  title="http://www.semanticweb.org/kde/ontologies/sport-events#Role">role</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="hasTeam">
+      <h3>has team<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/kde/ontologies/sport-events#hasTeam</p>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2002/07/owl#topObjectProperty">top object property</span>
+            </dd>
+            <dt>has sub-properties</dt>
+            <dd>
+               <a href="#hasAwayTeam"
+                  title="http://www.semanticweb.org/kde/ontologies/sport-events#hasAwayTeam">has away team</a>
+               <sup class="type-op" title="object property">op</sup>, <a href="#hasHomeTeam"
+                  title="http://www.semanticweb.org/kde/ontologies/sport-events#hasHomeTeam">has home team</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="isIn">
+      <h3>is in<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/kde/ontologies/sport-events#isIn</p>
+      <div class="description">
+         <p>
+            <strong>has characteristics:</strong> transitive</p>
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2002/07/owl#topObjectProperty">top object property</span>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://dbpedia.org/ontology/City" title="http://dbpedia.org/ontology/City">city</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dd>
+               <a href="#http://dbpedia.org/ontology/Stadium" title="http://dbpedia.org/ontology/Stadium">stadium</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#http://dbpedia.org/ontology/City" title="http://dbpedia.org/ontology/City">city</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dd>
+               <a href="#Country"
+                  title="http://www.semanticweb.org/kde/ontologies/sport-events#Country">country</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="isOpponentOf">
+      <h3>is opponent of<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/kde/ontologies/sport-events#isOpponentOf</p>
+      <div class="description">
+         <p>
+            <strong>has characteristics:</strong> symmetric</p>
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2002/07/owl#topObjectProperty">top object property</span>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Team"
+                  title="http://www.semanticweb.org/kde/ontologies/sport-events#Team">team</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#Team"
+                  title="http://www.semanticweb.org/kde/ontologies/sport-events#Team">team</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="playsIn">
+      <h3>plays in<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/kde/ontologies/sport-events#playsIn</p>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2002/07/owl#topObjectProperty">top object property</span>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://dbpedia.org/ontology/SoccerPlayer" title="http://dbpedia.org/ontology/SoccerPlayer">soccer player</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#http://dbpedia.org/ontology/SoccerClub" title="http://dbpedia.org/ontology/SoccerClub">soccer club</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dd>
+               <a href="#Team"
+                  title="http://www.semanticweb.org/kde/ontologies/sport-events#Team">team</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#hasPlayer"
+                  title="http://www.semanticweb.org/kde/ontologies/sport-events#hasPlayer">has player</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="tookPlaceIn">
+      <h3>took place in<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/kde/ontologies/sport-events#tookPlaceIn</p>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2002/07/owl#topObjectProperty">top object property</span>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://dbpedia.org/ontology/FootballMatch" title="http://dbpedia.org/ontology/FootballMatch">football match</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#http://dbpedia.org/ontology/Stadium" title="http://dbpedia.org/ontology/Stadium">stadium</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+</div><div id="dataproperties">
+   <h3 id="dataproperties-headline" class="list">Data Properties</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#aerialAttacksWon"
+            title="http://www.semanticweb.org/kde/ontologies/sport-events#aerialAttacksWon">
+            <span>aerial attacks won</span>
+         </a>
+      </li>
+      <li>
+         <a href="#assists"
+            title="http://www.semanticweb.org/kde/ontologies/sport-events#assists">
+            <span>assists</span>
+         </a>
+      </li>
+      <li>
+         <a href="#averageShotsPerGame"
+            title="http://www.semanticweb.org/kde/ontologies/sport-events#averageShotsPerGame">
+            <span>average shots per game</span>
+         </a>
+      </li>
+      <li>
+         <a href="#awayTeamScore"
+            title="http://www.semanticweb.org/kde/ontologies/sport-events#awayTeamScore">
+            <span>away team score</span>
+         </a>
+      </li>
+      <li>
+         <a href="#goals"
+            title="http://www.semanticweb.org/kde/ontologies/sport-events#goals">
+            <span>goals</span>
+         </a>
+      </li>
+      <li>
+         <a href="#group"
+            title="http://www.semanticweb.org/kde/ontologies/sport-events#group">
+            <span>group</span>
+         </a>
+      </li>
+      <li>
+         <a href="#homeTeamScore"
+            title="http://www.semanticweb.org/kde/ontologies/sport-events#homeTeamScore">
+            <span>home team score</span>
+         </a>
+      </li>
+      <li>
+         <a href="#manOfTheMatch"
+            title="http://www.semanticweb.org/kde/ontologies/sport-events#manOfTheMatch">
+            <span>man of the match</span>
+         </a>
+      </li>
+      <li>
+         <a href="#passSuccessPercentage"
+            title="http://www.semanticweb.org/kde/ontologies/sport-events#passSuccessPercentage">
+            <span>pass success percentage</span>
+         </a>
+      </li>
+      <li>
+         <a href="#performanceAttack"
+            title="http://www.semanticweb.org/kde/ontologies/sport-events#performanceAttack">
+            <span>performance attack</span>
+         </a>
+      </li>
+      <li>
+         <a href="#performanceDefense"
+            title="http://www.semanticweb.org/kde/ontologies/sport-events#performanceDefense">
+            <span>performance defense</span>
+         </a>
+      </li>
+      <li>
+         <a href="#performancePossession"
+            title="http://www.semanticweb.org/kde/ontologies/sport-events#performancePossession">
+            <span>performance possession</span>
+         </a>
+      </li>
+      <li>
+         <a href="#performanceTotal"
+            title="http://www.semanticweb.org/kde/ontologies/sport-events#performanceTotal">
+            <span>performance total</span>
+         </a>
+      </li>
+      <li>
+         <a href="#playedGames"
+            title="http://www.semanticweb.org/kde/ontologies/sport-events#playedGames">
+            <span>played games</span>
+         </a>
+      </li>
+      <li>
+         <a href="#playedMinutes"
+            title="http://www.semanticweb.org/kde/ontologies/sport-events#playedMinutes">
+            <span>played minutes</span>
+         </a>
+      </li>
+      <li>
+         <a href="#points"
+            title="http://www.semanticweb.org/kde/ontologies/sport-events#points">
+            <span>points</span>
+         </a>
+      </li>
+      <li>
+         <a href="#rank"
+            title="http://www.semanticweb.org/kde/ontologies/sport-events#rank">
+            <span>rank</span>
+         </a>
+      </li>
+      <li>
+         <a href="#rating"
+            title="http://www.semanticweb.org/kde/ontologies/sport-events#rating">
+            <span>rating</span>
+         </a>
+      </li>
+      <li>
+         <a href="#redCards"
+            title="http://www.semanticweb.org/kde/ontologies/sport-events#redCards">
+            <span>red cards</span>
+         </a>
+      </li>
+      <li>
+         <a href="#result"
+            title="http://www.semanticweb.org/kde/ontologies/sport-events#result">
+            <span>result</span>
+         </a>
+      </li>
+      <li>
+         <a href="#round"
+            title="http://www.semanticweb.org/kde/ontologies/sport-events#round">
+            <span>round</span>
+         </a>
+      </li>
+      <li>
+         <a href="#scheduledAt"
+            title="http://www.semanticweb.org/kde/ontologies/sport-events#scheduledAt">
+            <span>scheduled at</span>
+         </a>
+      </li>
+      <li>
+         <a href="#yellowCards"
+            title="http://www.semanticweb.org/kde/ontologies/sport-events#yellowCards">
+            <span>yellow cards</span>
+         </a>
+      </li>
+   </ul>
+   <div class="entity" id="aerialAttacksWon">
+      <h3>aerial attacks won<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/kde/ontologies/sport-events#aerialAttacksWon</p>
+      <div class="comment">
+         <span class="markdown">Aerial duels won per game</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2002/07/owl#topDataProperty">top data property</span>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://dbpedia.org/ontology/SoccerPlayer" title="http://dbpedia.org/ontology/SoccerPlayer">soccer player</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#double">double</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="assists">
+      <h3>assists<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/kde/ontologies/sport-events#assists</p>
+      <div class="comment">
+         <span class="markdown">the total number of assists</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2002/07/owl#topDataProperty">top data property</span>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://dbpedia.org/ontology/SoccerPlayer" title="http://dbpedia.org/ontology/SoccerPlayer">soccer player</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted"
+                     title="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">non negative integer</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="averageShotsPerGame">
+      <h3>average shots per game<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/kde/ontologies/sport-events#averageShotsPerGame</p>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2002/07/owl#topDataProperty">top data property</span>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://dbpedia.org/ontology/SoccerPlayer" title="http://dbpedia.org/ontology/SoccerPlayer">soccer player</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#double">double</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="awayTeamScore">
+      <h3>away team score<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/kde/ontologies/sport-events#awayTeamScore</p>
+      <div class="comment">
+         <span class="markdown">Away team score in the result</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2002/07/owl#topDataProperty">top data property</span>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://dbpedia.org/ontology/FootballMatch" title="http://dbpedia.org/ontology/FootballMatch">football match</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted"
+                     title="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">non negative integer</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="goals">
+      <h3>goals<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/kde/ontologies/sport-events#goals</p>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2002/07/owl#topDataProperty">top data property</span>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://dbpedia.org/ontology/SoccerPlayer" title="http://dbpedia.org/ontology/SoccerPlayer">soccer player</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted"
+                     title="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">non negative integer</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="group">
+      <h3>group<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/kde/ontologies/sport-events#group</p>
+      <div class="comment">
+         <span class="markdown">Competing countries were divided into eight groups of four teams (groups A to H).</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2002/07/owl#topDataProperty">top data property</span>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://dbpedia.org/ontology/FootballMatch" title="http://dbpedia.org/ontology/FootballMatch">football match</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2000/01/rdf-schema#Literal">literal</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="homeTeamScore">
+      <h3>home team score<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/kde/ontologies/sport-events#homeTeamScore</p>
+      <div class="comment">
+         <span class="markdown">Home team score in the result</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2002/07/owl#topDataProperty">top data property</span>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://dbpedia.org/ontology/FootballMatch" title="http://dbpedia.org/ontology/FootballMatch">football match</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted"
+                     title="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">non negative integer</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="manOfTheMatch">
+      <h3>man of the match<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/kde/ontologies/sport-events#manOfTheMatch</p>
+      <div class="comment">
+         <span class="markdown">The number of times a player has won man of the match. man of the match is often given to the outstanding player in a particular match</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2002/07/owl#topDataProperty">top data property</span>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://dbpedia.org/ontology/SoccerPlayer" title="http://dbpedia.org/ontology/SoccerPlayer">soccer player</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#int">int</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="passSuccessPercentage">
+      <h3>pass success percentage<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/kde/ontologies/sport-events#passSuccessPercentage</p>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2002/07/owl#topDataProperty">top data property</span>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://dbpedia.org/ontology/SoccerPlayer" title="http://dbpedia.org/ontology/SoccerPlayer">soccer player</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#double">double</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="performanceAttack">
+      <h3>performance attack<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/kde/ontologies/sport-events#performanceAttack</p>
+      <div class="comment">
+         <span class="markdown">The attack performance based on offensive KPI</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2002/07/owl#topDataProperty">top data property</span>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://dbpedia.org/ontology/SoccerPlayer" title="http://dbpedia.org/ontology/SoccerPlayer">soccer player</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#int">int</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="performanceDefense">
+      <h3>performance defense<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/kde/ontologies/sport-events#performanceDefense</p>
+      <div class="comment">
+         <span class="markdown">The defense performance based on defensive KPI</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2002/07/owl#topDataProperty">top data property</span>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://dbpedia.org/ontology/SoccerPlayer" title="http://dbpedia.org/ontology/SoccerPlayer">soccer player</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#int">int</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="performancePossession">
+      <h3>performance possession<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/kde/ontologies/sport-events#performancePossession</p>
+      <div class="comment">
+         <span class="markdown">The possession performance based on KPI</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2002/07/owl#topDataProperty">top data property</span>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://dbpedia.org/ontology/SoccerPlayer" title="http://dbpedia.org/ontology/SoccerPlayer">soccer player</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#int">int</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="performanceTotal">
+      <h3>performance total<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/kde/ontologies/sport-events#performanceTotal</p>
+      <div class="comment">
+         <span class="markdown">The overall performance</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2002/07/owl#topDataProperty">top data property</span>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://dbpedia.org/ontology/SoccerPlayer" title="http://dbpedia.org/ontology/SoccerPlayer">soccer player</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#int">int</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="playedGames">
+      <h3>played games<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/kde/ontologies/sport-events#playedGames</p>
+      <div class="comment">
+         <span class="markdown">The number of matches played by a certain player in a season</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2002/07/owl#topDataProperty">top data property</span>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://dbpedia.org/ontology/SoccerPlayer" title="http://dbpedia.org/ontology/SoccerPlayer">soccer player</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted"
+                     title="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">non negative integer</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="playedMinutes">
+      <h3>played minutes<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/kde/ontologies/sport-events#playedMinutes</p>
+      <div class="comment">
+         <span class="markdown">Average minutes of participation in each match</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2002/07/owl#topDataProperty">top data property</span>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://dbpedia.org/ontology/SoccerPlayer" title="http://dbpedia.org/ontology/SoccerPlayer">soccer player</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted"
+                     title="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">non negative integer</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="points">
+      <h3>points<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/kde/ontologies/sport-events#points</p>
+      <div class="comment">
+         <span class="markdown">A points system is used, with points being awarded based on the results of all FIFA-recognised full international matches.</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2002/07/owl#topDataProperty">top data property</span>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Team"
+                  title="http://www.semanticweb.org/kde/ontologies/sport-events#Team">team</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#int">int</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="rank">
+      <h3>rank<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/kde/ontologies/sport-events#rank</p>
+      <div class="comment">
+         <span class="markdown">Ranking of ratings</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2002/07/owl#topDataProperty">top data property</span>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://dbpedia.org/ontology/SoccerPlayer" title="http://dbpedia.org/ontology/SoccerPlayer">soccer player</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted"
+                     title="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">non negative integer</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="rating">
+      <h3>rating<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/kde/ontologies/sport-events#rating</p>
+      <div class="comment">
+         <span class="markdown">The overall FIFA rating of player</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2002/07/owl#topDataProperty">top data property</span>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://dbpedia.org/ontology/SoccerPlayer" title="http://dbpedia.org/ontology/SoccerPlayer">soccer player</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#double">double</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="redCards">
+      <h3>red cards<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/kde/ontologies/sport-events#redCards</p>
+      <div class="comment">
+         <span class="markdown">The number of times a player has red cards in a season</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2002/07/owl#topDataProperty">top data property</span>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://dbpedia.org/ontology/SoccerPlayer" title="http://dbpedia.org/ontology/SoccerPlayer">soccer player</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted"
+                     title="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">non negative integer</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="result">
+      <h3>result<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/kde/ontologies/sport-events#result</p>
+      <div class="comment">
+         <span class="markdown">The final score of a match</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2002/07/owl#topDataProperty">top data property</span>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://dbpedia.org/ontology/FootballMatch" title="http://dbpedia.org/ontology/FootballMatch">football match</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2000/01/rdf-schema#Literal">literal</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="round">
+      <h3>round<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/kde/ontologies/sport-events#round</p>
+      <div class="comment">
+         <span class="markdown">Different stages of the World Cup</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2002/07/owl#topDataProperty">top data property</span>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://dbpedia.org/ontology/FootballMatch" title="http://dbpedia.org/ontology/FootballMatch">football match</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2000/01/rdf-schema#Literal">literal</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="scheduledAt">
+      <h3>scheduled at<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/kde/ontologies/sport-events#scheduledAt</p>
+      <div class="comment">
+         <span class="markdown">The start time of a match</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2002/07/owl#topDataProperty">top data property</span>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://dbpedia.org/ontology/FootballMatch" title="http://dbpedia.org/ontology/FootballMatch">football match</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#dateTime">date time</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="yellowCards">
+      <h3>yellow cards<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/kde/ontologies/sport-events#yellowCards</p>
+      <div class="comment">
+         <span class="markdown">The number of times a player has yellow cards in a season</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2002/07/owl#topDataProperty">top data property</span>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://dbpedia.org/ontology/SoccerPlayer" title="http://dbpedia.org/ontology/SoccerPlayer">soccer player</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted"
+                     title="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">non negative integer</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+</div><div id="legend">
+<h2>Legend <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<div   class="entity">
+<sup class="type-c" title="Classes">c</sup>: Classes <br/>
+<sup class="type-op" title="Object Properties">op</sup>: Object Properties <br/>
+<sup class="type-dp" title="Data Properties">dp</sup>: Data Properties <br/>
+<sup class="type-ni" title="Named Individuals">ni</sup>: Named Individuals
+</div>
+</div>
+</div>
+    
+
+<!--REFERENCES SECTION-->
+  <div id="references">
+<h2 id="ref" class="list">References <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<span class="markdown">
+Add your references here. It is recommended to have them as a list.</span>
+
+</div>
+<div id="acknowledgements">
+<h2 id="ack" class="list">Acknowledgements <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<p>
+The authors would like to thank <a href="http://www.essepuntato.it/">Silvio Peroni</a> for developing <a href="http://www.essepuntato.it/lode">LODE</a>, a Live OWL Documentation Environment, which is used for representing the Cross Referencing Section of this document and <a href="https://w3id.org/people/dgarijo">Daniel Garijo</a> for developing <a href="https://github.com/dgarijo/Widoco">Widoco</a>, the program used to create the template used in this documentation.</p>
+</div>
+
+<!-- R2RML Mapping Documentation -->
+<div id="r2rml-mapping-documentation">
+   <h2 id="r2rml-mapping-doc" class="list">R2RML Mapping Documentation <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+   <embed src="R2RML-Mapping-Documentation.pdf" width="800" height="800" style="display: block;margin: 0 auto;">
+</div>
+
+<!-- SPARQL Documentation -->
+<div id="sparql-documentation">
+   <h2 id="sparql-doc" class="list">SPARQL Documentation <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+   <!-- <embed src="#" width="800" height="800" style="display: block;margin: 0 auto;"> -->
+</div>
+
+</div>
+</body>
+</html>

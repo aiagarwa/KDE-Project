@@ -46,7 +46,7 @@
     <thead>
             <tr>
                 <th>#</th>
-                {% for var in sparqlVars %}
+                {% for var in sparqlRes.head.vars %}
                     <th>{{ var }}</th>
                 {% endfor %}
             </tr>
@@ -55,12 +55,8 @@
         {% for res in sparqlRes.results.bindings %}
             <tr>
                 <td>{{ loop.index }}</td>
-                {% for var in sparqlVars %}
-                    {% if var+"Label" in sparqlRes.head.vars %}
-                        <td>{{ res[var+"Label"].value }} ({{ res[var].value }})</td>
-                    {% else %}
-                        <td>{{ res[var].value }}</td>
-                    {% endif %}
+                {% for var in sparqlRes.head.vars %}
+                    <td>{{ res[var].value }}</td>
                 {% endfor %}
             </tr>
         {% endfor %}

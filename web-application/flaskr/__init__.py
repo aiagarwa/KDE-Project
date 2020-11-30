@@ -213,7 +213,6 @@ PREFIX se: <http://www.semanticweb.org/kde/ontologies/sport-events#>""" + q
                 sparqlVars.append(var)
 
         return render_template('run-queries.html', 
-                questionId=questionId, sparqlQuery=query,
-                sparqlRes=sparqlRes, sparqlVars=sparqlVars)
+                questionId=questionId, sparqlQuery=query, sparqlRes=sparqlRes)
 
     return app

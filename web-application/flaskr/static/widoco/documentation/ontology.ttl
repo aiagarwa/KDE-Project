@@ -7,7 +7,7 @@
 @base <http://www.semanticweb.org/kde/ontologies/sport-events> .
 
 <http://www.semanticweb.org/kde/ontologies/sport-events> rdf:type owl:Ontology ;
-                                                          rdfs:comment "The 2018 football world cup ontology that describes matches and teams" .
+                                                          rdfs:comment "This ontology describes matches and teams as part of football events (i.e. soccer). It has been created based on Football World Cup 2018 and is meant to be used in other similar events and is flexible to be suitable for other sport events (e.g. handball, basketball, etc.) with minor modifications only." .
 
 #################################################################
 #    Object Properties
@@ -15,18 +15,18 @@
 
 ###  http://www.semanticweb.org/kde/ontologies/sport-events#hasAwayTeam
 :hasAwayTeam rdf:type owl:ObjectProperty ;
-             rdfs:subPropertyOf owl:topObjectProperty ;
+             rdfs:subPropertyOf :hasTeam ;
              rdfs:domain <http://dbpedia.org/ontology/FootballMatch> ;
-             rdfs:range :Country ;
+             rdfs:range :Team ;
              rdfs:comment "Every World Cup match has an away team" .
 
 
 ###  http://www.semanticweb.org/kde/ontologies/sport-events#hasHomeTeam
 :hasHomeTeam rdf:type owl:ObjectProperty ;
-             rdfs:subPropertyOf owl:topObjectProperty ;
+             rdfs:subPropertyOf :hasTeam ;
              rdfs:domain <http://dbpedia.org/ontology/FootballMatch> ;
-             rdfs:range :Country ;
-             rdfs:comment "Every World Cup game has an home team" .
+             rdfs:range :Team ;
+             rdfs:comment "Every World Cup match has a home team" .
 
 
 ###  http://www.semanticweb.org/kde/ontologies/sport-events#hasNationality
@@ -39,9 +39,8 @@
 ###  http://www.semanticweb.org/kde/ontologies/sport-events#hasPlayer
 :hasPlayer rdf:type owl:ObjectProperty ;
            rdfs:subPropertyOf owl:topObjectProperty ;
-           owl:inverseOf :playsInClub ,
-                         :playsInTeam ;
-           rdfs:domain :Club ,
+           owl:inverseOf :playsIn ;
+           rdfs:domain <http://dbpedia.org/ontology/SoccerClub> ,
                        :Team ;
            rdfs:range <http://dbpedia.org/ontology/Athlete> .
 
@@ -53,13 +52,18 @@
          rdfs:range :Role .
 
 
+###  http://www.semanticweb.org/kde/ontologies/sport-events#hasTeam
+:hasTeam rdf:type owl:ObjectProperty ;
+         rdfs:subPropertyOf owl:topObjectProperty .
+
+
 ###  http://www.semanticweb.org/kde/ontologies/sport-events#isIn
 :isIn rdf:type owl:ObjectProperty ;
       rdfs:subPropertyOf owl:topObjectProperty ;
       rdf:type owl:TransitiveProperty ;
-      rdfs:domain :City ,
-                  :Stadium ;
-      rdfs:range :City ,
+      rdfs:domain <http://dbpedia.org/ontology/City> ,
+                  <http://dbpedia.org/ontology/Stadium> ;
+      rdfs:range <http://dbpedia.org/ontology/City> ,
                  :Country .
 
 
@@ -71,215 +75,204 @@
               rdfs:range :Team .
 
 
-###  http://www.semanticweb.org/kde/ontologies/sport-events#playsInClub
-:playsInClub rdf:type owl:ObjectProperty ;
-             rdfs:subPropertyOf owl:topObjectProperty ;
-             rdfs:domain <http://dbpedia.org/ontology/SoccerPlayer> ;
-             rdfs:range :Club .
-
-
-###  http://www.semanticweb.org/kde/ontologies/sport-events#playsInTeam
-:playsInTeam rdf:type owl:ObjectProperty ;
-             rdfs:subPropertyOf owl:topObjectProperty ;
-             rdfs:domain <http://dbpedia.org/ontology/SoccerPlayer> ;
-             rdfs:range :Team .
+###  http://www.semanticweb.org/kde/ontologies/sport-events#playsIn
+:playsIn rdf:type owl:ObjectProperty ;
+         rdfs:subPropertyOf owl:topObjectProperty ;
+         rdfs:domain <http://dbpedia.org/ontology/SoccerPlayer> ;
+         rdfs:range <http://dbpedia.org/ontology/SoccerClub> ,
+                    :Team .
 
 
 ###  http://www.semanticweb.org/kde/ontologies/sport-events#tookPlaceIn
 :tookPlaceIn rdf:type owl:ObjectProperty ;
              rdfs:subPropertyOf owl:topObjectProperty ;
              rdfs:domain <http://dbpedia.org/ontology/FootballMatch> ;
-             rdfs:range :Stadium .
+             rdfs:range <http://dbpedia.org/ontology/Stadium> .
 
 
 #################################################################
 #    Data properties
 #################################################################
 
-###  http://www.semanticweb.org/kde/ontologies/sport-events#AerialAttacksWon
-:AerialAttacksWon rdf:type owl:DatatypeProperty ;
+###  http://www.semanticweb.org/kde/ontologies/sport-events#aerialAttacksWon
+:aerialAttacksWon rdf:type owl:DatatypeProperty ;
                   rdfs:subPropertyOf owl:topDataProperty ;
                   rdfs:domain <http://dbpedia.org/ontology/SoccerPlayer> ;
                   rdfs:range xsd:double ;
                   rdfs:comment "Aerial duels won per game" .
 
 
-###  http://www.semanticweb.org/kde/ontologies/sport-events#Assists
-:Assists rdf:type owl:DatatypeProperty ;
+###  http://www.semanticweb.org/kde/ontologies/sport-events#assists
+:assists rdf:type owl:DatatypeProperty ;
          rdfs:subPropertyOf owl:topDataProperty ;
          rdfs:domain <http://dbpedia.org/ontology/SoccerPlayer> ;
          rdfs:range xsd:nonNegativeInteger ;
          rdfs:comment "the total number of assists" .
 
 
-###  http://www.semanticweb.org/kde/ontologies/sport-events#AverageShotsPerGame
-:AverageShotsPerGame rdf:type owl:DatatypeProperty ;
+###  http://www.semanticweb.org/kde/ontologies/sport-events#averageShotsPerGame
+:averageShotsPerGame rdf:type owl:DatatypeProperty ;
                      rdfs:subPropertyOf owl:topDataProperty ;
                      rdfs:domain <http://dbpedia.org/ontology/SoccerPlayer> ;
                      rdfs:range xsd:double .
 
 
-###  http://www.semanticweb.org/kde/ontologies/sport-events#AwayTeamScore
-:AwayTeamScore rdf:type owl:DatatypeProperty ;
+###  http://www.semanticweb.org/kde/ontologies/sport-events#awayTeamScore
+:awayTeamScore rdf:type owl:DatatypeProperty ;
                rdfs:subPropertyOf owl:topDataProperty ;
                rdfs:domain <http://dbpedia.org/ontology/FootballMatch> ;
                rdfs:range xsd:nonNegativeInteger ;
                rdfs:comment "Away team score in the result" .
 
 
-###  http://www.semanticweb.org/kde/ontologies/sport-events#Goals
-:Goals rdf:type owl:DatatypeProperty ;
+###  http://www.semanticweb.org/kde/ontologies/sport-events#goals
+:goals rdf:type owl:DatatypeProperty ;
        rdfs:subPropertyOf owl:topDataProperty ;
        rdfs:domain <http://dbpedia.org/ontology/SoccerPlayer> ;
        rdfs:range xsd:nonNegativeInteger .
 
 
-###  http://www.semanticweb.org/kde/ontologies/sport-events#Group
-:Group rdf:type owl:DatatypeProperty ;
+###  http://www.semanticweb.org/kde/ontologies/sport-events#group
+:group rdf:type owl:DatatypeProperty ;
        rdfs:subPropertyOf owl:topDataProperty ;
        rdfs:domain <http://dbpedia.org/ontology/FootballMatch> ;
        rdfs:range rdfs:Literal ;
        rdfs:comment "Competing countries were divided into eight groups of four teams (groups A to H)." .
 
 
-###  http://www.semanticweb.org/kde/ontologies/sport-events#HomeTeamScore
-:HomeTeamScore rdf:type owl:DatatypeProperty ;
+###  http://www.semanticweb.org/kde/ontologies/sport-events#homeTeamScore
+:homeTeamScore rdf:type owl:DatatypeProperty ;
                rdfs:subPropertyOf owl:topDataProperty ;
                rdfs:domain <http://dbpedia.org/ontology/FootballMatch> ;
                rdfs:range xsd:nonNegativeInteger ;
                rdfs:comment "Home team score in the result" .
 
 
-###  http://www.semanticweb.org/kde/ontologies/sport-events#ManOfTheMatch
-:ManOfTheMatch rdf:type owl:DatatypeProperty ;
+###  http://www.semanticweb.org/kde/ontologies/sport-events#manOfTheMatch
+:manOfTheMatch rdf:type owl:DatatypeProperty ;
                rdfs:subPropertyOf owl:topDataProperty ;
                rdfs:domain <http://dbpedia.org/ontology/SoccerPlayer> ;
                rdfs:range xsd:int ;
                rdfs:comment "The number of times a player has won man of the match. man of the match is often given to the outstanding player in a particular match" .
 
 
-###  http://www.semanticweb.org/kde/ontologies/sport-events#PassSuccessPercentage
-:PassSuccessPercentage rdf:type owl:DatatypeProperty ;
+###  http://www.semanticweb.org/kde/ontologies/sport-events#passSuccessPercentage
+:passSuccessPercentage rdf:type owl:DatatypeProperty ;
                        rdfs:subPropertyOf owl:topDataProperty ;
                        rdfs:domain <http://dbpedia.org/ontology/SoccerPlayer> ;
                        rdfs:range xsd:double .
 
 
-###  http://www.semanticweb.org/kde/ontologies/sport-events#PerformanceAttack
-:PerformanceAttack rdf:type owl:DatatypeProperty ;
+###  http://www.semanticweb.org/kde/ontologies/sport-events#performanceAttack
+:performanceAttack rdf:type owl:DatatypeProperty ;
                    rdfs:subPropertyOf owl:topDataProperty ;
                    rdfs:domain <http://dbpedia.org/ontology/SoccerPlayer> ;
                    rdfs:range xsd:int ;
                    rdfs:comment "The attack performance based on offensive KPI" .
 
 
-###  http://www.semanticweb.org/kde/ontologies/sport-events#PerformanceDefense
-:PerformanceDefense rdf:type owl:DatatypeProperty ;
+###  http://www.semanticweb.org/kde/ontologies/sport-events#performanceDefense
+:performanceDefense rdf:type owl:DatatypeProperty ;
                     rdfs:subPropertyOf owl:topDataProperty ;
                     rdfs:domain <http://dbpedia.org/ontology/SoccerPlayer> ;
                     rdfs:range xsd:int ;
                     rdfs:comment "The defense performance based on defensive KPI" .
 
 
-###  http://www.semanticweb.org/kde/ontologies/sport-events#PerformancePossession
-:PerformancePossession rdf:type owl:DatatypeProperty ;
+###  http://www.semanticweb.org/kde/ontologies/sport-events#performancePossession
+:performancePossession rdf:type owl:DatatypeProperty ;
                        rdfs:subPropertyOf owl:topDataProperty ;
                        rdfs:domain <http://dbpedia.org/ontology/SoccerPlayer> ;
                        rdfs:range xsd:int ;
                        rdfs:comment "The possession performance based on KPI" .
 
 
-###  http://www.semanticweb.org/kde/ontologies/sport-events#PerformanceTotal
-:PerformanceTotal rdf:type owl:DatatypeProperty ;
+###  http://www.semanticweb.org/kde/ontologies/sport-events#performanceTotal
+:performanceTotal rdf:type owl:DatatypeProperty ;
                   rdfs:subPropertyOf owl:topDataProperty ;
                   rdfs:domain <http://dbpedia.org/ontology/SoccerPlayer> ;
                   rdfs:range xsd:int ;
                   rdfs:comment "The overall performance" .
 
 
-###  http://www.semanticweb.org/kde/ontologies/sport-events#PlayedGames
-:PlayedGames rdf:type owl:DatatypeProperty ;
+###  http://www.semanticweb.org/kde/ontologies/sport-events#playedGames
+:playedGames rdf:type owl:DatatypeProperty ;
              rdfs:subPropertyOf owl:topDataProperty ;
              rdfs:domain <http://dbpedia.org/ontology/SoccerPlayer> ;
              rdfs:range xsd:nonNegativeInteger ;
              rdfs:comment "The number of matches played by a certain player in a season" .
 
 
-###  http://www.semanticweb.org/kde/ontologies/sport-events#PlayedMinutes
-:PlayedMinutes rdf:type owl:DatatypeProperty ;
+###  http://www.semanticweb.org/kde/ontologies/sport-events#playedMinutes
+:playedMinutes rdf:type owl:DatatypeProperty ;
                rdfs:subPropertyOf owl:topDataProperty ;
                rdfs:domain <http://dbpedia.org/ontology/SoccerPlayer> ;
                rdfs:range xsd:nonNegativeInteger ;
                rdfs:comment "Average minutes of participation in each match" .
 
 
-###  http://www.semanticweb.org/kde/ontologies/sport-events#Points
-:Points rdf:type owl:DatatypeProperty ;
+###  http://www.semanticweb.org/kde/ontologies/sport-events#points
+:points rdf:type owl:DatatypeProperty ;
         rdfs:subPropertyOf owl:topDataProperty ;
         rdfs:domain :Team ;
         rdfs:range xsd:int ;
         rdfs:comment "A points system is used, with points being awarded based on the results of all FIFA-recognised full international matches." .
 
 
-###  http://www.semanticweb.org/kde/ontologies/sport-events#Rank
-:Rank rdf:type owl:DatatypeProperty ;
+###  http://www.semanticweb.org/kde/ontologies/sport-events#rank
+:rank rdf:type owl:DatatypeProperty ;
       rdfs:subPropertyOf owl:topDataProperty ;
       rdfs:domain <http://dbpedia.org/ontology/SoccerPlayer> ;
       rdfs:range xsd:nonNegativeInteger ;
       rdfs:comment "Ranking of ratings" .
 
 
-###  http://www.semanticweb.org/kde/ontologies/sport-events#Rating
-:Rating rdf:type owl:DatatypeProperty ;
+###  http://www.semanticweb.org/kde/ontologies/sport-events#rating
+:rating rdf:type owl:DatatypeProperty ;
         rdfs:subPropertyOf owl:topDataProperty ;
         rdfs:domain <http://dbpedia.org/ontology/SoccerPlayer> ;
         rdfs:range xsd:double ;
         rdfs:comment "The overall FIFA rating of player" .
 
 
-###  http://www.semanticweb.org/kde/ontologies/sport-events#RedCards
-:RedCards rdf:type owl:DatatypeProperty ;
+###  http://www.semanticweb.org/kde/ontologies/sport-events#redCards
+:redCards rdf:type owl:DatatypeProperty ;
           rdfs:subPropertyOf owl:topDataProperty ;
           rdfs:domain <http://dbpedia.org/ontology/SoccerPlayer> ;
           rdfs:range xsd:nonNegativeInteger ;
           rdfs:comment "The number of times a player has red cards in a season" .
 
 
-###  http://www.semanticweb.org/kde/ontologies/sport-events#Result
-:Result rdf:type owl:DatatypeProperty ;
+###  http://www.semanticweb.org/kde/ontologies/sport-events#result
+:result rdf:type owl:DatatypeProperty ;
         rdfs:subPropertyOf owl:topDataProperty ;
         rdfs:domain <http://dbpedia.org/ontology/FootballMatch> ;
         rdfs:range rdfs:Literal ;
         rdfs:comment "The final score of a match" .
 
 
-###  http://www.semanticweb.org/kde/ontologies/sport-events#RoundNumber
-:RoundNumber rdf:type owl:DatatypeProperty ;
-             rdfs:subPropertyOf owl:topDataProperty ;
-             rdfs:domain <http://dbpedia.org/ontology/FootballMatch> ;
-             rdfs:range rdfs:Literal ;
-             rdfs:comment "Different stages of the World Cup" .
+###  http://www.semanticweb.org/kde/ontologies/sport-events#round
+:round rdf:type owl:DatatypeProperty ;
+       rdfs:subPropertyOf owl:topDataProperty ;
+       rdfs:domain <http://dbpedia.org/ontology/FootballMatch> ;
+       rdfs:range rdfs:Literal ;
+       rdfs:comment "Different stages of the World Cup" .
 
 
-###  http://www.semanticweb.org/kde/ontologies/sport-events#ScheduledAt
-:ScheduledAt rdf:type owl:DatatypeProperty ;
+###  http://www.semanticweb.org/kde/ontologies/sport-events#scheduledAt
+:scheduledAt rdf:type owl:DatatypeProperty ;
              rdfs:subPropertyOf owl:topDataProperty ;
              rdfs:domain <http://dbpedia.org/ontology/FootballMatch> ;
              rdfs:range xsd:dateTime ;
              rdfs:comment "The start time of a match" .
 
 
-###  http://www.semanticweb.org/kde/ontologies/sport-events#YellowCards
-:YellowCards rdf:type owl:DatatypeProperty ;
+###  http://www.semanticweb.org/kde/ontologies/sport-events#yellowCards
+:yellowCards rdf:type owl:DatatypeProperty ;
              rdfs:subPropertyOf owl:topDataProperty ;
              rdfs:domain <http://dbpedia.org/ontology/SoccerPlayer> ;
              rdfs:range xsd:nonNegativeInteger ;
              rdfs:comment "The number of times a player has yellow cards in a season" .
-
-
-###  http://www.w3.org/2002/07/owl#topDataProperty
-owl:topDataProperty rdfs:domain <http://dbpedia.org/ontology/SoccerPlayer> ;
-                    rdfs:range xsd:nonNegativeInteger .
 
 
 #################################################################
@@ -290,9 +283,19 @@ owl:topDataProperty rdfs:domain <http://dbpedia.org/ontology/SoccerPlayer> ;
 <http://dbpedia.org/ontology/Athlete> rdf:type owl:Class .
 
 
+###  http://dbpedia.org/ontology/City
+<http://dbpedia.org/ontology/City> rdf:type owl:Class ;
+                                   rdfs:comment "The city where the stadium is located in the World Cup" .
+
+
 ###  http://dbpedia.org/ontology/FootballMatch
 <http://dbpedia.org/ontology/FootballMatch> rdf:type owl:Class ;
                                             rdfs:subClassOf <http://dbpedia.org/ontology/SportsEvent> .
+
+
+###  http://dbpedia.org/ontology/SoccerClub
+<http://dbpedia.org/ontology/SoccerClub> rdf:type owl:Class ;
+                                         rdfs:comment "The football club" .
 
 
 ###  http://dbpedia.org/ontology/SoccerPlayer
@@ -304,14 +307,9 @@ owl:topDataProperty rdfs:domain <http://dbpedia.org/ontology/SoccerPlayer> ;
 <http://dbpedia.org/ontology/SportsEvent> rdf:type owl:Class .
 
 
-###  http://www.semanticweb.org/kde/ontologies/sport-events#City
-:City rdf:type owl:Class ;
-      rdfs:comment "The city where the stadium is located in the World Cup" .
-
-
-###  http://www.semanticweb.org/kde/ontologies/sport-events#Club
-:Club rdf:type owl:Class ;
-      rdfs:comment "The football club" .
+###  http://dbpedia.org/ontology/Stadium
+<http://dbpedia.org/ontology/Stadium> rdf:type owl:Class ;
+                                      rdfs:comment "A place or venue for outdoor sports, concerts, or other events" .
 
 
 ###  http://www.semanticweb.org/kde/ontologies/sport-events#Country
@@ -348,13 +346,13 @@ owl:topDataProperty rdfs:domain <http://dbpedia.org/ontology/SoccerPlayer> ;
       rdfs:comment "Positions and responsibilities of the players on a football field" .
 
 
-###  http://www.semanticweb.org/kde/ontologies/sport-events#Stadium
-:Stadium rdf:type owl:Class ;
-         rdfs:comment "A place or venue for outdoor sports, concerts, or other events" .
-
-
 ###  http://www.semanticweb.org/kde/ontologies/sport-events#Team
 :Team rdf:type owl:Class ;
+      rdfs:subClassOf [ rdf:type owl:Restriction ;
+                        owl:onProperty :hasPlayer ;
+                        owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger ;
+                        owl:onClass <http://dbpedia.org/ontology/Athlete>
+                      ] ;
       rdfs:comment "The national football team" .
 
 
