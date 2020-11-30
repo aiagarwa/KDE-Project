@@ -27,7 +27,7 @@ Open local link given by Flask in your web browser.
 
 Note: depending on your Python environment, you may need to run `$> pip3 install -r requirements.txt` instead of `$> pip install -r requirements.txt`.
 
-## Run the Widoco documentation
+## Run the Widoco documentation (standalone version)
 
 ### Using Python local server
 
