@@ -1,5 +1,3 @@
-# KDE Project
-
 ## Create local triplestore
 
 We have been using GraphDB Free for this project. A local instance can be created with the following steps:
@@ -29,7 +27,7 @@ Open local link given by Flask in your web browser.
 
 Note: depending on your Python environment, you may need to run `$> pip3 install -r requirements.txt` instead of `$> pip install -r requirements.txt`.
 
-## Run the Widoco documentation
+## Run the Widoco documentation in standalone
 
 ### Using Python local server
 

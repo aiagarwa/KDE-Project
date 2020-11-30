@@ -32,6 +32,10 @@ def create_app(test_config=None):
     def reports():
         return render_template('reports.html')
     
+    @app.route('/widoco')
+    def widoco():
+        return render_template('widoco.html')
+    
     @app.route('/help')
     def help():
         return render_template('help.html')
