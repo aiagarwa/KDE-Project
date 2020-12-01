@@ -739,7 +739,7 @@
 ## Subject of the Triple Map. Defining Class-Club
    rr:subjectMap [
       rr:template "http://www.semanticweb.org/kde/ontologies/sport-events/{CLUB}";
-      rr:class se:Club;
+      rr:class se:SoccerClub;
    ];
 ## Predicates and Objects for the class Club
 ### Relating Club to Player using predicate hasPlayer

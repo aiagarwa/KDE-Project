@@ -9,16 +9,18 @@
 <form class="row g-2" method="GET" action="">
     <div class="col-auto">
         <select class="form-select" aria-label="Competency question selection" name="id">
-            <option value="1" {{ 'selected' if questionId == 1 else '' }}>In which team is the player who scored the most goals in the season?</option>
-            <option value="2" {{ 'selected' if questionId == 2 else '' }}>Which players belong to the highest points team?</option>
+            <option value="1" {{ 'selected' if questionId == 1 else '' }}>What is the role of the player who scored the most goals in the season?</option>
+            <option value="2" {{ 'selected' if questionId == 2 else '' }}>What were the points of the opposition team of the team that faced Russia in the first round?</option>
             <option value="3" {{ 'selected' if questionId == 3 else '' }}>Which teams have the highest score in the first 3 group stages of the world cup?</option>
             <option value="4" {{ 'selected' if questionId == 4 else '' }}>Who are the goalkeepers of the Semi-Finals teams?</option>
             <option value="5" {{ 'selected' if questionId == 5 else '' }}>How many different clubs are the Spain team players in?</option>
             <option value="6" {{ 'selected' if questionId == 6 else '' }}>Which team has the lowest total number of goals of their players in the season?</option>
-            <option value="7" {{ 'selected' if questionId == 7 else '' }}>Which team has the highest total number of assists in the season?</option>
-            <option value="8" {{ 'selected' if questionId == 8 else '' }}>Which players played on 23/06/2018 during the Football World Cup?</option>
-            <option value="9" {{ 'selected' if questionId == 9 else '' }}>Who are the players who played semi-final matches?</option>
+            <option value="7" {{ 'selected' if questionId == 7 else '' }}>What are the nationalities of the top 10 players with the most number of assists in their clubs?</option>
+            <option value="8" {{ 'selected' if questionId == 8 else '' }}>Which players played as the home team on 23/06/2018 during the Football World Cup?</option>
+            <option value="9" {{ 'selected' if questionId == 9 else '' }}>Which players are composing the teams engaged in semi-final matches?</option>
             <option value="10" {{ 'selected' if questionId == 10 else '' }}>Which players won a match between 16/06/2018 and 22/06/2018 during the Football World Cup 2018?</option>
+            <option value="11" {{ 'selected' if questionId == 11 else '' }}>In which country did the first match occur? [Transitive]</option>
+            <option value="12" {{ 'selected' if questionId == 12 else '' }}>What is the population of each opponent's country of the last match? [Using dbpedia data]</option>
         </select>
     </div>
     <div class="col-auto">
