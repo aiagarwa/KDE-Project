@@ -191,10 +191,11 @@ PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX dbo: <http://dbpedia.org/ontology/>
 SELECT (COUNT(DISTINCT(?club)) AS ?count)
 WHERE {
-    ?player se:hasNationality ?team.
-    ?team rdfs:label "Spain".
-    ?player se:playsIn ?club.
-    ?club rdf:type dbo:SoccerClub.
+    ?team rdf:type se:Team ;
+        rdfs:label "Spain" .
+    ?player se:playsIn ?team .
+    ?player se:playsIn ?club .
+    ?club rdf:type dbo:SoccerClub .
 }"""
     elif questionId == 6:
         q = """
@@ -202,11 +203,13 @@ PREFIX se: <http://www.semanticweb.org/kde/ontologies/sport-events#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
-SELECT ?team ?teamLabel WHERE {
+SELECT ?team ?teamLabel ?goals  WHERE {
+    
     ?team rdfs:label ?teamLabel .
     filter(lang(?teamLabel) = "en") .
+    
     {
-        SELECT ?team WHERE {
+        SELECT ?team (SUM(xsd:nonNegativeInteger(?goal)) as ?goals) WHERE {
             ?player se:hasNationality ?team .
             ?player se:goals ?goal .
         }
@@ -214,7 +217,8 @@ SELECT ?team ?teamLabel WHERE {
         GROUP BY ?team
         ORDER BY ASC((SUM(xsd:nonNegativeInteger(?goal))))
     }
-}"""
+}
+LIMIT 1"""
     elif questionId == 7:
         q = """
 PREFIX se: <http://www.semanticweb.org/kde/ontologies/sport-events#>
@@ -228,12 +232,11 @@ select ?nationality ?nationalityLabel where {
     filter(lang(?nationalityLabel) = "en") .
 
     {
-select * where { 
-	?player se:assists ?numb 
-}
-ORDER BY DESC(?numb) LIMIT 10
-
- }
+        select * where { 
+            ?player se:assists ?numberAssists 
+        }
+		ORDER BY DESC(?numberAssists) LIMIT 10
+	}
 }"""
     elif questionId == 8:
         q = """
@@ -283,7 +286,6 @@ WHERE {
         ?match se:hasAwayTeam ?away_team.
         ?match se:hasHomeTeam ?home_team.
         ?match se:scheduledAt ?time.
-        ?match se:round "1"^^rdfs:Literal.
         BIND(
                 IF(?away_team_score > ?home_team_score, ?away_team,
                 IF(?away_team_score < ?home_team_score, ?away_team, "No one"))
@@ -319,7 +321,7 @@ select ?lastMatch ?teams ?country ?population where {
     
     filter(lang(?teamsLabel) = "en") .
     
-    SERVICE <http://dbpedia.org/sparql> {
+    service <http://dbpedia.org/sparql> {
 		?country rdf:type dbo:Country ;
         	rdfs:label ?teamsLabel ;
         	dbo:populationTotal ?population .
