@@ -1,5 +1,12 @@
 # KDE Project
 
+## Folders content
+
+- assets/ contains our original datasets, ontology, R2RML mapping and uplifted data
+- documentation/ contains Widoco documentation which also embeds R2RML Mapping Documentation (PDF) and SPARQL Queries Documentation (PDF), see "Run the Widoco documentation below"
+- reports/ contains our technical report and self-reflection reports
+- web-app/ contains the Application Query Interface, see "Run the application below"
+
 ## Create local triplestore
 
 We have been using GraphDB Free for this project. A local instance can be created with the following steps:

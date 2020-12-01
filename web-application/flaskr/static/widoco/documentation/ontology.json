@@ -1,6 +1,97 @@
 [ {
   "@id" : "_:genid1",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.semanticweb.org/kde/ontologies/sport-events#Team"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/kde/ontologies/sport-events#playsIn"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.semanticweb.org/kde/ontologies/sport-events#Country"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/kde/ontologies/sport-events#isIn"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://dbpedia.org/ontology/Stadium"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/kde/ontologies/sport-events#tookPlaceIn"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://dbpedia.org/ontology/SoccerPlayer"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/kde/ontologies/sport-events#hasPlayer"
+  } ]
+}, {
+  "@id" : "_:genid5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.semanticweb.org/kde/ontologies/sport-events#Role"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/kde/ontologies/sport-events#hasRole"
+  } ]
+}, {
+  "@id" : "_:genid6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://dbpedia.org/ontology/SoccerClub"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/kde/ontologies/sport-events#playsIn"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://dbpedia.org/ontology/City"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/kde/ontologies/sport-events#isIn"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
     "@value" : "2"
@@ -12,7 +103,7 @@
     "@id" : "http://www.semanticweb.org/kde/ontologies/sport-events#hasPlayer"
   } ]
 }, {
-  "@id" : "_:genid2",
+  "@id" : "_:genid9",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
@@ -27,30 +118,45 @@
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/Athlete",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid1"
+  } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/City",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "The city where the stadium is located in the World Cup"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid2"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/FootballMatch",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://dbpedia.org/ontology/SportsEvent"
+  }, {
+    "@id" : "_:genid3"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/SoccerClub",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "The football club"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid4"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/SoccerPlayer",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://dbpedia.org/ontology/Athlete"
+  }, {
+    "@id" : "_:genid5"
+  }, {
+    "@id" : "_:genid6"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/SportsEvent",
@@ -60,6 +166,9 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "A place or venue for outdoor sports, concerts, or other events"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid7"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/kde/ontologies/sport-events",
@@ -122,7 +231,7 @@
     "@value" : "The national football team"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "_:genid1"
+    "@id" : "_:genid8"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/kde/ontologies/sport-events#aerialAttacksWon",
@@ -188,7 +297,7 @@
     "@id" : "http://dbpedia.org/ontology/SoccerPlayer"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+    "@id" : "http://www.w3.org/2001/XMLSchema#negativeInteger"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
@@ -212,7 +321,8 @@
   "@id" : "http://www.semanticweb.org/kde/ontologies/sport-events#hasAwayTeam",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "Every World Cup match has an away team"
+    "@language" : "en",
+    "@value" : "Every World Cup match has an away team. This Property is used with Match and Team. Match hasAwayTeam Team"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://dbpedia.org/ontology/FootballMatch"
@@ -227,7 +337,8 @@
   "@id" : "http://www.semanticweb.org/kde/ontologies/sport-events#hasHomeTeam",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "Every World Cup match has a home team"
+    "@language" : "en",
+    "@value" : "Every World Cup match has a home team. This Property is used with Match and Team. Match hasHomeTeam Team."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://dbpedia.org/ontology/FootballMatch"
@@ -241,6 +352,10 @@
 }, {
   "@id" : "http://www.semanticweb.org/kde/ontologies/sport-events#hasNationality",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This Property is used with Player and Country. Player hasNationality Country"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://dbpedia.org/ontology/Athlete"
   } ],
@@ -253,6 +368,10 @@
 }, {
   "@id" : "http://www.semanticweb.org/kde/ontologies/sport-events#hasPlayer",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This Property is used with Teams, Clubs and Players. Club hasPlayer Player. This Property is inverse of playsIn"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://dbpedia.org/ontology/SoccerClub"
   }, {
@@ -270,6 +389,10 @@
 }, {
   "@id" : "http://www.semanticweb.org/kde/ontologies/sport-events#hasRole",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This Property is used with Player and Role. Player hasRole Role"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://dbpedia.org/ontology/Athlete"
   } ],
@@ -282,6 +405,16 @@
 }, {
   "@id" : "http://www.semanticweb.org/kde/ontologies/sport-events#hasTeam",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This Property is used with Match and Team. Match hasTeam Team1, Match hasTeam Team2."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Athlete"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/kde/ontologies/sport-events#Team"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ]
@@ -303,6 +436,10 @@
 }, {
   "@id" : "http://www.semanticweb.org/kde/ontologies/sport-events#isIn",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#TransitiveProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This property is used to for Stadium, City and Country as Stadium isIn City, City isIn Country. This property is Transitive"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://dbpedia.org/ontology/City"
   }, {
@@ -319,6 +456,10 @@
 }, {
   "@id" : "http://www.semanticweb.org/kde/ontologies/sport-events#isOpponentOf",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#SymmetricProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This is property is used for Teams. Team1 isOpponentOf Team2. This Property is Symmetric"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://www.semanticweb.org/kde/ontologies/sport-events#Team"
   } ],
@@ -448,6 +589,10 @@
 }, {
   "@id" : "http://www.semanticweb.org/kde/ontologies/sport-events#playsIn",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This Property is used with Teams, Clubs and Players. Player playsIn Team. This Property is inverse of hasPlayer"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://dbpedia.org/ontology/SoccerPlayer"
   } ],
@@ -567,6 +712,10 @@
 }, {
   "@id" : "http://www.semanticweb.org/kde/ontologies/sport-events#tookPlaceIn",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This Property is used with Match and Stadium. Match tookPlaceIn Stadium."
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://dbpedia.org/ontology/FootballMatch"
   } ],

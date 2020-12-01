@@ -18,7 +18,7 @@
              rdfs:subPropertyOf :hasTeam ;
              rdfs:domain <http://dbpedia.org/ontology/FootballMatch> ;
              rdfs:range :Team ;
-             rdfs:comment "Every World Cup match has an away team" .
+             rdfs:comment "Every World Cup match has an away team. This Property is used with Match and Team. Match hasAwayTeam Team"@en .
 
 
 ###  http://www.semanticweb.org/kde/ontologies/sport-events#hasHomeTeam
@@ -26,14 +26,15 @@
              rdfs:subPropertyOf :hasTeam ;
              rdfs:domain <http://dbpedia.org/ontology/FootballMatch> ;
              rdfs:range :Team ;
-             rdfs:comment "Every World Cup match has a home team" .
+             rdfs:comment "Every World Cup match has a home team. This Property is used with Match and Team. Match hasHomeTeam Team."@en .
 
 
 ###  http://www.semanticweb.org/kde/ontologies/sport-events#hasNationality
 :hasNationality rdf:type owl:ObjectProperty ;
                 rdfs:subPropertyOf owl:topObjectProperty ;
                 rdfs:domain <http://dbpedia.org/ontology/Athlete> ;
-                rdfs:range :Country .
+                rdfs:range :Country ;
+                rdfs:comment "This Property is used with Player and Country. Player hasNationality Country"@en .
 
 
 ###  http://www.semanticweb.org/kde/ontologies/sport-events#hasPlayer
@@ -42,19 +43,24 @@
            owl:inverseOf :playsIn ;
            rdfs:domain <http://dbpedia.org/ontology/SoccerClub> ,
                        :Team ;
-           rdfs:range <http://dbpedia.org/ontology/Athlete> .
+           rdfs:range <http://dbpedia.org/ontology/Athlete> ;
+           rdfs:comment "This Property is used with Teams, Clubs and Players. Club hasPlayer Player. This Property is inverse of playsIn"@en .
 
 
 ###  http://www.semanticweb.org/kde/ontologies/sport-events#hasRole
 :hasRole rdf:type owl:ObjectProperty ;
          rdfs:subPropertyOf owl:topObjectProperty ;
          rdfs:domain <http://dbpedia.org/ontology/Athlete> ;
-         rdfs:range :Role .
+         rdfs:range :Role ;
+         rdfs:comment "This Property is used with Player and Role. Player hasRole Role"@en .
 
 
 ###  http://www.semanticweb.org/kde/ontologies/sport-events#hasTeam
 :hasTeam rdf:type owl:ObjectProperty ;
-         rdfs:subPropertyOf owl:topObjectProperty .
+         rdfs:subPropertyOf owl:topObjectProperty ;
+         rdfs:domain <http://dbpedia.org/ontology/Athlete> ;
+         rdfs:range :Team ;
+         rdfs:comment "This Property is used with Match and Team. Match hasTeam Team1, Match hasTeam Team2."@en .
 
 
 ###  http://www.semanticweb.org/kde/ontologies/sport-events#isIn
@@ -64,7 +70,8 @@
       rdfs:domain <http://dbpedia.org/ontology/City> ,
                   <http://dbpedia.org/ontology/Stadium> ;
       rdfs:range <http://dbpedia.org/ontology/City> ,
-                 :Country .
+                 :Country ;
+      rdfs:comment "This property is used to for Stadium, City and Country as Stadium isIn City, City isIn Country. This property is Transitive"@en .
 
 
 ###  http://www.semanticweb.org/kde/ontologies/sport-events#isOpponentOf
@@ -72,7 +79,8 @@
               rdfs:subPropertyOf owl:topObjectProperty ;
               rdf:type owl:SymmetricProperty ;
               rdfs:domain :Team ;
-              rdfs:range :Team .
+              rdfs:range :Team ;
+              rdfs:comment "This is property is used for Teams. Team1 isOpponentOf Team2. This Property is Symmetric"@en .
 
 
 ###  http://www.semanticweb.org/kde/ontologies/sport-events#playsIn
@@ -80,14 +88,16 @@
          rdfs:subPropertyOf owl:topObjectProperty ;
          rdfs:domain <http://dbpedia.org/ontology/SoccerPlayer> ;
          rdfs:range <http://dbpedia.org/ontology/SoccerClub> ,
-                    :Team .
+                    :Team ;
+         rdfs:comment "This Property is used with Teams, Clubs and Players. Player playsIn Team. This Property is inverse of hasPlayer"@en .
 
 
 ###  http://www.semanticweb.org/kde/ontologies/sport-events#tookPlaceIn
 :tookPlaceIn rdf:type owl:ObjectProperty ;
              rdfs:subPropertyOf owl:topObjectProperty ;
              rdfs:domain <http://dbpedia.org/ontology/FootballMatch> ;
-             rdfs:range <http://dbpedia.org/ontology/Stadium> .
+             rdfs:range <http://dbpedia.org/ontology/Stadium> ;
+             rdfs:comment "This Property is used with Match and Stadium. Match tookPlaceIn Stadium."@en .
 
 
 #################################################################
@@ -129,7 +139,7 @@
 :goals rdf:type owl:DatatypeProperty ;
        rdfs:subPropertyOf owl:topDataProperty ;
        rdfs:domain <http://dbpedia.org/ontology/SoccerPlayer> ;
-       rdfs:range xsd:nonNegativeInteger .
+       rdfs:range xsd:negativeInteger .
 
 
 ###  http://www.semanticweb.org/kde/ontologies/sport-events#group
@@ -280,27 +290,57 @@
 #################################################################
 
 ###  http://dbpedia.org/ontology/Athlete
-<http://dbpedia.org/ontology/Athlete> rdf:type owl:Class .
+<http://dbpedia.org/ontology/Athlete> rdf:type owl:Class ;
+                                      rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                        owl:onProperty :playsIn ;
+                                                        owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                        owl:onClass :Team
+                                                      ] .
 
 
 ###  http://dbpedia.org/ontology/City
 <http://dbpedia.org/ontology/City> rdf:type owl:Class ;
+                                   rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                     owl:onProperty :isIn ;
+                                                     owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                     owl:onClass :Country
+                                                   ] ;
                                    rdfs:comment "The city where the stadium is located in the World Cup" .
 
 
 ###  http://dbpedia.org/ontology/FootballMatch
 <http://dbpedia.org/ontology/FootballMatch> rdf:type owl:Class ;
-                                            rdfs:subClassOf <http://dbpedia.org/ontology/SportsEvent> .
+                                            rdfs:subClassOf <http://dbpedia.org/ontology/SportsEvent> ,
+                                                            [ rdf:type owl:Restriction ;
+                                                              owl:onProperty :tookPlaceIn ;
+                                                              owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                              owl:onClass <http://dbpedia.org/ontology/Stadium>
+                                                            ] .
 
 
 ###  http://dbpedia.org/ontology/SoccerClub
 <http://dbpedia.org/ontology/SoccerClub> rdf:type owl:Class ;
+                                         rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                           owl:onProperty :hasPlayer ;
+                                                           owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                           owl:onClass <http://dbpedia.org/ontology/SoccerPlayer>
+                                                         ] ;
                                          rdfs:comment "The football club" .
 
 
 ###  http://dbpedia.org/ontology/SoccerPlayer
 <http://dbpedia.org/ontology/SoccerPlayer> rdf:type owl:Class ;
-                                           rdfs:subClassOf <http://dbpedia.org/ontology/Athlete> .
+                                           rdfs:subClassOf <http://dbpedia.org/ontology/Athlete> ,
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty :hasRole ;
+                                                             owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                             owl:onClass :Role
+                                                           ] ,
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty :playsIn ;
+                                                             owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                             owl:onClass <http://dbpedia.org/ontology/SoccerClub>
+                                                           ] .
 
 
 ###  http://dbpedia.org/ontology/SportsEvent
@@ -309,6 +349,11 @@
 
 ###  http://dbpedia.org/ontology/Stadium
 <http://dbpedia.org/ontology/Stadium> rdf:type owl:Class ;
+                                      rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                        owl:onProperty :isIn ;
+                                                        owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                        owl:onClass <http://dbpedia.org/ontology/City>
+                                                      ] ;
                                       rdfs:comment "A place or venue for outdoor sports, concerts, or other events" .
 
 

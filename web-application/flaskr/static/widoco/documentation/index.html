@@ -6,7 +6,7 @@
 
 
 <!-- SCHEMA.ORG METADATA -->
-<script type="application/ld+json">{"@context":"http://schema.org","@type":"TechArticle","url":"http://www.semanticweb.org/kde/ontologies/sport-events","image":"http://vowl.visualdataweb.org/webvowl/#iri=http://www.semanticweb.org/kde/ontologies/sport-events","name":"Football event", "headline":"This ontology describes matches and teams as part of football events (i.e. soccer). It has been created based on Football World Cup 2018 and is meant to be used in other similar events and is flexible to be suitable for other sport events (e.g. handball, basketball, etc.) with minor modifications only.", "datePublished":"30/11/2020", "version":"1.0.0", "license":"null", "author":[{"@type":"Person","name":"Aishwarya Agarwal"},{"@type":"Person","name":"Boris Flesch"},{"@type":"Person","name":"Sherwin Mascarenhas"},{"@type":"Person","name":"Niejun Yin"},{"@type":"Person","name":"Rui Xu"}]}</script>
+<script type="application/ld+json">{"@context":"http://schema.org","@type":"TechArticle","url":"http://www.semanticweb.org/kde/ontologies/sport-events","image":"http://vowl.visualdataweb.org/webvowl/#iri=http://www.semanticweb.org/kde/ontologies/sport-events","name":"Football event", "headline":"Document describing the ontology http://www.semanticweb.org/kde/ontologies/sport-events", "datePublished":"30/11/2020", "version":"1.0.0", "license":"null", "author":[{"@type":"Person","name":"Aishwarya Agarwal"},{"@type":"Person","name":"Boris Flesch"},{"@type":"Person","name":"Sherwin Mascarenhas"},{"@type":"Person","name":"Niejun Yin"},{"@type":"Person","name":"Rui Xu"}]}</script>
 
 <script src="resources/jquery.js"></script> 
 <script src="resources/marked.min.js"></script> 
@@ -82,14 +82,12 @@ function loadTOC(){
 <span>Ontology Specification Draft</span>
 </div>
 </div>     <div id="abstract"><h2>Abstract</h2><span class="markdown">
-This ontology describes matches and teams as part of football events (i.e. soccer). It has been created based on Football World Cup 2018 and is meant to be used in other similar events and is flexible to be suitable for other sport events (e.g. handball, basketball, etc.) with minor modifications only.</span>
+This is a place holder text for the abstract. The abstract should contain a couple of sentences summarizing the ontology and its purpose.</span>
 </div>
 <div id="toc"></div> 
 
 <!--INTRODUCTION SECTION-->
     <div id="introduction"><h2 id="intro" class="list">Introduction <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
-<span class="markdown">
-This is a place holder text for the introduction. The introduction should briefly describe the ontology, its motivation, state of the art and goals.</span>
 <div id="namespacedeclarations">
 <h3 id="ns" class="list">Namespace declarations</h3>
 <div id="ns" align="center">
@@ -116,6 +114,11 @@ This is a place holder text for the introduction. The introduction should briefl
 This ontology has the following classes and properties.</span>
 <h4>Classes</h4>
 <ul class="hlist">
+   <li>
+      <a href="#http://dbpedia.org/ontology/Athlete" title="http://dbpedia.org/ontology/Athlete">
+         <span>athlete</span>
+      </a>
+   </li>
    <li>
       <a href="#http://dbpedia.org/ontology/City" title="http://dbpedia.org/ontology/City">
          <span>city</span>
@@ -389,6 +392,7 @@ This ontology has the following classes and properties.</span>
 <!--DESCRIPTION SECTION-->
     <div id="description"><h2 id="desc" class="list">Football event: Description <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
 </ul><iframe align="center" width="100%" height ="500px" src="webvowl/index.html"></iframe> 
+
 </div>
    
 
@@ -398,6 +402,11 @@ This section provides details for each class and property defined by Football ev
 <div id="classes">
    <h3 id="classes-headline" class="list">Classes</h3>
    <ul class="hlist">
+      <li>
+         <a href="#http://dbpedia.org/ontology/Athlete" title="http://dbpedia.org/ontology/Athlete">
+            <span>athlete</span>
+         </a>
+      </li>
       <li>
          <a href="#http://dbpedia.org/ontology/City" title="http://dbpedia.org/ontology/City">
             <span>city</span>
@@ -466,6 +475,39 @@ This section provides details for each class and property defined by Football ev
          </a>
       </li>
    </ul>
+   <div class="entity" id="http://dbpedia.org/ontology/Athlete">
+      <h3>athlete<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://dbpedia.org/ontology/Athlete</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd/>
+         <dt>has sub-classes</dt>
+         <dd>
+            <a href="#http://dbpedia.org/ontology/SoccerPlayer" title="http://dbpedia.org/ontology/SoccerPlayer">soccer player</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#hasNationality"
+               title="http://www.semanticweb.org/kde/ontologies/sport-events#hasNationality">has nationality</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#hasRole"
+               title="http://www.semanticweb.org/kde/ontologies/sport-events#hasRole">has role</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#hasTeam"
+               title="http://www.semanticweb.org/kde/ontologies/sport-events#hasTeam">has team</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#hasPlayer"
+               title="http://www.semanticweb.org/kde/ontologies/sport-events#hasPlayer">has player</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
    <div class="entity" id="http://dbpedia.org/ontology/City">
       <h3>city<sup class="type-c" title="class">c</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
@@ -477,6 +519,8 @@ This section provides details for each class and property defined by Football ev
          <span class="markdown">The city where the stadium is located in the World Cup</span>
       </div>
       <dl class="description">
+         <dt>has super-classes</dt>
+         <dd/>
          <dt>is in domain of</dt>
          <dd>
             <a href="#isIn"
@@ -707,6 +751,8 @@ This section provides details for each class and property defined by Football ev
          <span class="markdown">The football club</span>
       </div>
       <dl class="description">
+         <dt>has super-classes</dt>
+         <dd/>
          <dt>is in domain of</dt>
          <dd>
             <a href="#hasPlayer"
@@ -731,7 +777,7 @@ This section provides details for each class and property defined by Football ev
       <dl class="description">
          <dt>has super-classes</dt>
          <dd>
-            <span class="dotted" title="http://dbpedia.org/ontology/Athlete">athlete</span>
+            <a href="#http://dbpedia.org/ontology/Athlete" title="http://dbpedia.org/ontology/Athlete">athlete</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
          <dt>is in domain of</dt>
@@ -785,6 +831,8 @@ This section provides details for each class and property defined by Football ev
          <span class="markdown">A place or venue for outdoor sports, concerts, or other events</span>
       </div>
       <dl class="description">
+         <dt>has super-classes</dt>
+         <dd/>
          <dt>is in domain of</dt>
          <dd>
             <a href="#isIn"
@@ -828,6 +876,8 @@ This section provides details for each class and property defined by Football ev
                title="http://www.semanticweb.org/kde/ontologies/sport-events#hasAwayTeam">has away team</a>
             <sup class="type-op" title="object property">op</sup>, <a href="#hasHomeTeam"
                title="http://www.semanticweb.org/kde/ontologies/sport-events#hasHomeTeam">has home team</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#hasTeam"
+               title="http://www.semanticweb.org/kde/ontologies/sport-events#hasTeam">has team</a>
             <sup class="type-op" title="object property">op</sup>, <a href="#isOpponentOf"
                title="http://www.semanticweb.org/kde/ontologies/sport-events#isOpponentOf">is opponent of</a>
             <sup class="type-op" title="object property">op</sup>, <a href="#playsIn"
@@ -908,7 +958,7 @@ This section provides details for each class and property defined by Football ev
       <p>
          <strong>IRI:</strong> http://www.semanticweb.org/kde/ontologies/sport-events#hasAwayTeam</p>
       <div class="comment">
-         <span class="markdown">Every World Cup match has an away team</span>
+         <span class="markdown">Every World Cup match has an away team. This Property is used with Match and Team. Match hasAwayTeam Team</span>
       </div>
       <div class="description">
          <dl>
@@ -940,7 +990,7 @@ This section provides details for each class and property defined by Football ev
       <p>
          <strong>IRI:</strong> http://www.semanticweb.org/kde/ontologies/sport-events#hasHomeTeam</p>
       <div class="comment">
-         <span class="markdown">Every World Cup match has a home team</span>
+         <span class="markdown">Every World Cup match has a home team. This Property is used with Match and Team. Match hasHomeTeam Team.</span>
       </div>
       <div class="description">
          <dl>
@@ -971,6 +1021,9 @@ This section provides details for each class and property defined by Football ev
       </h3>
       <p>
          <strong>IRI:</strong> http://www.semanticweb.org/kde/ontologies/sport-events#hasNationality</p>
+      <div class="comment">
+         <span class="markdown">This Property is used with Player and Country. Player hasNationality Country</span>
+      </div>
       <div class="description">
          <dl>
             <dt>has super-properties</dt>
@@ -979,7 +1032,7 @@ This section provides details for each class and property defined by Football ev
             </dd>
             <dt>has domain</dt>
             <dd>
-               <span class="dotted" title="http://dbpedia.org/ontology/Athlete">athlete</span>
+               <a href="#http://dbpedia.org/ontology/Athlete" title="http://dbpedia.org/ontology/Athlete">athlete</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
             <dt>has range</dt>
@@ -998,6 +1051,9 @@ This section provides details for each class and property defined by Football ev
       </h3>
       <p>
          <strong>IRI:</strong> http://www.semanticweb.org/kde/ontologies/sport-events#hasPlayer</p>
+      <div class="comment">
+         <span class="markdown">This Property is used with Teams, Clubs and Players. Club hasPlayer Player. This Property is inverse of playsIn</span>
+      </div>
       <div class="description">
          <dl>
             <dt>has super-properties</dt>
@@ -1016,7 +1072,7 @@ This section provides details for each class and property defined by Football ev
             </dd>
             <dt>has range</dt>
             <dd>
-               <span class="dotted" title="http://dbpedia.org/ontology/Athlete">athlete</span>
+               <a href="#http://dbpedia.org/ontology/Athlete" title="http://dbpedia.org/ontology/Athlete">athlete</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
             <dt>is inverse of</dt>
@@ -1035,6 +1091,9 @@ This section provides details for each class and property defined by Football ev
       </h3>
       <p>
          <strong>IRI:</strong> http://www.semanticweb.org/kde/ontologies/sport-events#hasRole</p>
+      <div class="comment">
+         <span class="markdown">This Property is used with Player and Role. Player hasRole Role</span>
+      </div>
       <div class="description">
          <dl>
             <dt>has super-properties</dt>
@@ -1043,7 +1102,7 @@ This section provides details for each class and property defined by Football ev
             </dd>
             <dt>has domain</dt>
             <dd>
-               <span class="dotted" title="http://dbpedia.org/ontology/Athlete">athlete</span>
+               <a href="#http://dbpedia.org/ontology/Athlete" title="http://dbpedia.org/ontology/Athlete">athlete</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
             <dt>has range</dt>
@@ -1062,6 +1121,9 @@ This section provides details for each class and property defined by Football ev
       </h3>
       <p>
          <strong>IRI:</strong> http://www.semanticweb.org/kde/ontologies/sport-events#hasTeam</p>
+      <div class="comment">
+         <span class="markdown">This Property is used with Match and Team. Match hasTeam Team1, Match hasTeam Team2.</span>
+      </div>
       <div class="description">
          <dl>
             <dt>has super-properties</dt>
@@ -1076,6 +1138,17 @@ This section provides details for each class and property defined by Football ev
                   title="http://www.semanticweb.org/kde/ontologies/sport-events#hasHomeTeam">has home team</a>
                <sup class="type-op" title="object property">op</sup>
             </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://dbpedia.org/ontology/Athlete" title="http://dbpedia.org/ontology/Athlete">athlete</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#Team"
+                  title="http://www.semanticweb.org/kde/ontologies/sport-events#Team">team</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
          </dl>
       </div>
    </div>
@@ -1086,6 +1159,9 @@ This section provides details for each class and property defined by Football ev
       </h3>
       <p>
          <strong>IRI:</strong> http://www.semanticweb.org/kde/ontologies/sport-events#isIn</p>
+      <div class="comment">
+         <span class="markdown">This property is used to for Stadium, City and Country as Stadium isIn City, City isIn Country. This property is Transitive</span>
+      </div>
       <div class="description">
          <p>
             <strong>has characteristics:</strong> transitive</p>
@@ -1123,6 +1199,9 @@ This section provides details for each class and property defined by Football ev
       </h3>
       <p>
          <strong>IRI:</strong> http://www.semanticweb.org/kde/ontologies/sport-events#isOpponentOf</p>
+      <div class="comment">
+         <span class="markdown">This is property is used for Teams. Team1 isOpponentOf Team2. This Property is Symmetric</span>
+      </div>
       <div class="description">
          <p>
             <strong>has characteristics:</strong> symmetric</p>
@@ -1153,6 +1232,9 @@ This section provides details for each class and property defined by Football ev
       </h3>
       <p>
          <strong>IRI:</strong> http://www.semanticweb.org/kde/ontologies/sport-events#playsIn</p>
+      <div class="comment">
+         <span class="markdown">This Property is used with Teams, Clubs and Players. Player playsIn Team. This Property is inverse of hasPlayer</span>
+      </div>
       <div class="description">
          <dl>
             <dt>has super-properties</dt>
@@ -1190,6 +1272,9 @@ This section provides details for each class and property defined by Football ev
       </h3>
       <p>
          <strong>IRI:</strong> http://www.semanticweb.org/kde/ontologies/sport-events#tookPlaceIn</p>
+      <div class="comment">
+         <span class="markdown">This Property is used with Match and Stadium. Match tookPlaceIn Stadium.</span>
+      </div>
       <div class="description">
          <dl>
             <dt>has super-properties</dt>
@@ -1482,8 +1567,7 @@ This section provides details for each class and property defined by Football ev
             </dd>
             <dt>has range</dt>
             <dd>
-               <span class="dotted"
-                     title="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">non negative integer</span>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#negativeInteger">negative integer</span>
             </dd>
          </dl>
       </div>
@@ -2006,7 +2090,18 @@ This section provides details for each class and property defined by Football ev
 </div>
 </div>
 </div>
-    
+
+<!-- R2RML Mapping Documentation -->
+<div id="r2rml-mapping-documentation">
+   <h2 id="r2rml-mapping-doc" class="list">R2RML Mapping Documentation <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+   <embed src="R2RML-mapping-documentation.pdf" width="800" height="800" style="display: block;margin: 0 auto;">
+</div>
+
+<!-- SPARQL Documentation -->
+<div id="sparql-documentation">
+   <h2 id="sparql-doc" class="list">SPARQL Queries Documentation <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+   <embed src="SPARQL-queries-documentation.pdf" width="800" height="800" style="display: block;margin: 0 auto;">
+</div>
 
 <!--REFERENCES SECTION-->
   <div id="references">
@@ -2019,18 +2114,6 @@ Add your references here. It is recommended to have them as a list.</span>
 <h2 id="ack" class="list">Acknowledgements <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
 <p>
 The authors would like to thank <a href="http://www.essepuntato.it/">Silvio Peroni</a> for developing <a href="http://www.essepuntato.it/lode">LODE</a>, a Live OWL Documentation Environment, which is used for representing the Cross Referencing Section of this document and <a href="https://w3id.org/people/dgarijo">Daniel Garijo</a> for developing <a href="https://github.com/dgarijo/Widoco">Widoco</a>, the program used to create the template used in this documentation.</p>
-</div>
-
-<!-- R2RML Mapping Documentation -->
-<div id="r2rml-mapping-documentation">
-   <h2 id="r2rml-mapping-doc" class="list">R2RML Mapping Documentation <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
-   <embed src="R2RML-Mapping-Documentation.pdf" width="800" height="800" style="display: block;margin: 0 auto;">
-</div>
-
-<!-- SPARQL Documentation -->
-<div id="sparql-documentation">
-   <h2 id="sparql-doc" class="list">SPARQL Documentation <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
-   <!-- <embed src="#" width="800" height="800" style="display: block;margin: 0 auto;"> -->
 </div>
 
 </div>

@@ -14,20 +14,21 @@
 <http://www.semanticweb.org/kde/ontologies/sport-events#hasAwayTeam> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/kde/ontologies/sport-events#hasTeam> .
 <http://www.semanticweb.org/kde/ontologies/sport-events#hasAwayTeam> <http://www.w3.org/2000/01/rdf-schema#domain> <http://dbpedia.org/ontology/FootballMatch> .
 <http://www.semanticweb.org/kde/ontologies/sport-events#hasAwayTeam> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/kde/ontologies/sport-events#Team> .
-<http://www.semanticweb.org/kde/ontologies/sport-events#hasAwayTeam> <http://www.w3.org/2000/01/rdf-schema#comment> "Every World Cup match has an away team" .
+<http://www.semanticweb.org/kde/ontologies/sport-events#hasAwayTeam> <http://www.w3.org/2000/01/rdf-schema#comment> "Every World Cup match has an away team. This Property is used with Match and Team. Match hasAwayTeam Team"@en .
 # 
 # http://www.semanticweb.org/kde/ontologies/sport-events#hasHomeTeam
 <http://www.semanticweb.org/kde/ontologies/sport-events#hasHomeTeam> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://www.semanticweb.org/kde/ontologies/sport-events#hasHomeTeam> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/kde/ontologies/sport-events#hasTeam> .
 <http://www.semanticweb.org/kde/ontologies/sport-events#hasHomeTeam> <http://www.w3.org/2000/01/rdf-schema#domain> <http://dbpedia.org/ontology/FootballMatch> .
 <http://www.semanticweb.org/kde/ontologies/sport-events#hasHomeTeam> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/kde/ontologies/sport-events#Team> .
-<http://www.semanticweb.org/kde/ontologies/sport-events#hasHomeTeam> <http://www.w3.org/2000/01/rdf-schema#comment> "Every World Cup match has a home team" .
+<http://www.semanticweb.org/kde/ontologies/sport-events#hasHomeTeam> <http://www.w3.org/2000/01/rdf-schema#comment> "Every World Cup match has a home team. This Property is used with Match and Team. Match hasHomeTeam Team."@en .
 # 
 # http://www.semanticweb.org/kde/ontologies/sport-events#hasNationality
 <http://www.semanticweb.org/kde/ontologies/sport-events#hasNationality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://www.semanticweb.org/kde/ontologies/sport-events#hasNationality> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
 <http://www.semanticweb.org/kde/ontologies/sport-events#hasNationality> <http://www.w3.org/2000/01/rdf-schema#domain> <http://dbpedia.org/ontology/Athlete> .
 <http://www.semanticweb.org/kde/ontologies/sport-events#hasNationality> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/kde/ontologies/sport-events#Country> .
+<http://www.semanticweb.org/kde/ontologies/sport-events#hasNationality> <http://www.w3.org/2000/01/rdf-schema#comment> "This Property is used with Player and Country. Player hasNationality Country"@en .
 # 
 # http://www.semanticweb.org/kde/ontologies/sport-events#hasPlayer
 <http://www.semanticweb.org/kde/ontologies/sport-events#hasPlayer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -36,16 +37,21 @@
 <http://www.semanticweb.org/kde/ontologies/sport-events#hasPlayer> <http://www.w3.org/2000/01/rdf-schema#domain> <http://dbpedia.org/ontology/SoccerClub> .
 <http://www.semanticweb.org/kde/ontologies/sport-events#hasPlayer> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/kde/ontologies/sport-events#Team> .
 <http://www.semanticweb.org/kde/ontologies/sport-events#hasPlayer> <http://www.w3.org/2000/01/rdf-schema#range> <http://dbpedia.org/ontology/Athlete> .
+<http://www.semanticweb.org/kde/ontologies/sport-events#hasPlayer> <http://www.w3.org/2000/01/rdf-schema#comment> "This Property is used with Teams, Clubs and Players. Club hasPlayer Player. This Property is inverse of playsIn"@en .
 # 
 # http://www.semanticweb.org/kde/ontologies/sport-events#hasRole
 <http://www.semanticweb.org/kde/ontologies/sport-events#hasRole> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://www.semanticweb.org/kde/ontologies/sport-events#hasRole> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
 <http://www.semanticweb.org/kde/ontologies/sport-events#hasRole> <http://www.w3.org/2000/01/rdf-schema#domain> <http://dbpedia.org/ontology/Athlete> .
 <http://www.semanticweb.org/kde/ontologies/sport-events#hasRole> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/kde/ontologies/sport-events#Role> .
+<http://www.semanticweb.org/kde/ontologies/sport-events#hasRole> <http://www.w3.org/2000/01/rdf-schema#comment> "This Property is used with Player and Role. Player hasRole Role"@en .
 # 
 # http://www.semanticweb.org/kde/ontologies/sport-events#hasTeam
 <http://www.semanticweb.org/kde/ontologies/sport-events#hasTeam> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://www.semanticweb.org/kde/ontologies/sport-events#hasTeam> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/kde/ontologies/sport-events#hasTeam> <http://www.w3.org/2000/01/rdf-schema#domain> <http://dbpedia.org/ontology/Athlete> .
+<http://www.semanticweb.org/kde/ontologies/sport-events#hasTeam> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/kde/ontologies/sport-events#Team> .
+<http://www.semanticweb.org/kde/ontologies/sport-events#hasTeam> <http://www.w3.org/2000/01/rdf-schema#comment> "This Property is used with Match and Team. Match hasTeam Team1, Match hasTeam Team2."@en .
 # 
 # http://www.semanticweb.org/kde/ontologies/sport-events#isIn
 <http://www.semanticweb.org/kde/ontologies/sport-events#isIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -55,6 +61,7 @@
 <http://www.semanticweb.org/kde/ontologies/sport-events#isIn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://dbpedia.org/ontology/Stadium> .
 <http://www.semanticweb.org/kde/ontologies/sport-events#isIn> <http://www.w3.org/2000/01/rdf-schema#range> <http://dbpedia.org/ontology/City> .
 <http://www.semanticweb.org/kde/ontologies/sport-events#isIn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/kde/ontologies/sport-events#Country> .
+<http://www.semanticweb.org/kde/ontologies/sport-events#isIn> <http://www.w3.org/2000/01/rdf-schema#comment> "This property is used to for Stadium, City and Country as Stadium isIn City, City isIn Country. This property is Transitive"@en .
 # 
 # http://www.semanticweb.org/kde/ontologies/sport-events#isOpponentOf
 <http://www.semanticweb.org/kde/ontologies/sport-events#isOpponentOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -62,6 +69,7 @@
 <http://www.semanticweb.org/kde/ontologies/sport-events#isOpponentOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#SymmetricProperty> .
 <http://www.semanticweb.org/kde/ontologies/sport-events#isOpponentOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/kde/ontologies/sport-events#Team> .
 <http://www.semanticweb.org/kde/ontologies/sport-events#isOpponentOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/kde/ontologies/sport-events#Team> .
+<http://www.semanticweb.org/kde/ontologies/sport-events#isOpponentOf> <http://www.w3.org/2000/01/rdf-schema#comment> "This is property is used for Teams. Team1 isOpponentOf Team2. This Property is Symmetric"@en .
 # 
 # http://www.semanticweb.org/kde/ontologies/sport-events#playsIn
 <http://www.semanticweb.org/kde/ontologies/sport-events#playsIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -69,12 +77,14 @@
 <http://www.semanticweb.org/kde/ontologies/sport-events#playsIn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://dbpedia.org/ontology/SoccerPlayer> .
 <http://www.semanticweb.org/kde/ontologies/sport-events#playsIn> <http://www.w3.org/2000/01/rdf-schema#range> <http://dbpedia.org/ontology/SoccerClub> .
 <http://www.semanticweb.org/kde/ontologies/sport-events#playsIn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/kde/ontologies/sport-events#Team> .
+<http://www.semanticweb.org/kde/ontologies/sport-events#playsIn> <http://www.w3.org/2000/01/rdf-schema#comment> "This Property is used with Teams, Clubs and Players. Player playsIn Team. This Property is inverse of hasPlayer"@en .
 # 
 # http://www.semanticweb.org/kde/ontologies/sport-events#tookPlaceIn
 <http://www.semanticweb.org/kde/ontologies/sport-events#tookPlaceIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://www.semanticweb.org/kde/ontologies/sport-events#tookPlaceIn> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
 <http://www.semanticweb.org/kde/ontologies/sport-events#tookPlaceIn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://dbpedia.org/ontology/FootballMatch> .
 <http://www.semanticweb.org/kde/ontologies/sport-events#tookPlaceIn> <http://www.w3.org/2000/01/rdf-schema#range> <http://dbpedia.org/ontology/Stadium> .
+<http://www.semanticweb.org/kde/ontologies/sport-events#tookPlaceIn> <http://www.w3.org/2000/01/rdf-schema#comment> "This Property is used with Match and Stadium. Match tookPlaceIn Stadium."@en .
 # 
 # 
 # 
@@ -116,7 +126,7 @@
 <http://www.semanticweb.org/kde/ontologies/sport-events#goals> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <http://www.semanticweb.org/kde/ontologies/sport-events#goals> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
 <http://www.semanticweb.org/kde/ontologies/sport-events#goals> <http://www.w3.org/2000/01/rdf-schema#domain> <http://dbpedia.org/ontology/SoccerPlayer> .
-<http://www.semanticweb.org/kde/ontologies/sport-events#goals> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://www.semanticweb.org/kde/ontologies/sport-events#goals> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#negativeInteger> .
 # 
 # http://www.semanticweb.org/kde/ontologies/sport-events#group
 <http://www.semanticweb.org/kde/ontologies/sport-events#group> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
@@ -254,28 +264,63 @@
 # 
 # http://dbpedia.org/ontology/Athlete
 <http://dbpedia.org/ontology/Athlete> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dbpedia.org/ontology/Athlete> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid1 .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid1 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/kde/ontologies/sport-events#playsIn> .
+_:genid1 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid1 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/kde/ontologies/sport-events#Team> .
 # 
 # http://dbpedia.org/ontology/City
 <http://dbpedia.org/ontology/City> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dbpedia.org/ontology/City> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid2 .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid2 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/kde/ontologies/sport-events#isIn> .
+_:genid2 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid2 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/kde/ontologies/sport-events#Country> .
 <http://dbpedia.org/ontology/City> <http://www.w3.org/2000/01/rdf-schema#comment> "The city where the stadium is located in the World Cup" .
 # 
 # http://dbpedia.org/ontology/FootballMatch
 <http://dbpedia.org/ontology/FootballMatch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://dbpedia.org/ontology/FootballMatch> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dbpedia.org/ontology/SportsEvent> .
+<http://dbpedia.org/ontology/FootballMatch> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid3 .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid3 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/kde/ontologies/sport-events#tookPlaceIn> .
+_:genid3 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid3 <http://www.w3.org/2002/07/owl#onClass> <http://dbpedia.org/ontology/Stadium> .
 # 
 # http://dbpedia.org/ontology/SoccerClub
 <http://dbpedia.org/ontology/SoccerClub> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dbpedia.org/ontology/SoccerClub> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid4 .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid4 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/kde/ontologies/sport-events#hasPlayer> .
+_:genid4 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid4 <http://www.w3.org/2002/07/owl#onClass> <http://dbpedia.org/ontology/SoccerPlayer> .
 <http://dbpedia.org/ontology/SoccerClub> <http://www.w3.org/2000/01/rdf-schema#comment> "The football club" .
 # 
 # http://dbpedia.org/ontology/SoccerPlayer
 <http://dbpedia.org/ontology/SoccerPlayer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://dbpedia.org/ontology/SoccerPlayer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dbpedia.org/ontology/Athlete> .
+<http://dbpedia.org/ontology/SoccerPlayer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid5 .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid5 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/kde/ontologies/sport-events#hasRole> .
+_:genid5 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid5 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/kde/ontologies/sport-events#Role> .
+<http://dbpedia.org/ontology/SoccerPlayer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid6 .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid6 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/kde/ontologies/sport-events#playsIn> .
+_:genid6 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid6 <http://www.w3.org/2002/07/owl#onClass> <http://dbpedia.org/ontology/SoccerClub> .
 # 
 # http://dbpedia.org/ontology/SportsEvent
 <http://dbpedia.org/ontology/SportsEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 # 
 # http://dbpedia.org/ontology/Stadium
 <http://dbpedia.org/ontology/Stadium> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dbpedia.org/ontology/Stadium> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid7 .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid7 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/kde/ontologies/sport-events#isIn> .
+_:genid7 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid7 <http://www.w3.org/2002/07/owl#onClass> <http://dbpedia.org/ontology/City> .
 <http://dbpedia.org/ontology/Stadium> <http://www.w3.org/2000/01/rdf-schema#comment> "A place or venue for outdoor sports, concerts, or other events" .
 # 
 # http://www.semanticweb.org/kde/ontologies/sport-events#Country
@@ -308,11 +353,11 @@
 # 
 # http://www.semanticweb.org/kde/ontologies/sport-events#Team
 <http://www.semanticweb.org/kde/ontologies/sport-events#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/kde/ontologies/sport-events#Team> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid1 .
-_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid1 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/kde/ontologies/sport-events#hasPlayer> .
-_:genid1 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "2"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:genid1 <http://www.w3.org/2002/07/owl#onClass> <http://dbpedia.org/ontology/Athlete> .
+<http://www.semanticweb.org/kde/ontologies/sport-events#Team> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid8 .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid8 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/kde/ontologies/sport-events#hasPlayer> .
+_:genid8 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "2"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid8 <http://www.w3.org/2002/07/owl#onClass> <http://dbpedia.org/ontology/Athlete> .
 <http://www.semanticweb.org/kde/ontologies/sport-events#Team> <http://www.w3.org/2000/01/rdf-schema#comment> "The national football team" .
 # 
 # 
@@ -324,19 +369,19 @@ _:genid1 <http://www.w3.org/2002/07/owl#onClass> <http://dbpedia.org/ontology/At
 # #################################################################
 # 
 # 
-_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
-_:genid2 <http://www.w3.org/2002/07/owl#members> _:genid6 .
-_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/kde/ontologies/sport-events#Defender> .
-_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid5 .
-_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/kde/ontologies/sport-events#Forward> .
-_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid4 .
-_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/kde/ontologies/sport-events#Goalkeeper> .
-_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid3 .
-_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/kde/ontologies/sport-events#Midfielder> .
-_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid9 <http://www.w3.org/2002/07/owl#members> _:genid13 .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/kde/ontologies/sport-events#Defender> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid12 .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/kde/ontologies/sport-events#Forward> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid11 .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/kde/ontologies/sport-events#Goalkeeper> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid10 .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/kde/ontologies/sport-events#Midfielder> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 # 
 # Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/
