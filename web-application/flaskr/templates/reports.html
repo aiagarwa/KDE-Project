@@ -5,5 +5,8 @@
 
 {% block body %}
 <h2>Technical report</h2>
-<h2>Personal reports</h2>
+    <embed src="{{ url_for('static', filename='technical-report.pdf') }}" width="800" height="800">
+
+<h2 class="mt-5">Self-reflection report</h2>
+<embed src="{{ url_for('static', filename='self-reflection-report.pdf') }}" width="800" height="800">
 {% endblock %}
